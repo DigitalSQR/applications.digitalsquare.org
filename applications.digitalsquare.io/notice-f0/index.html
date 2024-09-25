@@ -1,0 +1,838 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="index.html" />
+<link rel="shortlink" href="index.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.55, user-scalable=yes" />
+<link rel="shortcut icon" href="../sites/default/files/dsq_1/index.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Notice F0: Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit | Digital Square Open Application Platform</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.base/index.css?rsi2se");
+@import url("../modules/system/system.menus/index.css?rsi2se");
+@import url("../modules/system/system.messages/index.css?rsi2se");
+@import url("../modules/system/system.theme/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../modules/comment/comment/index.css?rsi2se");
+@import url("../sites/all/modules/contrib/date/date_api/date/index.css?rsi2se");
+@import url("../modules/field/theme/field/index.css?rsi2se");
+@import url("../sites/all/modules/contrib/logintoboggan/logintoboggan/index.css?rsi2se");
+@import url("../sites/all/modules/message/message_example/css/message_example/index.css?rsi2se");
+@import url("../modules/node/node/index.css?rsi2se");
+@import url("../modules/poll/poll/index.css?rsi2se");
+@import url("../modules/search/search/index.css?rsi2se");
+@import url("../modules/user/user/index.css?rsi2se");
+@import url("../sites/all/modules/contrib/views/css/views/index.css?rsi2se");
+@import url("../sites/all/modules/ckeditor/css/ckeditor/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/contrib/ctools/css/ctools/index.css?rsi2se");
+@import url("../sites/all/modules/panels/css/panels/index.css?rsi2se");
+@import url("../sites/all/modules/contrib/rate/rate/index.css?rsi2se");
+@import url("../sites/all/modules/contrib/field_collection/field_collection.theme/index.css?rsi2se");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("../profiles/opdistro/themes/custom/ctsibamboo/css/menu/index.css?rsi2se");
+@import url("../sites/all/themes/contrib/bamboo/css/normalize/index.css?rsi2se");
+@import url("../sites/all/themes/contrib/bamboo/css/style/index.css?rsi2se");
+@import url("../sites/all/themes/contrib/bamboo/css/design/index.css?rsi2se");
+@import url("../profiles/opdistro/themes/custom/ctsibamboo/css/responsive/index.css?rsi2se");
+@import url("../profiles/opdistro/themes/custom/ctsibamboo/css/entypo/index.css?rsi2se");
+@import url("../profiles/opdistro/themes/custom/ctsibamboo/css/vh/index.css?rsi2se");
+@import url("../profiles/opdistro/themes/custom/ctsibamboo/css/easy-responsive-tabs/index.css?rsi2se");
+@import url("../profiles/opdistro/themes/custom/opbamboo/css/op/index.css?rsi2se");
+</style>
+<style type="text/css" media="print">
+@import url("../profiles/opdistro/themes/custom/ctsibamboo/css/print/index.css?rsi2se");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie8-fixes.css?rsi2se" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie9-fixes.css?rsi2se" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("../sites/default/files/css_injector/css_injector_1/index.css?rsi2se");
+@import url("../sites/default/custom-style/index.css?rsi2se");
+</style>
+  <script type="text/javascript" src="../sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../misc/jquery-extend-3.4.0/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../misc/jquery-html-prefilter-3.5.0-backport/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../misc/jquery.once/index.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupal/index.js?rsi2se"></script>
+<script type="text/javascript" src="../profiles/opdistro/themes/custom/ctsibamboo/js/profiletip/index.js?rsi2se"></script>
+<script type="text/javascript" src="../sites/all/modules/contrib/beautytips/js/jquery.bt.min/index.js?v=0.9.5-rc1"></script>
+<script type="text/javascript" src="../sites/all/modules/contrib/beautytips/js/beautytips.min/index.js?v=7.x-2.x"></script>
+<script type="text/javascript" src="../sites/all/modules/contrib/admin_menu/admin_devel/admin_devel/index.js?rsi2se"></script>
+<script type="text/javascript" src="../sites/all/modules/contrib/google_analytics/googleanalytics/index.js?rsi2se"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-ZY4QKF6M6B"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-ZY4QKF6M6B", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../profiles/opdistro/themes/custom/ctsibamboo/js/vh/index.js?rsi2se"></script>
+<script type="text/javascript" src="../profiles/opdistro/themes/custom/ctsibamboo/js/easyResponsiveTabs/index.js?rsi2se"></script>
+<script type="text/javascript" src="../profiles/opdistro/themes/custom/opbamboo/js/op/index.js?rsi2se"></script>
+<script type="text/javascript" src="../profiles/opdistro/themes/custom/opbamboo/js/open-proposals/index.js?rsi2se"></script>
+<script type="text/javascript" src="../sites/all/themes/contrib/bamboo/js/scripts/index.js?rsi2se"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"opbamboo","theme_token":"DgmB5FNVJoII4-iKTIJF88O8v9X_rN-0f-k9F8Pp8vM","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/profiletip.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/jquery.bt.min.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/beautytips.min.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-ZY4QKF6M6B":1,"0":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/vh.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/easyResponsiveTabs.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/op.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/open-proposals.js":1,"sites\/all\/themes\/contrib\/bamboo\/js\/scripts.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/message\/message_example\/css\/message_example.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/menu.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/normalize.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/style.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/design.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/responsive.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/opcolors.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/entypo.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/vh.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/easy-responsive-tabs.css":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/css\/op.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/print.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie8-fixes.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie9-fixes.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"sites\/default\/custom-style.css":1}},"beautytipStyles":{"default":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0026quot;Lucida Grande\u0026quot;,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":"1","shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4},"plain":[],"netflix":{"positions":["right","left"],"fill":"#FFF","padding":5,"shadow":true,"shadowBlur":12,"strokeStyle":"#B9090B","spikeLength":50,"spikeGirth":60,"cornerRadius":10,"centerPointY":0.1,"overlap":-8,"cssStyles":{"fontSize":"12px","fontFamily":"arial,helvetica,sans-serif"}},"facebook":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"11px"}},"transparent":{"fill":"rgba(0, 0, 0, .8)","padding":20,"strokeStyle":"#CC0","strokeWidth":3,"spikeLength":40,"spikeGirth":40,"cornerRadius":40,"cssStyles":{"color":"#FFF","fontWeight":"bold"}},"big-green":{"fill":"#00FF4E","padding":20,"strokeWidth":0,"spikeLength":40,"spikeGirth":40,"cornerRadius":15,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"14px"}},"google-maps":{"positions":["top","bottom"],"fill":"#FFF","padding":15,"strokeStyle":"#ABABAB","strokeWidth":1,"spikeLength":65,"spikeGirth":40,"cornerRadius":25,"centerPointX":0.9,"cssStyles":[]},"hulu":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0022Lucida Grande\u0022,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":true,"shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4}},"beautytips":{"op_global_clickme":{"cssSelect":".clickme","style":"hulu","trigger":"click","shrinkToFit":true,"ajaxDisableLink":true,"contentSelector":"$(this).next(\u0022.clicktalk\u0022).html()","list":["trigger","shrinkToFit","contentSelector"]}},"better_exposed_filters":{"views":{"opg_core":{"displays":{"adminpost_block":{"filters":[]},"recent_pageblock":{"filters":[]},"my_block":{"filters":[]},"recent_block":{"filters":[]}}},"opg_core_fields":{"displays":{"navblock_block":{"filters":[]}}}}},"googleanalytics":{"account":["G-ZY4QKF6M6B"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"base_host":"applications.digitalsquare.io","opg":{"group_type":"node","gid":"303","path":"\/notice-f0","group_content_type":"opg_group","label":"Notice F0: Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit","post_type":"notice_f0_application","node_type":"notice_f0_application","post_type_name":"Notice F0 Application","login_type":"drupal","groupword":"Forum","ucgroupword":"FORUM","lcgroupword":"forum","groupword_article":"A","lcgroupword_article":"a","ucgroupword_article":"A","groupwords":"Forums","ucgroupwords":"FORUMS","lcgroupwords":"forums","noun":"Application","ucnoun":"APPLICATION","lcnoun":"application","noun_article":"An","lcnoun_article":"an","ucnoun_article":"AN","nouns":"Applications","ucnouns":"APPLICATIONS","lcnouns":"applications","postwords":"Submit","create_text":"\u003Ch3\u003E\u003Ca href=\u0022\/goto\/login\/drupal\u0022\u003ELogin\u003C\/a\u003E is required to create Applications\u003C\/h3\u003E"},"siteName":"UCSF Open Proposals","ogContext":{"groupType":"node","gid":"303"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-303 node-type-opg-group opg_core-section og-context og-context-node og-context-node-303 site-name-hidden bg-gray-gradient color-palette-dark-rust header-font-sans-serif body-font-sans-serif sidebar-right section-notice-f0 is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+
+    <div id="ucsf-links">
+                <div class="region region-ucsf-links">
+    <div id="block-boxes-ucsf-top-banner" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_top_banner' class='boxes-box'><div class="boxes-box-content"><div class="container ucsf">
+<div class="sixteen columns">
+<ul class="ucsfnav"><li>
+<a title="Home" href="/index.html" id="ucsf">Home</a>
+</li>
+<li>
+<a title="Search" href="../search/node/index.html" id="search">Search</a>
+</li>
+<li>
+<a title="Contact" href="../contact/index.html" id="contact">Contact</a>
+</li>
+
+</ul><ul class="ucsfnav ucsfnav-right no-phone no-phone-ls"><li>
+<a title="Digital Square wiki" href="https://wiki.digitalsquare.io/index.php/Main_Page" id="ucsf">Digital Square wiki</a>
+</li>
+<li>
+<a title="Digital Square blog" href="http://digitalsquare.org/">Digital Square website</a>
+</li>
+</ul></div>
+</div></div></div>    </div>
+</div>
+</div>
+<div id="block-block-4" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div><a href="/index.html" target="_blank"><img alt="" height="152" src="../sites/default/files/dsq/index.png" width="152" /></a><img alt="" height="156" src="../sites/default/files/townsquare/index.jpg" style="float:right" width="963" /></div>
+
+<div> </div>
+    </div>
+</div>
+</div>
+  </div>
+          </div>
+
+  <hgroup class="sixteen columns alpha omega">
+
+    <div id="brand">
+          </div>
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/index.html" title="Home">
+               </a>
+      </h1>
+          </div>
+
+    <div id="top-links">
+          </div>
+
+  </hgroup>
+
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+                <!-- region to place search form inside navbar -->
+              </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="eleven columns">
+        <section id="post-content" role="main" class="page" >
+
+      
+      <h2 class="title">Notice F0: Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit</h2>
+            
+                  
+      
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-303" class="node node-opg-group node-full clearfix proposal"
+   about="/notice-f0" typeof="sioc:Item foaf:Document" role="article">
+  
+      <span property="dc:title" content="Notice F0: Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+
+  
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Under Notice F0, Digital Square is accepting applications from existing digital health software tools (with a strong, but not exclusive, focus on point of care tools) that meet the definition of <a href="https://wiki.digitalsquare.io/index.php/What_are_Global_Goods">global goods</a> and/or are existing <a href="https://wiki.digitalsquare.io/index.php/Digital_Square_Investments_in_Global_Goods:Approved_Global_Goods">approved Digital Square global goods</a>, to adopt and align to the World Health Organization (WHO) published <a href="https://www.who.int/publications/i/item/9789240020306">Digital Adaption Kit (DAK) focused on Antenatal Care (ANC)</a> and showcase themselves as reference implementations of the DAK.</p>
+
+<p>Applications are expected to align and strengthen the shelf-readiness aspects of the technologies and are encouraged to focus on strengthening capacities of new implementers/innovator groups in working and advancing global goods.</p>
+
+<p>The Digital Adaptation Kits (DAKs) are part of the <a href="https://www.who.int/teams/digital-health-and-innovation/smart-guidelines">WHO SMART guidelines</a> initiative and include data and health content consistent with WHO’s antenatal care recommendations, generically applicable to digital systems. They are software-neutral, operational, and structured documentation based on WHO clinical, health system, and data use recommendations to systematically and transparently inform the design of digital systems. DAK components include:  </p>
+
+<ul><li>Linked health interventions and recommendations; </li>
+	<li>Personas;</li>
+	<li>User scenarios;</li>
+	<li>Business processes and workflows;</li>
+	<li>Core data elements mapped to standard terminology codes (e.g., ICD);</li>
+	<li>Decision support; </li>
+	<li>Program indicators; and</li>
+	<li>Functional and non-functional requirements.</li>
+</ul><p>In addition to the published guideline, WHO and community have created a HL7 FHIR implementation guide that is to be considered and adhered to in the application. More information on the guide can be found here, <a href="http://build.fhir.org/ig/who-int/anc-cds/">http://build.fhir.org/ig/who-int/anc-cds/</a>.</p>
+
+<p>Technologies and software being proposed in the applications must meet the following three minimum requirements to be seen as a global good.</p>
+
+<ol><li>Be an existing software that has been deployed in three or more low-resource contexts.</li>
+	<li>Be a global public good. Software tools will be considered a global public good if either:
+	<ol><li>The source code is made available under an Open Source Initiative–approved software license; or</li>
+		<li>The software is freely accessible and adheres to the Open Definition for access to data; or</li>
+		<li>Software has been applied to a health domain to manage, analyze, or transmit health-related data.</li>
+	</ol></li>
+	<li>Content may be considered a global good if it is a resource, toolkit, or data standard that is available under an open license and that is used to improve or analyze health data management processes.</li>
+</ol><p>Applications must clearly identify how they plan to incorporate the various components (listed above and in the documentation) of the DAK into their tool, as well as have clearly outlined data exchange / interoperability solutions and metrics and means of testing these components.</p>
+
+<p>Applications must align to the <a href="https://wiki.digitalsquare.io/index.php/Shelf_Readiness">principles of shelf-readiness</a> and where appropriate ensure that the proposed technical development is aligned to the principles of shelf-readiness as a whole and with particular consideration to quality, documentation and installation patterns.</p>
+
+<p>Applications must align their solutions to be part of the <a href="https://wiki.ohie.org/display/resources/Instant+OpenHIE">Instant OpenHIE</a> project (as appropriate for deployment) and build into the testing approaches and infrastructure to ensure data exchange, showcase the exchange, and provide interoperability profiles required for the World Health Organization(WHO) antenatal care(ANC) Digital Adaption Kit(DAK).</p>
+
+<p>Applicants are required to segment the applications into work packages. Work packages must be modelled around the identified aspects of the DAK, and any aspects of shelf readiness that are being proposed. Care must be given to clearly indicate the gaps, activities, and expected outputs/deliverables that the requested funding will go towards.</p>
+
+<p>Applicants must ensure that the work packages are self-contained and not overly reliant on another. If there is a reliance this must be clearly called out and justified.</p>
+
+<p>Examples of investments that will be made available through this call for applications include (but are not limited to):</p>
+
+<ul><li>Aligning a solution to incorporate key data standards and align to workflows;</li>
+	<li>Ensuring that applications can fulfill the data exchange needs of the DAKs;</li>
+	<li>Developing solutions that generating program indicators and reporting needs;</li>
+	<li>Aligning technologies to the <a href="https://wiki.digitalsquare.io/index.php/Shelf_Readiness#Aligns_with_DevOps_and_Cloud-Services_Guidelines">DevOps guidelines</a> and containerization deployment that is illustrated through use within the Instant OpenHIE project; and</li>
+	<li>Aligning of technologies to be better framed within the OpenHIE architecture and supporting the required workflows as per the <a href="https://ohie.org/architecture-specification/">OpenHIE architectural specification</a> (as well as the associated test cases).</li>
+</ul><p>The following will be considered out-of-scope, and therefore make the concept note ineligible for funding.</p>
+
+<ul><li>Investments that are not applicable outside of a single health program area.</li>
+	<li>Investments in new functionality that are not justified in making the tool a shelf-ready solution.</li>
+	<li>Investments that are aimed to fund the implementation of the solution within a project (i.e., the funding is intended for technical development and not implementation work / activities.).</li>
+</ul><p>WHO ANC DAK applications are expected to focus on point of care and patient management systems looking to align and incorporate the various components of the DAK. Applications must include a motivation as to the focus of the selected technology and why the inclusion of this DAK is a valued/important investment tied to health outcomes and opportunities.</p>
+
+<p><strong><em>Local capacity development</em></strong></p>
+
+<p>Digital Square is committed to enhancing and expanding the capacities of local enterprises and new team to support the development, enhancement, and deployment of global goods. As such applications are encouraged to seek out opportunities to build local capacity in local teams, new innovators, and expand the global good communities. </p>
+
+<p><strong><em>Open source and global access</em></strong></p>
+
+<p>Work proposed in the applications must align to global access principles and be made available under an appropriate open source license. Applications must clearly outline the licensing of proposed work items in the application.</p>
+
+<p>Click here to access <strong><a href="https://wiki.digitalsquare.io/images/0/0e/RFA-_2021-055_Notice_F0_-_Reference_implementation_of_the_World_Health_Organization_Antenatal_Care_Digital_Adaption_Kit_Final.pdf" target="_blank">Notice F0 (RFA #2021-055) | Reference implementation of the World Health Organization (WHO) Antenatal Care Digital Adaption Kit</a></strong></p>
+
+<p class="rteindent1"><strong><span style="color:#B22222">Notice F0 Modification #1</span>:</strong> <a href="https://wiki.digitalsquare.io/images/7/78/Notice_F0_Modification_1.pdf">Click here to access the modification</a></p>
+</div></div></div><div class="field-collection-container clearfix"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phases field-type-field-collection field-label-hidden">
+      <ul class="icon timeline eight columns">
+          <div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-opg-phases clearfix" about="/field-collection/field-opg-phases/152" typeof="">
+  <div class="content">
+        <li class="vhtoggle plus ">November 3, 2021 - December 1, 2021: Concept note development and community review      <div class="reveal"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phase-html field-type-text-long field-label-hidden">
+      <div class="field-items">
+          <div class="field-item even"><p>Digital Square issues a call for applications, and applicants upload concept notes to Digital Square's public-facing <a href="/index.html">open application platform</a>. In the first few weeks, as outlined by the solicitation, applicants will submit concept notes. Before the final submission other applicants and/or other stakeholders in the community may provide feedback, comments, and suggestions, as well as identify potential areas for collaboration if the early draft of the concept note is published on the platform. Digital Square encourages an agile approach of development with early publication of draft concept notes to the platform and applicants are encouraged to edit and respond to community feedback, on their concept note, during this time. Following this the final version of the concept note must be submitted and applicants must use the <a href="https://wiki.digitalsquare.io/images/b/b0/Concept_Note_Template_FINAL.doc">concept note template</a>.</p>
+</div>
+      </div>
+  </div>
+</div>
+    </li>
+      </div>
+</div>
+</div>          <div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-opg-phases clearfix" about="/field-collection/field-opg-phases/153" typeof="">
+  <div class="content">
+        <li class="vhtoggle plus ">December 2, 2021 - December 15, 2021:Digital Square review of concept notes      <div class="reveal"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phase-html field-type-text-long field-label-hidden">
+      <div class="field-items">
+          <div class="field-item even"><p>Following the concept note review, Digital Square (comprised of the technical and operational team representatives) assesses concept notes to ensure alignment with the initiative vision and funding objectives identified in the open application process. Digital Square eliminates concept notes that are not strategically aligned with the above.</p>
+
+<p>Digital Square identifies a set of short-listed concept notes based on the open application process criteria and emails applicants who are eligible to advance to the application phase.</p>
+</div>
+      </div>
+  </div>
+</div>
+    </li>
+      </div>
+</div>
+</div>          <div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-opg-phases clearfix" about="/field-collection/field-opg-phases/154" typeof="">
+  <div class="content">
+        <li class="vhtoggle plus ">December 16, 2021 - January 12, 2022: Technical application co-creation, comment period and application finalization      <div class="reveal"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phase-html field-type-text-long field-label-hidden">
+      <div class="field-items">
+          <div class="field-item even"><p>Using feedback received in the concept note phase, applicants will begin preliminary application development.</p>
+
+<p>Applicants must use the <a href="https://wiki.digitalsquare.io/images/0/0b/Technical_Application_Template_FINAL.doc">technical application template</a> and post an application iteration on the <a href="/index.html">open application platform</a> in the first 2 weeks.</p>
+
+<p>Applicants will be able to request interim reviews of their applications. Only one review may be requested from Digital Square, and unlimited reviews from the community are allowed.</p>
+
+<p>Using feedback, applicants revise the technical application, develop a budget and budget narrative, and submit these to the Digital Square <a href="/index.html">open application platform</a>. Applicants must use the provided <a href="https://wiki.digitalsquare.io/images/0/0b/Technical_Application_Template_FINAL.doc">technical application</a>, <a href="https://wiki.digitalsquare.io/images/0/0c/Sample_Detailed_Budget.xlsx">budget</a>, and <a href="https://wiki.digitalsquare.io/images/1/11/Budget_Narrative_Template_FINAL.doc">budget narrative templates</a>.</p>
+
+<p>The budget and budget narrative are not shared publicly on the platform. Commenters see only the high-level summary budget provided in the <a href="https://wiki.digitalsquare.io/images/0/0b/Technical_Application_Template_FINAL.doc">technical application</a>.</p>
+
+<p>At the conclusion of this step, Digital Square will restrict the ability to upload new content to <a href="/index.html">open application platform</a>.</p>
+</div>
+      </div>
+  </div>
+</div>
+    </li>
+      </div>
+</div>
+</div>          <div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-opg-phases clearfix" about="/field-collection/field-opg-phases/155" typeof="">
+  <div class="content">
+        <li class="vhtoggle plus ">January 13, 2022 - February 2, 2022: Peer Review Committee (PRC) review      <div class="reveal"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phase-html field-type-text-long field-label-hidden">
+      <div class="field-items">
+          <div class="field-item even"><p>The <a href="https://wiki.digitalsquare.io/index.php/Peer_Review_Committee">PRC</a> reviews applications according to the <a href="https://wiki.digitalsquare.io/images/a/a1/Prioritization_Framework_Final_9Apr.pdf">Prioritization Framework</a>, notice scope of work technical requirements and evaluates applications as green-, amber-, or red-lit per the <a href="https://wiki.digitalsquare.io/index.php/Peer_Review_Committee_Membership_Policy">PRC Membership Policy</a>. Green-lit applications are recommended for funding immediately; amber-lit applications are recommended for future funding or further exploration; red-lit applications do not fully meet the selection standards/criteria.</p>
+
+<p>The <a href="https://wiki.digitalsquare.io/index.php/Peer_Review_Committee">PRC</a> sees only the high-level summary budget provided in the technical application. Proprietary information including salaries, indirect rates, or other factors are not shared with anyone outside of the investor and Digital Square.</p>
+</div>
+      </div>
+  </div>
+</div>
+    </li>
+      </div>
+</div>
+</div>          <div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-opg-phases clearfix" about="/field-collection/field-opg-phases/156" typeof="">
+  <div class="content">
+        <li class="vhtoggle plus ">February 3, 2022 - February 9, 2022: Digital Square OAP recommendation      <div class="reveal"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phase-html field-type-text-long field-label-hidden">
+      <div class="field-items">
+          <div class="field-item even"><p>Digital Square compiles the evaluation provided by the <a href="https://wiki.digitalsquare.io/index.php/Peer_Review_Committee">PRC</a> by clustering the applications according to the <a href="https://wiki.digitalsquare.io/images/a/a1/Prioritization_Framework_Final_9Apr.pdf">Prioritization Framework</a> for <a href="https://wiki.digitalsquare.io/index.php/Investment_Review_Committee">Investment Review Committee (IRC) </a>review, and assigning values based on green, amber, or red light scoring.</p>
+
+<p>Digital Square creates an investment package recommendation of the highly scored applications, as collated from the PRC reviews and synthesized into a single scoring metric that assigns numerical values to the color associated to the proposals, for the  <a href="https://wiki.digitalsquare.io/index.php/Investment_Review_Committee">Investment Review Committee</a> based on the funding round objectives, investor priorities, and Digital Square vision.</p>
+</div>
+      </div>
+  </div>
+</div>
+    </li>
+      </div>
+</div>
+</div>          <div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-opg-phases clearfix" about="/field-collection/field-opg-phases/157" typeof="">
+  <div class="content">
+        <li class="vhtoggle plus ">Feb 10, 2022 - Feb 23, 2022: Investment Review Committee (IRC) review      <div class="reveal"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phase-html field-type-text-long field-label-hidden">
+      <div class="field-items">
+          <div class="field-item even"><p>Digital Square presents the applications, high-level budget summary, <a href="https://wiki.digitalsquare.io/index.php/Peer_Review_Committee">PRC</a> feedback within the <a href="https://wiki.digitalsquare.io/images/a/a1/Prioritization_Framework_Final_9Apr.pdf">Prioritization Framework</a>, and Digital Square recommendation to the <a href="https://wiki.digitalsquare.io/index.php/Investment_Review_Committee">IRC</a>.</p>
+
+<p>The <a href="https://wiki.digitalsquare.io/index.php/Investment_Review_Committee">IRC</a> evaluates whether to approve the funding packages and reserves the right to modify the recommendation at their discretion. The recommendation is made to the Digital Square board for ratification and final approval.</p>
+</div>
+      </div>
+  </div>
+</div>
+    </li>
+      </div>
+</div>
+</div>          <div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-opg-phases clearfix" about="/field-collection/field-opg-phases/158" typeof="">
+  <div class="content">
+        <li class="vhtoggle plus active-phase">Award Phase      <div class="reveal"><!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-opg-phase-html field-type-text-long field-label-hidden">
+      <div class="field-items">
+          <div class="field-item even"><p>Digital Square shares the funder decisions as voted on by the <a href="https://wiki.digitalsquare.io/index.php/Governing_Board">Board</a> with applicants. Upon applicant request, <a href="https://wiki.digitalsquare.io/index.php/Peer_Review_Committee">PRC</a><u> and </u><a href="https://wiki.digitalsquare.io/index.php/Investment_Review_Committee">IRC</a> feedback shall be shared with applicant.</p>
+
+<p>Funder decisions are contingent on investor approval.</p>
+</div>
+      </div>
+  </div>
+</div>
+    </li>
+      </div>
+</div>
+</div>      </ul>
+  </div>
+</div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+        </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../user/login/index-2.html?destination=comment/reply/303%23comment-form">Log in</a> or <a href="../user/register/index-2.html?destination=comment/reply/303%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">0</span></span></li>
+</ul>    </span>
+            </nav>
+
+</div>
+</article>
+    </div>
+</div>
+</div>
+<div id="block-views-opg-core-recent-pageblock" class="block block-views">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-recent_pageblock view-dom-id-7bc3d36126a6883a52b0ac22af289639">
+            <div class="view-header">
+      <h2 id="posts">Applications (10 total)</h2>
+<div id="proposalCount">Displaying 1 - 5</div><?php print theme('pager') ?>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+<article id="node-322" class="node node-notice-f0-application node-promoted node-teaser clearfix proposal"
+   about="/content/bornfyne-prenatal-management-system" typeof="sioc:Item foaf:Document" role="article">
+  
+          <h2 class="article-title"><a href="../content/bornfyne-prenatal-management-system/index.html"
+      title="BornFyne-Prenatal Management System">BornFyne-Prenatal Management System</a></h2>
+    <span property="dc:title" content="BornFyne-Prenatal Management System" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="4" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-12-01T03:32:52-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/miriam-nkangu" typeof="sioc:UserAccount" property="foaf:name" datatype="">Miriam Nkangu</span></span> (Denis and Lenora Foretia Foundation) on <span property="dc:date dc:created" content="2021-12-01T03:32:52-07:00" datatype="xsd:dateTime">Wed, 12/01/2021 - 03:32</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/sovello-mgani" typeof="sioc:UserAccount" property="foaf:name" datatype="">Sovello Mgani</span> on Fri, 04/01/2022 - 00:56.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f0-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p>Achieving universal health coverage requires digital technologies that can transform the way health data is collected and used and contribute to more equitable, rights-based health policies and primary health care services for pregnant women. This project will help expand the functionalities of the BornFyne-prenatal mangement system's antenatal care feature which is a two-way interactive platform. The BornFyne-antenatal care feature was designed adapting components of the WHO focused antenatal care package. The platform currently uses a strafication system to flags high risk pregnancy during antnatal care visits. This project will enable an expansion of these features and the functionality by incoporating components of the WHO digital adaptation kit for antenatal care.BornFyne project is being implemented by Denis and Lenora Foretia Foundation Cameroon in collaboration with University of Ottawa in Cameroon and Zambia and has the epertise and capacity to deliver.</p>
+</div></div></div><div class="field field-name-field-f0-application-status field-type-list-text field-label-inline clearfix"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Not Approved</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+    <ul class="links inline"><li class="node-readmore first last"><a href="../content/bornfyne-prenatal-management-system/index.html" rel="tag" title="BornFyne-Prenatal Management System">Read more<span class="element-invisible"> about BornFyne-Prenatal Management System</span></a></li>
+</ul>    </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../user/login/index-3.html?destination=node/322%23comment-form">Log in</a> or <a href="../user/register/index-3.html?destination=node/322%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">4</span></span></li>
+</ul>    </span>
+            </nav>
+
+</div>
+</article>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+<article id="node-343" class="node node-notice-f0-application node-promoted node-teaser clearfix proposal"
+   about="/content/dak-based-openmrs-3x-anc-package" typeof="sioc:Item foaf:Document" role="article">
+  
+          <h2 class="article-title"><a href="../content/dak-based-openmrs-3x-anc-package/index.html"
+      title="DAK-Based OpenMRS 3.x ANC Package">DAK-Based OpenMRS 3.x ANC Package</a></h2>
+    <span property="dc:title" content="DAK-Based OpenMRS 3.x ANC Package" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="3" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-12-01T14:34:06-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/jennifer-antilla" typeof="sioc:UserAccount" property="foaf:name" datatype="">Jennifer Antilla</span></span> (OpenMRS) on <span property="dc:date dc:created" content="2021-12-01T14:34:06-07:00" datatype="xsd:dateTime">Wed, 12/01/2021 - 14:34</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Digital Square</span> on Fri, 04/01/2022 - 01:08.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f0-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p><span style="background-color:transparent; color:#000000; font-family:arial; font-size:10pt">OpenMRS aims to improve patient-care by offering quality, shelf-ready OpenMRS solutions that provide health care workers with a better user experience and are easy for implementers to re-use and deploy. By fostering collaboration among highly experienced community members from multiple organizations and other global goods communities, this investment will be used to iteratively create a standards-based, OpenMRS Version 3 (O3) ANC MVP package that incorporates the Antenatal Care (ANC) Digital Adaptation Kit (DAK) and can be used with the new OpenMRS 3 Framework.</span></p>
+</div></div></div><div class="field field-name-field-f0-application-status field-type-list-text field-label-inline clearfix"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Approved - fully funded</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+    <ul class="links inline"><li class="node-readmore first last"><a href="../content/dak-based-openmrs-3x-anc-package/index.html" rel="tag" title="DAK-Based OpenMRS 3.x ANC Package">Read more<span class="element-invisible"> about DAK-Based OpenMRS 3.x ANC Package</span></a></li>
+</ul>    </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../user/login/index-4.html?destination=node/343%23comment-form">Log in</a> or <a href="../user/register/index-4.html?destination=node/343%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">3</span></span></li>
+</ul>    </span>
+            </nav>
+
+</div>
+</article>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+<article id="node-326" class="node node-notice-f0-application node-promoted node-teaser clearfix proposal"
+   about="/content/make-ieda-maternity-reference-implementation-who-dak-anc" typeof="sioc:Item foaf:Document" role="article">
+  
+          <h2 class="article-title"><a href="../content/make-ieda-maternity-reference-implementation-who-dak-anc/index.html"
+      title="Make IeDA Maternity a reference implementation of the WHO DAK ANC ">Make IeDA Maternity a reference implementation of the WHO DAK ANC </a></h2>
+    <span property="dc:title" content="Make IeDA Maternity a reference implementation of the WHO DAK ANC " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="3" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-12-01T04:56:54-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/florian-triclin" typeof="sioc:UserAccount" property="foaf:name" datatype="">Florian Triclin</span></span> (Terre des hommes Foundation) on <span property="dc:date dc:created" content="2021-12-01T04:56:54-07:00" datatype="xsd:dateTime">Wed, 12/01/2021 - 04:56</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/sovello-mgani" typeof="sioc:UserAccount" property="foaf:name" datatype="">Sovello Mgani</span> on Fri, 04/01/2022 - 00:55.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f0-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p>The goal of the project is to align Tdh Digital tool for Maternity (IeDA Maternity) and its ANC form developed in Burkina Faso, with the content of the WHO Digital Adaptation Kit focused on antenatal care, as well as the reference implementation guide  for HL7 FHIR data standard to make it a reference implementation of this DAK. The internal Tdh team that developed IeDA Maternity will leverage external resources known for their commitment to open source and public goods to make IeDA Maternity / ANC form a stand-alone, interoperable, open source and ultimately shelf ready reference tool.</p>
+</div></div></div><div class="field field-name-field-f0-application-status field-type-list-text field-label-inline clearfix"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Not Approved</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+    <ul class="links inline"><li class="node-readmore first last"><a href="../content/make-ieda-maternity-reference-implementation-who-dak-anc/index.html" rel="tag" title="Make IeDA Maternity a reference implementation of the WHO DAK ANC ">Read more<span class="element-invisible"> about Make IeDA Maternity a reference implementation of the WHO DAK ANC </span></a></li>
+</ul>    </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../user/login/index-5.html?destination=node/326%23comment-form">Log in</a> or <a href="../user/register/index-5.html?destination=node/326%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">3</span></span></li>
+</ul>    </span>
+            </nav>
+
+</div>
+</article>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    
+<article id="node-327" class="node node-notice-f0-application node-promoted node-teaser clearfix proposal"
+   about="/content/nganisha-health-systems-reference-implementation-who-antenatal-care-digital-adaptation-kit" typeof="sioc:Item foaf:Document" role="article">
+  
+          <h2 class="article-title"><a href="../content/nganisha-health-systems-reference-implementation-who-antenatal-care-digital-adaptation-kit/index.html"
+      title="NGANISHA HEALTH SYSTEMS: Reference Implementation of the WHO Antenatal Care Digital Adaptation Kit ">NGANISHA HEALTH SYSTEMS: Reference Implementation of the WHO Antenatal Care Digital Adaptation Kit </a></h2>
+    <span property="dc:title" content="NGANISHA HEALTH SYSTEMS: Reference Implementation of the WHO Antenatal Care Digital Adaptation Kit " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-12-01T06:23:17-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/christopher-kato" typeof="sioc:UserAccount" property="foaf:name" datatype="">Christopher Kato</span></span> (NGANISHA HEALTH SYSTEMS/Uganda Chartered Healthnet) on <span property="dc:date dc:created" content="2021-12-01T06:23:17-07:00" datatype="xsd:dateTime">Wed, 12/01/2021 - 06:23</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/sovello-mgani" typeof="sioc:UserAccount" property="foaf:name" datatype="">Sovello Mgani</span> on Thu, 01/20/2022 - 02:11.</span>
+      </div><!--//submit-wrapper-->
+
+      <div class="primary-author"><strong>Primary Author:</strong>
+     
+       <a href="mailto:">Christopher Kato</a>
+        </div>
+  
+<div class="field field-name-field-f0-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p>Our goal is to improve Antenatal Care through the implementation of a community oriented digital health system built to eliminate the barriers to uptake of antenatal services in low resource settings based on the WHO Digital Adaptation Kit for Antenatal Care. The proposed system will sync, and be an extension to our <strong><em>Nganisha</em></strong> Health Information system, an Electronic Medical Record system currently deployed in nine public health care facilities in Uganda in collaboration with the Ministry of Health. Uganda Chartered Healthnet developed and deployed Nganisha EMR/HIS and has been involved in digital innovations since 2004. We have the technical skills, tools and implementation expertise needed to develop and enhance eHealth and health information systems in low resource settings.</p>
+</div></div></div><div class="field field-name-field-f0-application-status field-type-list-text field-label-inline clearfix"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Not Approved</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+    <ul class="links inline"><li class="node-readmore first last"><a href="../content/nganisha-health-systems-reference-implementation-who-antenatal-care-digital-adaptation-kit/index.html" rel="tag" title="NGANISHA HEALTH SYSTEMS: Reference Implementation of the WHO Antenatal Care Digital Adaptation Kit ">Read more<span class="element-invisible"> about NGANISHA HEALTH SYSTEMS: Reference Implementation of the WHO Antenatal Care Digital Adaptation Kit </span></a></li>
+</ul>    </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../user/login/index-6.html?destination=node/327%23comment-form">Log in</a> or <a href="../user/register/index-6.html?destination=node/327%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">1</span></span></li>
+</ul>    </span>
+            </nav>
+
+</div>
+</article>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    
+<article id="node-307" class="node node-notice-f0-application node-promoted node-teaser clearfix proposal"
+   about="/content/reference-implementation-world-health-organization-antenatal-care-digital-adaption-kit" typeof="sioc:Item foaf:Document" role="article">
+  
+          <h2 class="article-title"><a href="../content/reference-implementation-world-health-organization-antenatal-care-digital-adaption-kit/index.html"
+      title="Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit ">Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit </a></h2>
+    <span property="dc:title" content="Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-11-27T23:10:16-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/akriti-jamwal" typeof="sioc:UserAccount" property="foaf:name" datatype="">Akriti Jamwal</span></span>  on <span property="dc:date dc:created" content="2021-11-27T23:10:16-07:00" datatype="xsd:dateTime">Sat, 11/27/2021 - 23:10</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Digital Square</span> on Tue, 12/14/2021 - 22:22.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f0-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p dir="ltr"> </p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">T<em>he scope of the project in its entirety is based on the reference implementation of Digital Adaptation Kit focused on Antenatal Care (ANC). Aim is to create a digital software solution which encompasses the complete ANC life cycle as specified in the WHO ANC FHIR IG.</em></p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr"><em>The creation of a digital software solution shall catalyze the adoption of the WHO ANC guidelines, by the digital health systems globally. It shall support clinical informed decision making by the individuals, health workers in the healthcare system. It shall act as an enabler to strengthen the healthcare delivery services and continuity of care.</em></p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr"><em>Our team’s cross-functional composition (FHIR and clinical domain specifically) will add value to the implementation process.</em></p>
+	</li>
+</ul><p> </p>
+</div></div></div><div class="field field-name-field-f0-application-status field-type-list-text field-label-inline clearfix"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Out of Scope</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+    <ul class="links inline"><li class="node-readmore first last"><a href="../content/reference-implementation-world-health-organization-antenatal-care-digital-adaption-kit/index.html" rel="tag" title="Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit ">Read more<span class="element-invisible"> about Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit </span></a></li>
+</ul>    </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../user/login/index-7.html?destination=node/307%23comment-form">Log in</a> or <a href="../user/register/index-7.html?destination=node/307%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">0</span></span></li>
+</ul>    </span>
+            </nav>
+
+</div>
+</article>
+  </div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="index1.html?page=1">2</a></li>
+<li class="pager-next"><a title="Go to next page" href="index1.html?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="index1.html?page=1">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</div>
+  </div>
+
+    </section>
+    <!-- /#main -->
+  </div>
+
+        <aside id="sidebar-first" role="complementary" class="sidebar five columns">
+      <div class="region region-sidebar-first">
+    <div id="block-views-opg-core-fields-navblock-block" class="block block-views">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="view view-opg-core-fields view-id-opg_core_fields view-display-id-navblock_block view-dom-id-b9751fcbc63534f5a64396a26e911ea3">
+            <div class="view-header">
+      <h2>This Forum</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="contextual-links-region">
+      
+          <div>Add Your APPLICATION
+<div><a href="../user/login/index-8.html">Login</a> is required.</div>
+</div>
+    
+          <ul><li><a href="details/index.html">Read before applying</a></li>
+	<!--<li class="pointer improvement-closed">Open Submission and Improvement phases are closed. Applications are in review.</li>-->
+	<li>Comment on applications
+	<div>
+	<p>Use comments to state your interest in joining a team</p>
+	</div>
+	</li>
+	<li><a href="mailto:digitalsquare@path.org?Subject=Open%20Proposals%20Question"><strong>Questions?</strong> Contact Digital Square</a> or call </li>
+	<li><a class="clicktext">Follow this Forum</a><span class="clicktextlong" style="display:none;"><a href="../user/login/index-9.html">Login</a> to follow this forum</span></li>
+	<!-- <li><a href="https://applications.digitalsquare.io/notice-f0/active" id="most_commented">Most Commented Applications</a></li> -->
+	<li><a href="popular/index.html" id="most_popular">Most Liked Applications</a></li>
+	<li><a href="summary/index.html">Summary of Applications</a></li>
+	<li><a href="announcements/index.html">Announcements</a></li>
+	<!-- <li class="pointer"><a href='/notice-f0/awards'>Awards</a></li> -->
+</ul>    
+              </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</div>
+<section id="block-views-opg-core-my-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>My Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-my_block view-dom-id-e282bf537272d64addde33f9726049c5">
+        
+  
+  
+      <div class="view-empty">
+      <!--?php if (!$GLOBALS['user']->uid): ?>
+<p><a href="https://applications.digitalsquare.io/goto/login/drupal">Login</a> to see links for accessing your applications</p>
+<?php else : ?-->
+<ul class="icon submission-open">
+<li class="pointer"><a href="create/index.html">Add your application</a></li>
+</ul>
+<!--ul class="submission-closed"><li>Application submission is closed.</li></ul-->
+<?php endif; ?>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+<section id="block-views-opg-core-recent-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>Recent Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-recent_block view-dom-id-3bf818beffb9a869ed4030f48ec8f74a">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0/index.html">Reference Implementation of WHO Antenatal care Digital Adaptation Kit through CommCare</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/supporting-fhir-native-reference-implementation-anc-smart-guidelines/index.html">Supporting a FHIR Native Reference Implementation of the ANC Smart Guidelines</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/dak-based-openmrs-3x-anc-package/index.html">DAK-Based OpenMRS 3.x ANC Package</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/nganisha-health-systems-reference-implementation-who-antenatal-care-digital-adaptation-kit/index.html">NGANISHA HEALTH SYSTEMS: Reference Implementation of the WHO Antenatal Care Digital Adaptation Kit </a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/make-ieda-maternity-reference-implementation-who-dak-anc/index.html">Make IeDA Maternity a reference implementation of the WHO DAK ANC </a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/bornfyne-prenatal-management-system/index.html">BornFyne-Prenatal Management System</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/supporting-digital-cascade-care-antenatal-care/index.html">Supporting Digital Cascade of Care for Antenatal Care</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/tamanu-antenatal-care/index.html">Tamanu for Antenatal Care</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/strengthening-antenatal-care-components-and-improving-shelf-readiness/index.html">Strengthening Antenatal Care Components and Improving Shelf-Readiness</a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../content/reference-implementation-world-health-organization-antenatal-care-digital-adaption-kit/index.html">Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit </a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+  </div>
+    </aside><!-- /#sidebar-first -->
+
+</div>
+
+<div id="acknowledgement-wrapper" class="container">
+
+  
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-boxes-ucsf-copyright" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_copyright' class='boxes-box'><div class="boxes-box-content"><!--p style="margin-bottom: 0;">The University of California Copyright ©2015 The Regents of the University of California. <span class="nowrap">All Rights Reserved.</span></p>
+<p>Services on this website are for the use of UCSF researchers, CTSI affiliates, industry and community members who wish to establish explicit ties to UCSF.</p-->
+<div style="background:#fff; color:#000">
+<p><em>Digital Square is a PATH-led initiative funded and designed by the United States Agency for International Development,<br />
+the Bill &amp; Melinda Gates Foundation, and a consortium of other donors.</em></p>
+
+<p><img alt="Funders Logos" src="../sites/default/files/logo-lockup/index.png" /></p>
+
+<p><em>This platform is made possible by the generous support of the American people through the<br />
+United States Agency for International Development (USAID). The contents of this platform are the sole<br />
+responsibility the respective course developers as noted within the platform, and do not necessarily<br />
+reflect the views of PATH, USAID, the United States Government, or PATH’s funders.</em></p>
+
+<p> </p>
+</div>
+<p>Digital Square Copyright ©2018 All Rights Reserved.</p>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+<script type="text/javascript">
+//CrazyEgg click tracking
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0010/2559.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+</footer>
+</body>
+</html>

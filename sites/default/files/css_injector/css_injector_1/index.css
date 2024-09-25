@@ -1,0 +1,135 @@
+body
+{
+    background-color: #fff;
+    background: rgba(0, 0, 0, 0) linear-gradient(to top, #ffffff 0%, #ffffff 100%) repeat fixed 0 0 !important;
+    color: #000 !important;
+    
+}
+
+/* footer color */
+#colophon {
+    /*background-color: #052049 !important; */
+    background-color: rgba(11, 57, 69, 1) !important;
+}
+
+/* comms section */
+.color-palette-dark-rust .btn {
+  text-transform: uppercase;
+  font-size: 15px !important;
+  padding: 10px 50px !important;
+  vertical-align: top !important;
+  background-color: #51889d !important;
+  text-align:  center !important;
+  margin: 15px 5px 15px 5px !important;
+}
+
+/* a links */
+.color-palette-dark-rust a {
+    color: #50879f;
+}
+
+/* OP colors border-left 5px solid #178CCB; */
+.color-palette-dark-rust .sidebar .block h2,
+.color-palette-dark-rust nav#main-menu ul li li a {
+border-radius:0;background:#EDEDEE;color:#000;margin:12px 0 8px -15px;padding:2px 5px 2px 10px;border-left:5px solid #51889e; 
+}
+.container
+{
+ width: 1200px;
+ max-width: 1200px;
+}
+
+#logo-img
+{
+    max-width:100px;
+    
+}
+#brand
+{
+    width:85%;
+    float:right;
+    text-align: right;
+}
+#top-links
+{
+display: block;
+float: left; 
+width:15%;
+text-align:center;
+}
+#top-links img
+{
+    padding-top:25px;
+}
+.container .sixteen.columns
+{
+  width: 100%;   
+}
+.container .eleven.columns
+{
+  width: 62.5%;
+  margin: 0 0;
+}
+.container .five.columns
+{
+  width: 37.5%;
+   margin: 0 0;
+}
+.container .five.columns .region-sidebar-first
+{
+    float:right;
+    width: 70%;
+   
+}
+
+.region region-hero-first h2{
+    display:none;
+}
+.region region-hero-first div{
+ float: left;   
+}
+.proposal.last{
+    background-color: #E7F3F9;
+    padding-left: 0.8em;
+}
+.item-list li
+{
+    list-style-type: none;
+}
+#proposal-wrapper
+{
+ float:left;   
+ width:100%;
+ position:relative;
+}
+.ucsfnav-right {
+ padding-right:20px;   
+}
+
+aside.sidebar .block-content ul {
+    /* padding-left: 0px !important; */
+    margin-bottom: 0;
+}
+
+.region-sidebar-first li.plus {
+    color: #51889d;
+}
+aside.sidebar ul.icon li.plus:before, aside.sidebar ul.icon li.dash:before {
+    color: #51889d;
+}
+
+#sidebar-first .seemore {
+    margin-top:5px;
+}
+
+#comments .item-list {
+    display: none;
+}
+
+#edit-field-who-tags-und {
+    column-count: 2 !important;
+}
+
+#edit-field-application-tags-und {
+    column-count: 3 !important;
+}

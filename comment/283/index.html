@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../../content/dhis2-ddccvs-fhir-adapter/index.html" />
+<link rel="shortlink" href="../../content/dhis2-ddccvs-fhir-adapter/index.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.55, user-scalable=yes" />
+<link rel="shortcut icon" href="../../sites/default/files/dsq_1/index.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>DHIS2 DDCC:VS FHIR Adapter | Digital Square Open Application Platform</title>
+  <style type="text/css" media="all">
+@import url("../../modules/system/system.base/index.css?rsi2se");
+@import url("../../modules/system/system.menus/index.css?rsi2se");
+@import url("../../modules/system/system.messages/index.css?rsi2se");
+@import url("../../modules/system/system.theme/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../modules/comment/comment/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/date/date_api/date/index.css?rsi2se");
+@import url("../../modules/field/theme/field/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/logintoboggan/logintoboggan/index.css?rsi2se");
+@import url("../../sites/all/modules/message/message_example/css/message_example/index.css?rsi2se");
+@import url("../../modules/node/node/index.css?rsi2se");
+@import url("../../modules/poll/poll/index.css?rsi2se");
+@import url("../../modules/search/search/index.css?rsi2se");
+@import url("../../modules/user/user/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/views/css/views/index.css?rsi2se");
+@import url("../../sites/all/modules/ckeditor/css/ckeditor/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../sites/all/modules/contrib/ctools/css/ctools/index.css?rsi2se");
+@import url("../../sites/all/modules/panels/css/panels/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/rate/rate/index.css?rsi2se");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/menu/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/normalize/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/style/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/design/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/responsive/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/entypo/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/vh/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/easy-responsive-tabs/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/opbamboo/css/op/index.css?rsi2se");
+</style>
+<style type="text/css" media="print">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/print/index.css?rsi2se");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie8-fixes.css?rsi2se" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie9-fixes.css?rsi2se" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("../../sites/default/files/css_injector/css_injector_1/index.css?rsi2se");
+@import url("../../sites/default/custom-style/index.css?rsi2se");
+</style>
+  <script type="text/javascript" src="../../sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-extend-3.4.0/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-html-prefilter-3.5.0-backport/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery.once/index.js?v=1.2"></script>
+<script type="text/javascript" src="../../misc/drupal/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/profiletip/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/jquery.bt.min/index.js?v=0.9.5-rc1"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/beautytips.min/index.js?v=7.x-2.x"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/admin_menu/admin_devel/admin_devel/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/google_analytics/googleanalytics/index.js?rsi2se"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-ZY4QKF6M6B"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-ZY4QKF6M6B", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/vh/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/easyResponsiveTabs/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/op/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/open-proposals/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/themes/contrib/bamboo/js/scripts/index.js?rsi2se"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"opbamboo","theme_token":"nou8isCLGsqMxzaGBgb-FbISEy-kiHtkm2wSQrKbaXU","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/profiletip.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/jquery.bt.min.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/beautytips.min.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-ZY4QKF6M6B":1,"0":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/vh.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/easyResponsiveTabs.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/op.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/open-proposals.js":1,"sites\/all\/themes\/contrib\/bamboo\/js\/scripts.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/message\/message_example\/css\/message_example.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/menu.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/normalize.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/style.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/design.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/responsive.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/opcolors.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/entypo.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/vh.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/easy-responsive-tabs.css":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/css\/op.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/print.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie8-fixes.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie9-fixes.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"sites\/default\/custom-style.css":1}},"beautytipStyles":{"default":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0026quot;Lucida Grande\u0026quot;,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":"1","shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4},"plain":[],"netflix":{"positions":["right","left"],"fill":"#FFF","padding":5,"shadow":true,"shadowBlur":12,"strokeStyle":"#B9090B","spikeLength":50,"spikeGirth":60,"cornerRadius":10,"centerPointY":0.1,"overlap":-8,"cssStyles":{"fontSize":"12px","fontFamily":"arial,helvetica,sans-serif"}},"facebook":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"11px"}},"transparent":{"fill":"rgba(0, 0, 0, .8)","padding":20,"strokeStyle":"#CC0","strokeWidth":3,"spikeLength":40,"spikeGirth":40,"cornerRadius":40,"cssStyles":{"color":"#FFF","fontWeight":"bold"}},"big-green":{"fill":"#00FF4E","padding":20,"strokeWidth":0,"spikeLength":40,"spikeGirth":40,"cornerRadius":15,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"14px"}},"google-maps":{"positions":["top","bottom"],"fill":"#FFF","padding":15,"strokeStyle":"#ABABAB","strokeWidth":1,"spikeLength":65,"spikeGirth":40,"cornerRadius":25,"centerPointX":0.9,"cssStyles":[]},"hulu":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0022Lucida Grande\u0022,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":true,"shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4}},"beautytips":{"op_global_clickme":{"cssSelect":".clickme","style":"hulu","trigger":"click","shrinkToFit":true,"ajaxDisableLink":true,"contentSelector":"$(this).next(\u0022.clicktalk\u0022).html()","list":["trigger","shrinkToFit","contentSelector"]}},"better_exposed_filters":{"views":{"opg_core_fields":{"displays":{"navblock_block":{"filters":[]}}},"opg_core":{"displays":{"my_block":{"filters":[]},"recent_block":{"filters":[]}}}}},"googleanalytics":{"account":["G-ZY4QKF6M6B"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"base_host":"applications.digitalsquare.io","opg":{"group_type":"node","gid":"302","path":"\/notice-f1","group_content_type":"opg_group","label":"Notice F1: Implementation of the WHO digital documentation of COVID-19 certificates: vaccination status (DDCC:VS) technical specifications ","post_type":"notice_f1_application","node_type":"notice_f1_application","post_type_name":"Notice F1 Application","login_type":"drupal","groupword":"Forum","ucgroupword":"FORUM","lcgroupword":"forum","groupword_article":"A","lcgroupword_article":"a","ucgroupword_article":"A","groupwords":"Forums","ucgroupwords":"FORUMS","lcgroupwords":"forums","noun":"Application","ucnoun":"APPLICATION","lcnoun":"application","noun_article":"An","lcnoun_article":"an","ucnoun_article":"AN","nouns":"Applications","ucnouns":"APPLICATIONS","lcnouns":"applications","postwords":"Submit","create_text":"\u003Ch3\u003E\u003Ca href=\u0022\/goto\/login\/drupal\u0022\u003ELogin\u003C\/a\u003E is required to create Applications\u003C\/h3\u003E"},"siteName":"UCSF Open Proposals","ogContext":{"groupType":"node","gid":"302"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-319 node-type-notice-f1-application opg_core-section og-context og-context-node og-context-node-302 site-name-hidden bg-gray-gradient color-palette-dark-rust header-font-sans-serif body-font-sans-serif sidebar-right section-content is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+
+    <div id="ucsf-links">
+                <div class="region region-ucsf-links">
+    <div id="block-boxes-ucsf-top-banner" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_top_banner' class='boxes-box'><div class="boxes-box-content"><div class="container ucsf">
+<div class="sixteen columns">
+<ul class="ucsfnav"><li>
+<a title="Home" href="..//index.html" id="ucsf">Home</a>
+</li>
+<li>
+<a title="Search" href="../../search/node/index.html" id="search">Search</a>
+</li>
+<li>
+<a title="Contact" href="../../contact/index.html" id="contact">Contact</a>
+</li>
+
+</ul><ul class="ucsfnav ucsfnav-right no-phone no-phone-ls"><li>
+<a title="Digital Square wiki" href="https://wiki.digitalsquare.io/index.php/Main_Page" id="ucsf">Digital Square wiki</a>
+</li>
+<li>
+<a title="Digital Square blog" href="http://digitalsquare.org/">Digital Square website</a>
+</li>
+</ul></div>
+</div></div></div>    </div>
+</div>
+</div>
+<div id="block-block-4" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div><a href="..//index.html" target="_blank"><img alt="" height="152" src="../../sites/default/files/dsq/index.png" width="152" /></a><img alt="" height="156" src="../../sites/default/files/townsquare/index.jpg" style="float:right" width="963" /></div>
+
+<div> </div>
+    </div>
+</div>
+</div>
+  </div>
+          </div>
+
+  <hgroup class="sixteen columns alpha omega">
+
+    <div id="brand">
+          </div>
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="..//index.html" title="Home">
+               </a>
+      </h1>
+          </div>
+
+    <div id="top-links">
+          </div>
+
+  </hgroup>
+
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+                <!-- region to place search form inside navbar -->
+              </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="eleven columns">
+        <section id="post-content" role="main" class="page" >
+
+      
+      <h2 class="title"><a href="../../notice-f1/index.html">Notice F1: Implementation of the WHO digital documentation of COVID-19 certificates: vaccination status (DDCC:VS) technical specifications </a></h2>
+            
+            <h1 class="page-title">DHIS2 DDCC:VS FHIR Adapter</h1>
+            
+      
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-319" class="node node-notice-f1-application node-promoted node-full clearfix proposal"
+   about="/content/dhis2-ddccvs-fhir-adapter" typeof="sioc:Item foaf:Document" role="article">
+  
+      <span property="dc:title" content="DHIS2 DDCC:VS FHIR Adapter" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-12-01T00:59:26-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/rangarirai-matavire" typeof="sioc:UserAccount" property="foaf:name" datatype="">Rangarirai Matavire</span></span> (ITINORDIC AS) on <span property="dc:date dc:created" content="2021-12-01T00:59:26-07:00" datatype="xsd:dateTime">Wed, 12/01/2021 - 00:59</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Digital Square</span> on Fri, 04/01/2022 - 01:28.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f1-two-sentence-overview field-type-text-long field-label-above"><div class="field-label">Two Sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even">The aim is to develop the DHIS2 FHIR Adapter to use a subscription service to export WHO-DHIS2 COVID-19 toolkit-based data which is collected on the DHIS2-Tracker app, and to transform it into the corresponding FHIR Resources (Compositions), conformant with the DDCC:VS specification. Our team at Itinordic is maintaining the official source code repository for the DHIS2 FHIR Adapter, leading support for the adapter in the DHIS2 community, and have developed Android apps on the platform. We also participate in the WHO coordinated ‘Computable Care Guidelines - Working Groups 1 &amp; 2’ where we contribute on issues related to the practical implementation of FHIR in Low and Middle Income Countries (LMICs).</div></div></div><div class="field field-name-field-f1-executive-summary field-type-text-long field-label-above"><div class="field-label">Executive Summary:&nbsp;</div><div class="field-items"><div class="field-item even">The project aims to develop an adapter that retrieves COVID-19 surveillance and national vaccine delivery data entered on DHIS2 into the DDCC:VS format using an interoperable, robust and scalable technology infrastructure. While many LMIC’s are using adaptations of the WHO-DHIS2 standardized packages for the capture and retrieval of COVID-19 vaccination status information, many of these projects remain ad hoc in their implementation of certificate standards and trust frameworks. They are particularly reliant on stable Internet for the retrieval of COVID-19 vaccination status. These systems do not conform to any information exchange standards and implement custom verification which is specific to country implementations. In pursuit of the goal of equitable access to healthcare, the preferred solution is a digital certificate which can be verified offline as is specified in the DDCC:VS document. However, the development and implementation an appropriate solution is complicated for many, hence a focus on immediate needs. This has led to compromises on security and scalability issues, alongside the proliferation of new technology solutions in response to the pandemic. Limited internet connectivity has also contributed to further fragmentation of these health information systems, with COVID-19 data existing on paper. Consequently, clients still have to go through central points (eg district, provincial and national health facilities) in order to retrieve proof of COVID-19 vaccination. In some cases, there has also been theft of vaccination cards which diminishes the effectiveness and trust around paper-centric certification processes. The basic architecture of the system envisaged will provide interfaces that enable other systems to communicate with the adapter and be integrated with standard tools and processes for signing the certificates. We have started with DHIS2 due to our expertise on the technology, our existing client base, and the systems’ near universal use in LMICs. We are officially maintaining the DHIS2 FHIR Adapter and we lead on its development and use in production. We have also developed FHIR compliant Android apps which are interoperable with the DHIS2 FHIR Adapter. Support is specifically sought from Digital Square to fund development costs of the DHIS2 DDCC:VS FHIR Adapter component and to increase our alignment to the global work on the implementation of standards in LMICs. Our mission is to bring these latest technology advancements to those who need them the most in LMICs. The Adapter will play a major role in bringing these tools to end users and will contribute to the OpenHIE community/stack considering that DHIS2 and FHIR are an integral part of it.</div></div></div><div class="field field-name-field-f1-consortium-team field-type-text-long field-label-above"><div class="field-label">Consortium Team:&nbsp;</div><div class="field-items"><div class="field-item even">The project team is led by Itinordic in the specific roles of Project Lead &amp; DHIS2 Specialist - Itinordic (Norway), Project Coordinator - Itinordic (Norway), Lead Developer - Itinordic (Zimbabwe), Senior Developer - Itinordic (Zimbabwe), RabbitMQ and Messaging Specialist - (Independent Consultant) and a Developer - Itinordic (Zimbabwe). This team has specifically been actively developing FHIR conformant tools on Android and DHIS2 for the last 3 years and consists of at least 4 expert level developers with extensive experience in the areas relevant to this project. Some support roles, eg on security mechanisms will be sought from amongst consultants within our network.
+</div></div></div><div class="field field-name-field-f1-project-description field-type-text-long field-label-above"><div class="field-label">Project Description:&nbsp;</div><div class="field-items"><div class="field-item even">Integration of DHIS2 through the use of the FHIR® specification constitutes an area of technology development through which existing implementations can extend from a top-down programmatic focus to the electronic health record orientation which is necessary for vaccine registries. The DHIS2 FHIR® Adapter is a tool that has been developed to exchange FHIR compliant data with DHIS2. For the past 2 years, our team has been leading the development of the DHIS2 FHIR® Adapter, and now maintains the official repository. The initial scope of the Adapter was the import of FHIR Resources into DHIS2 Tracker by using FHIR Subscriptions. The Itinordic team has deployed a system which uses the adapter to send FHIR Resources created via Android into DHIS2. The aim therefore is to develop the Adapter so it can be used to export DHIS2 Tracker data, in this case COVID-19 vaccination data, into FHIR Resources, conformant in this case with the DDCC:VS specification.
+
+The basis on which the adapter is built is, as previously alluded, the WHO-DHIS2 health data toolkits for COVID-19 surveillance and national vaccine delivery. According to the DHIS2 Website, at least 42 countries are using DHIS2 for COVID-19 surveillance and at least 40 for national vaccine delivery. These are standardised packages with coded elements, on which FHIRPath attributes can be added to complete the mapping to COVID-19 FHIR Compositions. We will have opportunity to pilot the DHIS2 DDCC:VS FHIR Adapter in some of these implementations in order to refine the technology. Our ongoing collaboration with the University of Oslo within a number of projects, including participation in the integration team, and our background of working with WHO on the feasibility of computable guidelines for FHIR implementation will server to assure our work is on the leading edge.
+
+A core component of the system is mapping between DHIS2 and FHIR data. DHIS2 is highly customisable and allows for the addition of FHIRPath attributes to existing data elements from the WHO-DHIS2 health data toolkits for COVID-19 surveillance and national vaccine delivery. The adapter will understand the meaning of these attributes and use them to do the mapping between DHIS2 and the DDCC:VS FHIR Compositions. As data is entered into DHIS2 in real time, a subscription service built on a robust messaging framework, will be able to recognise COVID-19 surveillance and vaccine data, and thereby begin the process to check and produce the DDCC:VS document. In addition, signing of the certificates can proceed using whatever the preferred Public Key Infrastructure a client chooses to implement in accordance with international standards.
+
+In particular, RabbitMQ will be incorporated as part of the DHIS2 FHIR® Adapter architecture, to provide an efficient and resilient data processing channel between interacting entities using the industrial standard, Advanced Message Queueing Protocol (AMQP-0.9.1/1.0). RabbitMQ is an industry trusted, multi-purpose messaging broker, built on highly scalable, fault tolerant and resilient technology, such as needed in critically deployed ecosystems as DHIS2. It is a feature-rich open source system, licensed under the Mozilla Public License v2.0. The unit of processing in RabbitMQ is it’s queues, which provide both persistent and/or transient message retention for high performant, asynchronous message processing between two or more applications or processes. 
+
+Given the need for multiple systems to interact securely in this architecture, a robust identity management solution in accordance to industry standards such as OAuth2 and OpenId Connect will be implemented. A number of open source tools for identity management exist, such as keycloak and gluu. In this case, the focus will be on choosing best practices so we can benefit from the community which has for instance developed tools for integrating FHIR servers with some of the existing open source identity management tools.
+
+We aim to secure a a good test case to pilot the system as we will adopt the SCRUM methodology for rapid prototyping. We have certified scrum competence and experience in the team. This way we will ensure that while our approach is generic, it addresses real world challenges in the process and therefore mitigates the risk of failure. In addition, we will use a participatory approach with the community such as those working with DHIS2, FHIR and OpenHIE to ensure the ideas implemented have a good foundation. We have also discussed with colleagues who have expressed interest in implementing our solution. Another risk is the fact that COVID-19 certificates constitute a complex area of technology development which encompass a number of issues relating to trust and security. We will endeavour to assure implementors on the open source technologies used in the system such that it can be trusted. In addition, nations are using other systems besides DHIS2 we can incorporate into the the infrastructure that is developed. The team has gained experience in this arena of interoperability, mobility and standards, and these will be important in identifying and mitigating risk. A draft system flow diagram is attached.
+
+The anticipated timeline of the project is a total of 9 months, including analysis, development and testing. The first 6 weeks will be dedicated to analysis and design, where we will develop the idea into a project inception report. After inception, We will devote 4,5 (four and a half) months to development sprints. We expect the first prototype to be available for user testing within the first 8 weeks of the development phase, and more frequent releases made thereafter for new features and bug fixes. We would then pilot the system for an additional six weeks to get final feedback, and then complete product development and documentation in the remaining 6 weeks on the project.</div></div></div><div class="field field-name-field-f1-application-status field-type-list-text field-label-above"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Not Approved</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+        </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../../user/login/index-14.html?destination=node/319%23comment-form">Log in</a> or <a href="../../user/register/index-12.html?destination=node/319%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">2</span></span></li>
+</ul>    </span>
+            </nav>
+
+<div id="comments" class="comment-wrapper">
+          <h2 class="title">Comments</h2>
+      
+  <a id="comment-283"></a>
+<div class="comment odd" about="/comment/283#comment-283" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="index.html#comment-283" class="permalink" rel="bookmark">Digital Square comments</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/jenny-thompson-digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Jenny Thompson (Digital Square)</span></span> - <span property="dc:date dc:created" content="2021-12-15T19:50:24-07:00" datatype="xsd:dateTime">Wed, 12/15/2021 - 19:50</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/dhis2-ddccvs-fhir-adapter" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Thank you for the application. For the full technical application, in addition to general recommendations per the email, please expand more on plans for:</p>
+
+<p>-Privacy, data protection, and security activities (in addition to identity management).</p>
+
+<p>-Working with the broader HISP/DHIS2 community.</p>
+
+<p>-Aligning with Instant OpenHIE and engaging with the OpenHIE community/other communities.</p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-14.html?destination=node/319%23comment-form">Log in</a> or <a href="../../user/register/index-12.html?destination=node/319%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+<a id="comment-330"></a>
+<div class="comment even" about="/comment/330#comment-330" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="../330/index.html#comment-330" class="permalink" rel="bookmark">Thank you for your</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/vikas-dwivedi" typeof="sioc:UserAccount" property="foaf:name" datatype="">Vikas Dwivedi</span></span> - <span property="dc:date dc:created" content="2022-02-06T08:57:17-07:00" datatype="xsd:dateTime">Sun, 02/06/2022 - 08:57</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/dhis2-ddccvs-fhir-adapter" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Thank you for your application. Please elaborate on:</p>
+
+<ol><li>What is the community governance mechanism.</li>
+	<li>How will the applications be expected to align and strengthen the shelf-readiness.</li>
+	<li>Alignment with the opposed scope in the concept note</li>
+	<li>How will you ensure alignment with OpenHIE approach and interact with other solutions.</li>
+</ol></div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-14.html?destination=node/319%23comment-form">Log in</a> or <a href="../../user/register/index-12.html?destination=node/319%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+
+  </div> <!-- /#comments -->
+</div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+
+    </section>
+    <!-- /#main -->
+  </div>
+
+        <aside id="sidebar-first" role="complementary" class="sidebar five columns">
+      <div class="region region-sidebar-first">
+    <div id="block-views-opg-core-fields-navblock-block" class="block block-views">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="view view-opg-core-fields view-id-opg_core_fields view-display-id-navblock_block view-dom-id-76d4c8ebb5e8bbf24af97f0d8a4919f6">
+            <div class="view-header">
+      <h2>This Forum</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="contextual-links-region">
+      
+          <div>Add Your APPLICATION
+<div><a href="../../user/login/index-16.html">Login</a> is required.</div>
+</div>
+    
+          <ul><li><a href="../../notice-f1/details/index.html">Read before applying</a></li>
+	<!--<li class="pointer improvement-closed">Open Submission and Improvement phases are closed. Applications are in review.</li>-->
+	<li>Comment on applications
+	<div>
+	<p>Use comments to state your interest in joining a team</p>
+	</div>
+	</li>
+	<li><a href="mailto:digitalsquare@path.org?Subject=Open%20Proposals%20Question"><strong>Questions?</strong> Contact Digital Square</a> or call </li>
+	<li><a class="clicktext">Follow this Forum</a><span class="clicktextlong" style="display:none;"><a href="../../user/login/index-260.html">Login</a> to follow this forum</span></li>
+	<!-- <li><a href="https://applications.digitalsquare.io/notice-f1/active" id="most_commented">Most Commented Applications</a></li> -->
+	<li><a href="../../notice-f1/popular/index.html" id="most_popular">Most Liked Applications</a></li>
+	<li><a href="../../notice-f1/summary/index.html">Summary of Applications</a></li>
+	<li><a href="../../notice-f1/announcements/index.html">Announcements</a></li>
+	<!-- <li class="pointer"><a href='/notice-f1/awards'>Awards</a></li> -->
+</ul>    
+              </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</div>
+<section id="block-views-opg-core-my-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>My Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-my_block view-dom-id-767e95f3fbc9167add9f0f789f9e8835">
+        
+  
+  
+      <div class="view-empty">
+      <!--?php if (!$GLOBALS['user']->uid): ?>
+<p><a href="https://applications.digitalsquare.io/goto/login/drupal">Login</a> to see links for accessing your applications</p>
+<?php else : ?-->
+<ul class="icon submission-open">
+<li class="pointer"><a href="../../notice-f1/create/index.html">Add your application</a></li>
+</ul>
+<!--ul class="submission-closed"><li>Application submission is closed.</li></ul-->
+<?php endif; ?>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+<section id="block-views-opg-core-recent-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>Recent Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-recent_block view-dom-id-1ab95be8c7fecacef297c7323c484573">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/covid-credential-initiative-0/index.html">COVID Credential Initiative</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/sant%c3%a9ims-immunization-management-system-who-ddccvs-alignment/index.html">SantéIMS Immunization Management System WHO DDCC:VS Alignment</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/avert-application-vaccine-equity-rollout-and-tracking-everwell-health-solutions/index.html">AVERT (Application for Vaccine Equity, Rollout and Tracking) - Everwell Health Solutions</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/dhis2-ddccvs-fhir-adapter/index.html" class="active">DHIS2 DDCC:VS FHIR Adapter</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/tamanu-covid-19-digital-certificates/index.html">Tamanu for COVID-19 digital certificates</a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/implementation-who-technical-guidance-and-interoperable-capabilities-malawi-covid-19/index.html">Implementation of WHO technical guidance and interoperable capabilities for Malawi COVID-19 electronic vaccination (eVax) Certification </a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/commcare-equitable-covid-19-vaccine-delivery/index.html">CommCare for Equitable COVID 19 Vaccine Delivery</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/pocketpatientmd/index.html">PocketPatientMD</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+  </div>
+    </aside><!-- /#sidebar-first -->
+
+</div>
+
+<div id="acknowledgement-wrapper" class="container">
+
+  
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-boxes-ucsf-copyright" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_copyright' class='boxes-box'><div class="boxes-box-content"><!--p style="margin-bottom: 0;">The University of California Copyright ©2015 The Regents of the University of California. <span class="nowrap">All Rights Reserved.</span></p>
+<p>Services on this website are for the use of UCSF researchers, CTSI affiliates, industry and community members who wish to establish explicit ties to UCSF.</p-->
+<div style="background:#fff; color:#000">
+<p><em>Digital Square is a PATH-led initiative funded and designed by the United States Agency for International Development,<br />
+the Bill &amp; Melinda Gates Foundation, and a consortium of other donors.</em></p>
+
+<p><img alt="Funders Logos" src="../../sites/default/files/logo-lockup/index.png" /></p>
+
+<p><em>This platform is made possible by the generous support of the American people through the<br />
+United States Agency for International Development (USAID). The contents of this platform are the sole<br />
+responsibility the respective course developers as noted within the platform, and do not necessarily<br />
+reflect the views of PATH, USAID, the United States Government, or PATH’s funders.</em></p>
+
+<p> </p>
+</div>
+<p>Digital Square Copyright ©2018 All Rights Reserved.</p>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+<script type="text/javascript">
+//CrazyEgg click tracking
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0010/2559.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+</footer>
+</body>
+</html>

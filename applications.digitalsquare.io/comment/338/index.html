@@ -1,0 +1,2288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../../content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0/index.html" />
+<link rel="shortlink" href="../../content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0/index.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.55, user-scalable=yes" />
+<link rel="shortcut icon" href="../../sites/default/files/dsq_1/index.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Reference Implementation of WHO Antenatal care Digital Adaptation Kit through CommCare | Digital Square Open Application Platform</title>
+  <style type="text/css" media="all">
+@import url("../../modules/system/system.base/index.css?rsi2se");
+@import url("../../modules/system/system.menus/index.css?rsi2se");
+@import url("../../modules/system/system.messages/index.css?rsi2se");
+@import url("../../modules/system/system.theme/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../modules/comment/comment/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/date/date_api/date/index.css?rsi2se");
+@import url("../../modules/field/theme/field/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/logintoboggan/logintoboggan/index.css?rsi2se");
+@import url("../../sites/all/modules/message/message_example/css/message_example/index.css?rsi2se");
+@import url("../../modules/node/node/index.css?rsi2se");
+@import url("../../modules/poll/poll/index.css?rsi2se");
+@import url("../../modules/search/search/index.css?rsi2se");
+@import url("../../modules/user/user/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/views/css/views/index.css?rsi2se");
+@import url("../../sites/all/modules/ckeditor/css/ckeditor/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../sites/all/modules/contrib/ctools/css/ctools/index.css?rsi2se");
+@import url("../../sites/all/modules/panels/css/panels/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/rate/rate/index.css?rsi2se");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/menu/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/normalize/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/style/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/design/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/responsive/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/entypo/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/vh/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/easy-responsive-tabs/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/opbamboo/css/op/index.css?rsi2se");
+</style>
+<style type="text/css" media="print">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/print/index.css?rsi2se");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie8-fixes.css?rsi2se" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie9-fixes.css?rsi2se" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("../../sites/default/files/css_injector/css_injector_1/index.css?rsi2se");
+@import url("../../sites/default/custom-style/index.css?rsi2se");
+</style>
+  <script type="text/javascript" src="../../sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-extend-3.4.0/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-html-prefilter-3.5.0-backport/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery.once/index.js?v=1.2"></script>
+<script type="text/javascript" src="../../misc/drupal/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/profiletip/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/jquery.bt.min/index.js?v=0.9.5-rc1"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/beautytips.min/index.js?v=7.x-2.x"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/admin_menu/admin_devel/admin_devel/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/google_analytics/googleanalytics/index.js?rsi2se"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-ZY4QKF6M6B"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-ZY4QKF6M6B", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/vh/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/easyResponsiveTabs/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/op/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/open-proposals/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/themes/contrib/bamboo/js/scripts/index.js?rsi2se"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"opbamboo","theme_token":"MNcNmt9J3m2OJSI15XjYgQQvikPapglRdppSpTZmxaM","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/profiletip.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/jquery.bt.min.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/beautytips.min.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-ZY4QKF6M6B":1,"0":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/vh.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/easyResponsiveTabs.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/op.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/open-proposals.js":1,"sites\/all\/themes\/contrib\/bamboo\/js\/scripts.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/message\/message_example\/css\/message_example.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/menu.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/normalize.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/style.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/design.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/responsive.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/opcolors.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/entypo.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/vh.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/easy-responsive-tabs.css":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/css\/op.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/print.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie8-fixes.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie9-fixes.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"sites\/default\/custom-style.css":1}},"beautytipStyles":{"default":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0026quot;Lucida Grande\u0026quot;,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":"1","shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4},"plain":[],"netflix":{"positions":["right","left"],"fill":"#FFF","padding":5,"shadow":true,"shadowBlur":12,"strokeStyle":"#B9090B","spikeLength":50,"spikeGirth":60,"cornerRadius":10,"centerPointY":0.1,"overlap":-8,"cssStyles":{"fontSize":"12px","fontFamily":"arial,helvetica,sans-serif"}},"facebook":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"11px"}},"transparent":{"fill":"rgba(0, 0, 0, .8)","padding":20,"strokeStyle":"#CC0","strokeWidth":3,"spikeLength":40,"spikeGirth":40,"cornerRadius":40,"cssStyles":{"color":"#FFF","fontWeight":"bold"}},"big-green":{"fill":"#00FF4E","padding":20,"strokeWidth":0,"spikeLength":40,"spikeGirth":40,"cornerRadius":15,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"14px"}},"google-maps":{"positions":["top","bottom"],"fill":"#FFF","padding":15,"strokeStyle":"#ABABAB","strokeWidth":1,"spikeLength":65,"spikeGirth":40,"cornerRadius":25,"centerPointX":0.9,"cssStyles":[]},"hulu":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0022Lucida Grande\u0022,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":true,"shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4}},"beautytips":{"op_global_clickme":{"cssSelect":".clickme","style":"hulu","trigger":"click","shrinkToFit":true,"ajaxDisableLink":true,"contentSelector":"$(this).next(\u0022.clicktalk\u0022).html()","list":["trigger","shrinkToFit","contentSelector"]}},"better_exposed_filters":{"views":{"opg_core_fields":{"displays":{"navblock_block":{"filters":[]}}},"opg_core":{"displays":{"my_block":{"filters":[]},"recent_block":{"filters":[]}}}}},"googleanalytics":{"account":["G-ZY4QKF6M6B"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"base_host":"applications.digitalsquare.io","opg":{"group_type":"node","gid":"303","path":"\/notice-f0","group_content_type":"opg_group","label":"Notice F0: Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit","post_type":"notice_f0_application","node_type":"notice_f0_application","post_type_name":"Notice F0 Application","login_type":"drupal","groupword":"Forum","ucgroupword":"FORUM","lcgroupword":"forum","groupword_article":"A","lcgroupword_article":"a","ucgroupword_article":"A","groupwords":"Forums","ucgroupwords":"FORUMS","lcgroupwords":"forums","noun":"Application","ucnoun":"APPLICATION","lcnoun":"application","noun_article":"An","lcnoun_article":"an","ucnoun_article":"AN","nouns":"Applications","ucnouns":"APPLICATIONS","lcnouns":"applications","postwords":"Submit","create_text":"\u003Ch3\u003E\u003Ca href=\u0022\/goto\/login\/drupal\u0022\u003ELogin\u003C\/a\u003E is required to create Applications\u003C\/h3\u003E"},"siteName":"UCSF Open Proposals","ogContext":{"groupType":"node","gid":"303"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-349 node-type-notice-f0-application opg_core-section og-context og-context-node og-context-node-303 site-name-hidden bg-gray-gradient color-palette-dark-rust header-font-sans-serif body-font-sans-serif sidebar-right section-content is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+
+    <div id="ucsf-links">
+                <div class="region region-ucsf-links">
+    <div id="block-boxes-ucsf-top-banner" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_top_banner' class='boxes-box'><div class="boxes-box-content"><div class="container ucsf">
+<div class="sixteen columns">
+<ul class="ucsfnav"><li>
+<a title="Home" href="..//index.html" id="ucsf">Home</a>
+</li>
+<li>
+<a title="Search" href="../../search/node/index.html" id="search">Search</a>
+</li>
+<li>
+<a title="Contact" href="../../contact/index.html" id="contact">Contact</a>
+</li>
+
+</ul><ul class="ucsfnav ucsfnav-right no-phone no-phone-ls"><li>
+<a title="Digital Square wiki" href="https://wiki.digitalsquare.io/index.php/Main_Page" id="ucsf">Digital Square wiki</a>
+</li>
+<li>
+<a title="Digital Square blog" href="http://digitalsquare.org/">Digital Square website</a>
+</li>
+</ul></div>
+</div></div></div>    </div>
+</div>
+</div>
+<div id="block-block-4" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div><a href="..//index.html" target="_blank"><img alt="" height="152" src="../../sites/default/files/dsq/index.png" width="152" /></a><img alt="" height="156" src="../../sites/default/files/townsquare/index.jpg" style="float:right" width="963" /></div>
+
+<div> </div>
+    </div>
+</div>
+</div>
+  </div>
+          </div>
+
+  <hgroup class="sixteen columns alpha omega">
+
+    <div id="brand">
+          </div>
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="..//index.html" title="Home">
+               </a>
+      </h1>
+          </div>
+
+    <div id="top-links">
+          </div>
+
+  </hgroup>
+
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+                <!-- region to place search form inside navbar -->
+              </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="eleven columns">
+        <section id="post-content" role="main" class="page" >
+
+      
+      <h2 class="title"><a href="../../notice-f0/index.html">Notice F0: Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit</a></h2>
+            
+            <h1 class="page-title">Reference Implementation of WHO Antenatal care Digital Adaptation Kit through CommCare</h1>
+            
+      
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-349" class="node node-notice-f0-application node-promoted node-full clearfix proposal"
+   about="/content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0" typeof="sioc:Item foaf:Document" role="article">
+  
+      <span property="dc:title" content="Reference Implementation of WHO Antenatal care Digital Adaptation Kit through CommCare" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="4" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2022-01-12T05:12:34-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/prateep-chakraborty" typeof="sioc:UserAccount" property="foaf:name" datatype="">Prateep Chakraborty</span></span> (Dimagi ) on <span property="dc:date dc:created" content="2022-01-12T05:12:34-07:00" datatype="xsd:dateTime">Wed, 01/12/2022 - 05:12</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Digital Square</span> on Fri, 04/01/2022 - 01:01.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f0-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p>Please note that this part has changed since the submission of the Concept note</p>
+
+<p dir="ltr">The objective of this project is to create a reference application using the Open Source CommCare platform to implement the operational requirements pertaining to WHO Antenatal care recommendations in digital systems. This reference application that is proposed to be developed  will provide functionalities for digital tracking  and include features such as workflows, decision support, scheduling logic, reporting indicators, etc, that can be used by  community health community health workers and their supervisors for  enabling key health services  targeting the improvement of key health indicators  and monitoring of performance metrics .</p>
+
+<h2 dir="ltr"><strong>High-Level Budget Summary </strong></h2>
+
+<table><tbody><tr><td> </td>
+			<td>
+			<p dir="ltr"><strong>Work Package 1 : Development of a MVP mobile application that aligns with the guidelines prescribed by WHO Digital Adaptation Kit:</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>Work Package 2 Finalization of mobile application that aligns with the WHO DAK guidelines</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>Work package 3: Product information and documentation</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>Total Cost (USD)</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Total Project Costs</p>
+			</td>
+			<td>
+			<p dir="ltr">$222,733</p>
+			</td>
+			<td>
+			<p dir="ltr">$124,669</p>
+			</td>
+			<td>
+			<p dir="ltr">$16,465</p>
+			</td>
+			<td>
+			<p dir="ltr">$363,867</p>
+			</td>
+		</tr></tbody></table></div></div></div><div class="field field-name-field-f0-summary field-type-text-long field-label-above"><div class="field-label">Executive Summary:&nbsp;</div><div class="field-items"><div class="field-item even"><p><em>Please note that this part has changed since the submission of the Concept note</em></p>
+
+<p dir="ltr">Mobile data collection has been proven to aid the maternal and child health sector. Research has shown that digital interventions can increase antenatal care by 41% and improve facility delivery rates by over 100%. Programs featuring mobile data collection have also highlighted increased participation of family members in antenatal care, with husbands engaging 60% and mothers-in-law 110% more often as compared to  paper-based systems. Dimagi’s mobile based tools have demonstrated effective monitoring and improving the quality of maternal, antenatal and postnatal care. </p>
+
+<p dir="ltr">For example,in Ethiopia, The Last Ten Kilometers 2020 (L10K 2020) project covers 17 million Ethiopians with improved maternal and newborn health outcomes. Implemented by JSI through funding from the Bill &amp; Melinda Gates Foundation (BMGF), the project is supporting the Government of Ethiopia (GoE) in 115 rural districts of four of the most populous regions of the country (Amhara, Oromia, Southern Nations, Nationalities and Peoples’[SNNP], and Tigray regions). L10K 2020 is working to forge sustained linkages between communities and the primary health system of the country through strengthening the provision of quality community-led interventions and facility-based care, and ensuring new and innovative pathways to generate demand for reproductive, maternal, newborn and child health (RMNCH) services.Dimagi has directly contributed by building an innovative mobile solution to improve post natal care in the first 48 hours after birth, by leveraging the benefits of mobile technology’s connection to the hardest-to-reach parts of the country. </p>
+
+<p dir="ltr">Similarly, the <a href="https://www.dimagi.com/case-studies/mhealth-crs-india/">ReMiND project in Uttar Pradesh</a>, India, is a well established  example of using mobile health technology to increase key maternal and newborn health practices. Through ReMiND, Dimagi has enabled Catholic Relief Services (CRS) in using CommCare to help ASHAs counsel and evaluate women and their newborns for danger signs, both before and after birth. Our partner Living Goods created the Smart Health app that uses a basic clinical decision support system (CDSS) to ensure consistent and accurate diagnoses of  pregnancy care, childhood diseases, nutrition, family planning, and immunization tracking through smart workflows. </p>
+
+<p dir="ltr">The proposed investment from Digital Square will specifically go towards creating a reference digital system on CommCare that can be leveraged by users to meet the operational requirements for implementing WHO recommendations.</p>
+
+<p dir="ltr"><strong>Goal of the project </strong></p>
+
+<p dir="ltr">The goal of the project is to align the existing CommCare product to be configured for the WHO DAK (Digital Adaptation Kit) to position it a) for wider adoption in low-resource settings b) enable the implementation of standardized protocols of care for pregnant mothers c) Enforce  standards of care through a digitised model that can be used across geographies for improved health outcomes for women.</p>
+
+<p dir="ltr"><strong>How will the goal be achieved</strong></p>
+
+<p dir="ltr">Dimagi and Living Goods will collaborate to create a reference mobile software application that will be developed on  the existing CommCare platform. The business workflows of the reference application will aim to support health services for maternal care through the stages of pregnancy and postpartum phases and early newborn care as outlined in the MNCH DAK. The application will be designed to be intuitive with highly usable workflows that can be adapted for different primary care contexts.   Initially, we will work with a well established and highly common superset  of workflows, which we will validate in a live setting and   iterate through stakeholder and user discussions. We will progressively improvise on the solution  in consultation with the various stakeholders in subsequent stages. The application will be modular so that it can be easily adapted to meet the capacity of the health workers and operational needs in different  countries or in primary care programs. The reference application will be accompanied by a comprehensive set of documentation, training tools,sample reports for CHWs and their supervisors and an interface (please refer to the section on “deliverables” for a detailed view of the slated deliverables of this project) that will make it possible for program managers to provide requisite administrative support . All these tools shall be available to any organisation after the formal release of the said reference system. </p>
+
+<p><strong>How will your organization’s expertise contribute to project goals</strong></p>
+
+<p dir="ltr">Dimagi and Living Goods are joining hands to create a strong and symbiotic partnership to achieve the project goals based on their value add and past project expertise. </p>
+
+<p>While Dimagi has extensive experience across a wide range of sectors,  our consolidated experience in  more than 58 MNCH projects globally, implemented on  CommCare, has provided deep insights on technology design that is required to support CHWs working directly with mothers and their children. These projects have equipped over 4,000 CHWs with CommCare in countries including Bangladesh, Benin, Ethiopia, Guatemala, Ghana, India, Kenya, Malawi, Mozambique, Nepal, Nigeria, Sierra Leone, Senegal, South Africa, Tanzania, and Uganda. </p>
+
+<p>Dimagi has implemented a large-scale nutrition program on CommCare that was used by more than 650,000 CHWs . This solution enabled CHWs who were equipped with mobile tools to focus on improved service delivery, enable effective monitoring of growth for children upto the age of 5, ensure timely interventions for children with acute malnutrition and enhance decision support to improve maternal and child nutrition/health indicators. </p>
+
+<p>With CommCare, CHWs are able to do their work more efficiently by supplementing or eliminating the need for paper records and providing them with a job aid that supports service delivery, improved counseling, decision-making, and referrals. </p>
+
+<p>Living Goods works with governments and partners  and in the process leverages a powerful combination of catalytic technology, high-impact training, and quality treatments that empower government community health workers (CHWs) to deliver quality care to their neighbors’ doorsteps. </p>
+
+<p>Living Goods partners with local and national governments to improve health outcomes at the community level with a specific focus on high ROI areas of intervention, specifically those shown to decrease maternal and under-five child mortality. Living Goods has supported over 10,000 community health workers serving over 9 million people across Kenya and Uganda over the past 15 years. Living Goods equips each CHW with a smartphone and digital job aid that guides high quality community health service delivery and supports rigorous performance management. Living Goods’ service delivery model (DESC) includes digitally-enabling CHWs, equipping CHWs with necessary training, medications and diagnostics to be effective; supporting supervision through CHW performance analytics; and compensating CHWs with payment for delivering quality healthcare to patients. </p>
+
+<p>Dimagi and Living Goods will bring about distinctive value through our combined past experience in building this reference digital application based on  the WHO DAK recommendations that will not only encourage uniform adoption of digital enabled interventions to improve the health outcomes of mothers undergoing antenatal care, but also serve as a means for the adopters to benchmark care requirements.</p>
+
+<p>Additionally, as asked for in the technical application and scope update email ,we would like to make the following submissions:</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr"><em><strong>Definition of<a href="https://wiki.digitalsquare.io/index.php/What_are_Global_Goods"> Global Goods</a>: </strong></em></p>
+	</li>
+</ol><p dir="ltr"> We would also like to highlight that Dimagi’s CommCare platform is acknowledged as a mature and established <a href="https://static1.squarespace.com/static/59bc3457ccc5c5890fe7cacd/t/5ced6f3c7817f7e261ddbc0a/1559064401781/Global-Goods-Guidebook_V1.pdf">Global Good according to the guide book</a> published by Digital Square. The highlights are summarized below:</p>
+
+<p dir="ltr"> It is adaptable to different countries and contexts to help address key health system challenges. </p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">CommCare is open source software, supported by a strong community. CommCare is the 53rd most valuable open source repository on <a href="https://github.com/dimagi/commcare-hq">GitHub </a></p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Designed to be interoperable</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">It has been deployed at significant scale, used across multiple countries over an extended period of time, and demonstrated effectiveness.</p>
+	</li>
+</ol><p dir="ltr"><em><strong> 2.    Scale and deployment</strong></em></p>
+
+<p dir="ltr"> As part of the current scope, no deployment of the developed reference application is being envisaged. The largest installation of CommCare had more than 650,000 Community Health Workers in a single instance of the software.  </p>
+
+<p dir="ltr">The reference application will be developed on the CommCare platform that has a demonstrated track record of deployment at scale. CommCare is used by 2000+ international development projects across 300+ partners in 80+ countries to transform their last-mile data collection and service delivery requirements. </p>
+
+<p dir="ltr"> <strong><em>3. Alignment with the Instant OpenHIE deployment approach</em></strong> </p>
+
+<p dir="ltr">CommCare is fully compliant with OpenHIE  standards and aligns with the deployment approach. The CommCare ecosystem consists of integrations with tools for M&amp;E teams, research teams, mobile applications and automation platforms. CommCare’s compliance with OpenHIE standards have been used in MOTECH. </p>
+
+<p dir="ltr">MOTECH is an open source server platform that supports the integration of scalable mobile services (mServices) and health information systems. It is designed to enable integration with a set of self-service features, enabling the sharing of data between systems to be configured without software developers or code changes. MOTECH already supports integration in Bihar, India between 3 systems: with DHIS2, the Mother Child Tracking Service MCTS ; CommCare and OpenMRS.  In addition, MOTECH implements the OpenHIE Case Services Discovery (CSD) API which enables integration with Health Worker Registries and Facility Registries, in compliance with IHE. MOTECH can be used to establish common, OpenHIE-compliant registries for providers, facilities, and clients. Other eHealth and mHealth efforts can be engaged as consumers to the MOTECH OpenHIE registries. MOTECH is currently being used to: </p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Integrate with the Mother Child Tracking Service (MCTS) in Bihar, India.</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Integrate with an OpenHIE provider registry in Sierra Leone to support an Ebola vaccine trial </p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Integrate with DHIS2 and CommCare in Burkina Faso for IMCI and in Benin for vaccine tracking</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Integrate with DHIS2 and CommCare Supply in Senegal for stocks tracking in FP Informed Push Model project ( IntraHealth)</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Has been used to integrate CommCare with OpenMRS in Ethiopia</p>
+	</li>
+</ul><p dir="ltr"> By leveraging the MOTECH platform, CommCare can provide easy integration with 3rd party tools including reporting  tools such as Tableau, Jasper Reports, and other Business Intelligence and visualization products. </p>
+
+<p dir="ltr"><em><strong> 4. Communities for feedback</strong></em> </p>
+
+<p dir="ltr">Dimagi will seek feedback and participation in building the prototype from  community health workers and healthcare providers, field support staff, international communities and various country stakeholders . The particulars of each type of collaboration has been discussed in the section on “community feedback”. Additionally, our partner, Living Goods will also seek input from stakeholders in community health programs such as Community Health Impact Coalition (CHIC). </p>
+
+<p dir="ltr"><em><strong> 5. Risks and mitigation strategies</strong></em> </p>
+
+<p dir="ltr">The perceived risks and mitigation strategies are discussed below:</p>
+
+<p dir="ltr"> </p>
+
+<table><tbody><tr><td>
+			<p class="rtecenter" dir="ltr"><strong>Risk</strong></p>
+			</td>
+			<td>
+			<p class="rtecenter" dir="ltr"><strong>Mitigation strategy </strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Timely feedback from partners for the application and also members of various communities.</p>
+			</td>
+			<td>
+			<p dir="ltr">Dimagi and Living Goods will jointly list out the names of various partners and communities for collaboration and will inform them of its intention to work on this reference application over the next 8 months (after contracting). </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Given possible lockdowns and curfews in countries on account of the pandemic, there may be difficulty in carrying out UAT of the prototype application. </p>
+			</td>
+			<td>
+			<p dir="ltr">Remote feedback will be collected from CHWs in one country where LG is running a program. </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Given the limited presence of the internet in the countries where this reference application will be used,, there are some chances of users remaining offline and not synching to the latest data. This may result in accessing old data</p>
+			</td>
+			<td>
+			<p dir="ltr">The problem will be minimised by asking CHWs to sync their mobiles as much as possible, more so after entering data on their devices. </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Availability of all visualizations in CHW and administrator phones may be a challenge and this may affect scalability</p>
+			</td>
+			<td>
+			<p dir="ltr">In order to ensure the final product is scalable some tradeoffs may need to be made in terms of availability of visualizations at FLW phones versus what is available at an aggregate level for administrators</p>
+			</td>
+		</tr></tbody></table><p dir="ltr"><strong><em> ​6. <a href="https://digitalhealthatlas.org/en/-/">Digital Health Atlas</a> (DHA) registration </em></strong></p>
+
+<p dir="ltr">Dimagi and CommCare are already registered in the Digital Health Atlas. The link of the Dimagi’s Digital Health Atlas projects (country, tagging and geography) <a href="https://docs.google.com/document/d/1OHYtWKYPajGXDv6upkAeebz_JSYuDYGep3CXKUXdowo/edit?usp=sharing">is here</a>. Living Goods has 5 projects registered in the Digital Health Atlas, which can be found <a href="https://digitalhealthatlas.org/en/-/dashboard/?q=Living%20Goods&amp;country">here</a>. </p>
+</div></div></div><div class="field field-name-field-f0-team field-type-text-long field-label-above"><div class="field-label">Consortium team:&nbsp;</div><div class="field-items"><div class="field-item even"><p dir="ltr">Dimagi and Living Goods will collaborate on  this project.Dimagi  will prime this application. </p>
+
+<p dir="ltr">Dimagi is a socially conscious technology company that has a strong focus of building numerous impactful mobile software solutions in different <a href="https://www.dimagi.com/sectors/">sectors</a>, including digital health worldwide. Dimagi’s experience in deploying solutions for CHWs and facilities to improve quality of care and health outcomes of pregnant mothers will strengthen the partnership.</p>
+
+<p>Living Goods (LG) will be a thought partner and advisor, bringing LG's deep in-field and operational insights as a health service delivery organization that has adopted technology significantly in enabling services for CHWs at the last mile. We will provide insights from user research, human centered design, user journeys and scaling and scaled implementations of CHW digital programs from 3 countries - Kenya, Uganda, and Burkina Faso to inform the design of this planned reference application for antenatal care.</p>
+
+<p>We would like to present the following experiences in implementing similar programs.Dimagi and  partners have been working together for years to develop programs and technologies that a) use clinical decision support systems for consistent and accurate diagnosis b) Tracking of pregnancy care, childhood diseases, nutrition, family planning, and immunization through smart workflows c) Creation of digital systems that can be leveraged by users to meet the operational requirements for implementing recommendations:</p>
+
+<table><tbody><tr><td>
+			<p class="rtecenter" dir="ltr"><strong>S.No</strong></p>
+			</td>
+			<td>
+			<p class="rtecenter" dir="ltr"><strong>Name of Program/Client</strong></p>
+			</td>
+			<td>
+			<p class="rtecenter" dir="ltr"><strong>Types of activities undertaken</strong></p>
+			</td>
+		</tr><tr><td colspan="3">
+			<p dir="ltr"><em>Projects implemented by Dimagi </em></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">1</p>
+			</td>
+			<td>
+			<p dir="ltr">Bill and Melinda Gates Foundation </p>
+			</td>
+			<td>
+			<p dir="ltr">The overall objective of this program was  to scale a sustainable technology solution that strengthens service delivery of Aanganwadi Workers (AWWs) and monitoring and data-driven decision-making at key levels of the national nutrition program in India. </p>
+
+			<p dir="ltr">The scale and complexity of the project was huge and thus the project was divided into multiple workstreams. This project  served as a showcase for the entire digital health and global development community as a demonstrable model of operations at scale anywhere in the world. Additionally, this project has served as a  flagship example of deploying an Open Source Global Good to more than 640,000 frontline workers and supervisors, SMS to clients, top-to-bottom comprehensive reporting, and regular pay-for-performance metrics. </p>
+			 
+
+			<p dir="ltr">More information is given <a href="https://www.dimagi.com/blog/mobile-data-collection-nutrition/">here.</a></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">2</p>
+			</td>
+			<td>
+			<p dir="ltr">Infomovel, Centre for Disease Control</p>
+			</td>
+			<td>
+			<p dir="ltr">Infomovel is a patient tracking tool to support community health workers with their HIV/AIDS, TB and PMTCT service delivery across 7 provinces in Mozambique. The tool was piloted in 2015 with Ariel Glaser Foundation in Cabo Delgado and expanded to become a national implementation system currently used by over 1000 users across 8 different implementing partners in 2019 (including Ariel, CCS, ICAP, Nweti, M2M, EGPAF, FGH, and FHI) which continues to grow. </p>
+			 
+
+			<p dir="ltr">Dimagi has supported inter-agency collaboration by enabling 10 US government partners to align their HIV/TB workflows and ensure data consistency across the country. Moreover, the application is being integrated with the national HIV database (ePTS) to allow community and health facility communication. </p>
+
+			<p dir="ltr">Infomovel application has many features that allows community health workers to improve their reach and impact, such as:</p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Calendarization of new patients and follow up visits</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Lost to follow up patient tracking</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">PMTCT and TB testing algorithms</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Automatic referrals with health facility focal point</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">ePTS (OpenMRS) two ways integration</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Performance reports for project supervision. </p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Offline data collection.</p>
+				</li>
+			</ul>
+			 
+
+			<p dir="ltr">More information is given <a href="https://www.dimagi.com/case-studies/infomovel/">here</a></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">3</p>
+			</td>
+			<td>
+			<p dir="ltr">ONSE Health, USAID</p>
+			</td>
+			<td>
+			<p dir="ltr">Dimagi’s SOW is to lead the overall ONSE Health mHealth strategy and improve maternal, newborn, child and adult health using the following approaches:</p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Develop and deploy the Mobile Village Toolkit  (MVTK) application to HSAs and SHSAs in HtR areas</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Improve and deploy the Integrated Supportive Supervision (ISS) tool at Health Facility-level Interface MVTK with the national stock solution C-STOCK. </p>
+				</li>
+			</ul><p dir="ltr">The main achievements of Dimagi were: </p>
+			 
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Development of a Community mHealth application, MVTK, which includes the following:</p>
+
+				<ul><li dir="ltr">
+					<p dir="ltr">Register Household</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Register Client</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">ICCM for Children Under 5</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">ANC/Delivery OUtcome/PNC for pregnant women</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Immunizations</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Family Planning</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Stock Management</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">cStock interface</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Nutrition counselling</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Monthly reports</p>
+					</li>
+				</ul></li>
+				<li dir="ltr">
+				<p dir="ltr">MVTK deployment to 7 ONSE districts</p>
+				</li>
+			</ul><ul><li dir="ltr">
+				<p dir="ltr">Development of a Facility-based Integrated Supportive Supervision tool, ISS) which includes the following:</p>
+
+				<ul><li dir="ltr">
+					<p dir="ltr">Facility Registration</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Survey of 12 service delivery areas </p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Supervision Visit Management</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Action Plan Management </p>
+					</li>
+				</ul></li>
+				<li dir="ltr">
+				<p dir="ltr">ISS deployment to 1 zone</p>
+				</li>
+			</ul>
+			 
+
+			<p dir="ltr">More information can be accessed <a href="https://www.dimagi.com/blog/journey-to-self-reliance-usaid-onse-malawi/">here. </a> </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">4</p>
+			</td>
+			<td>
+			<p dir="ltr">IeDA, Terre Des Hommes</p>
+			</td>
+			<td>
+			<p dir="ltr">The IeDA project is a national-scale initiative led by Terre des Hommes, a Swiss NGO, to improve the quality of care that children under 5 receive in clinical consultations in Burkina Faso. IeDA consists of four main program areas:</p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">mHealth Tools: IeDA includes the Registre Electronique de Consultations (REC), a mobile diagnostic support tool for IMCI designed for nurses. By automating critical tasks, the number of errors is reduced. The REC is built with the CommCare platform.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Data analysis and sharing: The data collected by the electronic tools of IeDA are processed and shared with district and national stakeholders to enable informed decision-making about health workers’ performance, supervision and training needs.</p>
+				</li>
+			</ul>
+			 
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Coaching and supervision: Understanding that there cannot be quality of care without on­site coaching and supervision, IeDA introduces data­ driven quality improvement methodologies targeting health workers and district managers.</p>
+				</li>
+			</ul>
+			 
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Elearning tools.IeDA’s eLearning tools address the issues  of traditional training strategies that are not capable of building the knowledge required to sustain lasting changes in practices.</p>
+				</li>
+			</ul>
+			 
+
+			<p dir="ltr">Dimagi was responsible for the conception and creation of the early versions of the REC tool, the development of data and reporting solutions for the REC, capacity-building of the partner and government staff members who took over CommCare platform maintenance, and system adaptations needed as the application scaled to additional health clinics.As of February 2019, the REC application is being used daily in 720 health clinics across Burkina Faso. The program was also replicated to 50 health clinics in Mali. More than 2.6 million children have been registered in the REC system, facilitating over 4.4 million clinical consultations. These consultations include tens of thousands of coaching sessions, where IMCI protocol experts provide direct feedback to clinicians.Terre des Hommes kicked off a transfer of program ownership to the Ministry of Health of Burkina Faso. Within 2 years, the Burkina Faso MOH intends to take on full responsibility for the IeDA program.</p>
+			 
+
+			<p dir="ltr">In addition, the e-MNCI project on the same lines is being implemented in Jharkhand state, India with 80 CHWs and is in line to be taken up by the Government of Jharkhand and included in its yearly Project Implementation Plan.</p>
+			 
+
+			<p dir="ltr">More information can be accessed <a href="https://www.dimagi.com/case-studies/mhealth-tdh-burkinafaso/">here</a></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">5</p>
+			</td>
+			<td>
+			<p dir="ltr">Goldsmith Foundation/Digital Square Precision Tasking Application</p>
+			</td>
+			<td>
+			<p dir="ltr">The Precision Tasking Framework is a customizable solution built on CommCare, to enable users to create data-driven tasks for CHW and supervisors. It enables them to enhance performance, prioritize life-saving tasks, and improve key health metrics. </p>
+
+			<p dir="ltr">The Precision Tasking Framework, a unified platform for the CHWs and their Supervisors, is built for enabling digitized service delivery, data sharing, a unified patient view, and advanced reporting capabilities.</p>
+
+			<p dir="ltr">The reference application will feature prioritized tasks lists in the CommCare app where CHWs can view their list of tasks, ordered by priority. Each task will include:</p>
+
+			<ol><li dir="ltr">
+				<p dir="ltr">Name of client</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Reason for contacting client (a short phrase)</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">An indication of the urgency: [ offer distinction between ‘low priority’ ‘high priority’ and ‘ ‘Emergency’ follow ups</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Ability to click to initiate a call to the client</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Whether the visit should be ‘in person’ or remote via voice or SMS</p>
+				</li>
+			</ol><p dir="ltr"> </p>
+
+			<p dir="ltr">Per the feedback received for phase 1 of the application, the logic for creation of Tasks in the system was redesigned to have all the ANC tasks and PNC tasks created at once during registration of Pregnant women and while the delivery is recorded respectively.</p>
+
+			<p dir="ltr">More information can be accessed <a href="https://www.dimagi.com/blog/commcare-precision-tasking-framework/">here</a></p>
+			</td>
+		</tr><tr><td colspan="3">
+			<p dir="ltr">Projects implemented by Living Goods</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">1</p>
+			</td>
+			<td>
+			<p dir="ltr">Transforming Community Health Services through Social Enterprise, Children’s Investment Fund Foundation (CIFF)</p>
+			</td>
+			<td>
+			<p dir="ltr">In 2014, best-in-class researchers from MIT’s Abdul Latif Poverty Action Lab, Yale, and Stockholm University completed an independent Randomized Control Trial (RCT) of Living Goods’ model in Uganda. It showed the Living Goods model reduced under-five mortality by 27 percent relative to control sites, with a similar result for neo-natal and under-one mortality. On the strength of these results, CIFF approved a $16 million unrestricted follow-on grant to scale up Living Goods CHW programs in Uganda from 2015 -2018.  </p>
+
+			<p dir="ltr"> </p>
+
+			<p dir="ltr">Key Accomplishments:</p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Established as a member of the National Quality Improvement Technical Working Group (TWG). Living Goods is officially a member of the National Quality Improvement TWG, a critical platform for Living Goods to share best practices, build credibility among MoH and Quality Improvement implementers, and influence national community supervision guidelines. </p>
+				</li>
+			</ul><p dir="ltr"> </p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Created and are rolling out dashboards for use by key district- level officials in Uganda. The dashboards will provide a real-time user interface showing the status and trends of Key Performance Indicators (KPIs) to support effective planning and decision- making. </p>
+				</li>
+			</ul><p dir="ltr"> </p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Supported health facilities to improve reporting rates. Living Goods supported health workers in understanding the use of technology to enhance quality service delivery and performance management as well as to use real time data to strengthen referral and reporting. As a result, the Mbale district saw District Health Information System 2 (DHIS2) community health reporting rates increase from 40% (Q2) to 70% (Q3). Furthermore, the Living Goods Village Health Team reports submitted directly impacted Namakwekwe Health Center II to qualify for Results Based Financing- Uganda Reproductive, Maternal and Child Health Services Improvement Project.  </p>
+				</li>
+			</ul><p dir="ltr"> </p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Built advocacy capacity of branch teams. Living Goods equipped its Senior Branch Managers and Community Health Managers with advocacy skills to be able to effectively reach, engage, and influence district and community leaders. Living Goods started facilitating strategic advocacy planning sessions to ensure that it advocates together on the prioritization of community health in planning and budgeting processes. </p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Results include:</p>
+
+				<ul><li dir="ltr">
+					<p dir="ltr">Completed 32,051 under-1 sick child assessments and 14,103 under-1 sick child treatments </p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Completed 146,155 under-5 sick child assessments and 65,144 under-5 sick child treatments </p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">80% on time follow up on referrals </p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">49% of newborns were visited within 48 hours after birth </p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">20,370 pregnancies were registered </p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">We reached 2, 486, 400 households</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">All branches remained 98% stocked with high impact items</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Total wholesale sales of $232,072</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">The net cost per capita served was $1.72 </p>
+					</li>
+				</ul></li>
+			</ul><p dir="ltr"> </p>
+
+			<p dir="ltr"> </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">2</p>
+			</td>
+			<td>
+			<p dir="ltr">Community Health Innovation Network, The Bill and Melinda Gates Foundation</p>
+			</td>
+			<td>
+			<p dir="ltr">The Community Health Innovation Network is a partnership between Medic Mobile (MM) and Living Goods, created to catalyze innovation at the intersection of technology and community health. The project goal was to research, test, and demonstrate the viability of community-based technical innovations that can generate systemic breakthroughs in how healthcare is delivered in the developing world. </p>
+
+			<p dir="ltr"> </p>
+
+			<p dir="ltr">The Innovation Network leveraged emerging technologies, to integrate community health care more seamlessly with health facilities, and to extend high-quality diagnostic technologies beyond the lab setting to reach clients at the community level. </p>
+
+			<p dir="ltr"> </p>
+
+			<p dir="ltr">Key Accomplishments:</p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Closed Loop Existing (CLE): The project successfully implemented and completed the CLE initiative. The Busara Centre for Behavioral Economics conducted an independent end line evaluation of the initiative. The findings were presented in Kisii County on November 27, 2019 in a workshop widely attended by County and sub-County representatives from the Ministry of Health (MOH), along with other key stakeholders. The IN later conducted a dissemination workshop in Nairobi on November 30, 2019 that was attended by representatives from National AIDS and STIs Control Programme (NASCOP), Phillips Research, and the National Aids Control Council (NACC), among others. </p>
+				</li>
+			</ul><p dir="ltr"> </p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">HIV Self-Testing: The project completed the HIV Self Testing (HIVST) study in July 2019. A case study of the lessons learned during the project was presented at the 2019 HELINA conference held in Botswana (November 20-22, 2019). The Busara Centre for Behavioral Economics was contracted to conduct an independent end line evaluation and shared alongside those of CLE to the county and sub-county representatives of the Ministry of Health in Kisii and NASCOP, Phillips Research and NACC in Nairobi. </p>
+				</li>
+			</ul><p dir="ltr"> </p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Predictive Algorithms: The project undertook an exploratory study to develop a predictive algorithm for CHWs to identify at-risk children (October 2018 – November 2019). The project carried out the following activities:</p>
+
+				<ul><li dir="ltr">
+					<p dir="ltr">Conducted extensive prioritization process to select priority risks to model, based on community perceptions, health needs, feasibility of designing appropriate interventions, and available existing data. </p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Implemented three predictive models in the CHW mobile app, representing the risk that 1) a pregnant woman would not deliver in a health facility; 2) a newborn would develop danger signs in the first 28 days after birth. 3) a child would become ill and would not be diagnosed by a health worker within 72 hours of symptom onset.</p>
+					</li>
+					<li dir="ltr">
+					<p dir="ltr">Conducted qualitative and quantitative research has shown that CHWs are responsive to the predictive algorithm’s outputs and prioritize patient visits prompted by the algorithm. The Busara Centre for Behavioral Economics was contracted to provide third-party evaluation of the algorithm used to predict at-risk patients with the aim of providing recommendations to improve its accuracy.  </p>
+					</li>
+				</ul></li>
+			</ul></td>
+		</tr><tr><td>
+			<p dir="ltr">3</p>
+			</td>
+			<td>
+			<p dir="ltr">Empowering Entrepreneurs to Save Lives Door to Door, United States Agency for International Development (USAID)</p>
+			</td>
+			<td>
+			<p dir="ltr">In September of 2016, USAID DIV awarded a three-year grant to Living Goods, with an extension of one-year to build on the success of its CHW model in Kenya. With DIV funding, strategic input, and influence, Living Goods aimed to make its CHW platform an exemplar for maximizing health impact at the lowest cost. </p>
+
+			<p dir="ltr"> </p>
+
+			<p dir="ltr">Key Accomplishments:</p>
+
+			<p dir="ltr"> </p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Living Goods Kenya has reduced cost per capita from a baseline of $4.76 in 2016 down to $3.54 and continues to seek ways to maximize cost efficiency and value for money moving forward.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Secured a first-of-its-kind contract with Kenya’s Isiolo County to help establish a sustainable community health system over the next four years. Isiolo County also represents our sixth county in Kenya.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Won permission from local regulators to expand the list of regulated medicines, diagnostics, and services that CHWs can offer, thereby influencing local policy to amplify impact. Living Goods results and quality control measures enabled this expanded permission, allowing CHWs to, for example, offer antibiotics to treat pneumonia and administer rapid tests for malaria.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Launched a global advocacy campaign—along with partners Amref Health Africa, Aspen Management Partnership for Health, Financing Alliance for Health, the International Rescue Committee, and Last Mile Health (LMH)—called Communities at the Heart of Universal Health Coverage (UHC), which aims to ensure that community health programs that are government-owned, financially sustainable, and committed to quality outcomes are included in national UHC strategies. The campaign has since grown to include 70 member organizations.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Designed and deployed best-in-class mobile health tools. CHWs capture data on services they provide via Living Goods’ mobile app co-designed with its partner Medic Mobile— enabling real-time monitoring, optimizing, and verification of results and transparency for funders.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Worked with BRAC, PSI, and CARE to support them in delivering comparable impact in Uganda, Myanmar, and Zambia. It is also partnering with LMH, another leading community health partner that operates in Liberia, to scale and finance CHWs throughout Sub-Saharan Africa.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Signed a new partnership with Gavi, the Vaccine Alliance, which will help expand immunization services for more than 8 million people by 2021.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Began providing technical assistance to the government in Kisii County, Kenya to more effectively manage their own community health networks. </p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Piloted innovations focused on strengthening referrals and predictive analytics that are extending high-quality diagnostic technologies to the community level. </p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Served as a technical advisor to CARE before transitioning full management of the LiveWell network in Zambia to our partners at CARE after years of successful support. </p>
+				</li>
+			</ul><p dir="ltr"> </p>
+			</td>
+		</tr></tbody></table><p>Through the application, Dimagi will aim to align its pre-existing <a href="https://www.dimagi.com/commcare/">CommCare platform </a>to the WHO Digital Adaptation Kit for MNCH as referred to in the Notice F.  Existing workflows will be adapted to align to gaps identified. This includes inclusion of specialised workflows, decision support logic and reporting indicators for CHWs and supervisors for MNCH programs. The specific skill sets of this consortium relative to Notice F are :</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Contextualisation to country scenarios: One of the numerous examples of Dimagi’s effort at contextualisation of standardised mobile health applications in several countries was to supplement global health and nutrition programs with mobile technology by deploying a MOTECH suite. This has been effectively used by <a href="https://www.dimagi.com/case-studies/mhealth-world-vision-motech/">Grameen Foundation and World Vision</a> in several of their program countries. Additionally, Living Goods has also extensively worked in Ethiopia, Sierra Leone, Myanmar, Kenya and Uganda in strengthening country based health systems and partnered with governments to strengthen community health.</p>
+	</li>
+</ul><ul><li dir="ltr">
+	<p dir="ltr">Partnerships with diverse stakeholders: Dimagi’s focus has been on improving maternal and reproductive health in resource poor countries by coordinating with local governments. For example, Dimagi partnered with the Guatemalan Ministry of Health and Tula Salud to introduce a digital health program for frontline health workers. The features included case management, custom reports, decision and diagnostic support, WHO Z scores, clinical workflows, transportation coordination and referral follow-ups. Additionally, please refer to the above section on similar experiences for more examples of coordination with country governments and taking over of the program by the incumbent governments to mainstream its use.</p>
+	</li>
+</ul><ul><li dir="ltr">
+	<p dir="ltr">Diverse program background: Since November 2012, USAID has published mHealth compendiums that highlight mHealth projects in Africa, with a few from around the world. Dimagi and CommCare were featured in six of the 30 case studies in the fourth and <a href="http://www.africanstrategies4health.org/uploads/1/3/5/3/13538666/usaid_mhealth_compendium_vol._4_final.pdf">most recent mHealth compendium.</a> Some of the featured projects include using CommCare to support MNCH with World Vision in the Middle East, fighting gender-based violence with RTI International in India, and supporting community health workers in Mozambique.</p>
+	</li>
+</ul><ul><li dir="ltr">
+	<p dir="ltr">Experience in enabling Precision tasking for CHWs: With funding from Goldsmith Foundation and through a partnership with Digital Square (PATH), Dimagi built a Precision Tasking Framework, which is a customizable solution to enable users to create data-driven tasks for CHW and supervisors. It enables them to enhance performance, prioritize life-saving tasks, and improve key health metrics. This framework is built for enabling digitized service delivery, data sharing, a unified patient view, and advanced reporting capabilities.</p>
+	</li>
+</ul><p>Dimagi and Living Goods have a history of collaboration. Dimagi is a partner with the Ministry of Health in Burkina Faso and Living Goods for an implementation of CommCare in Burkina Faso for a digitally enabled CHW program that will reach 800 CHWs and 480,000 people in 2022, with the goal of expanding nationally over a 3 year period. In addition, in collaboration with JSI Research &amp; Training Institute (JSI), the lead partner, and Dimagi, Living Goods will help strengthen and accelerate performance management as the Ethiopian Federal Ministry of Health (FMOH) scales its electronic community health information system (eCHIS) beyond the 1,500 HEWS it currently supports. The roles and responsibilities of both partners are illustrated below:</p>
+
+<p>Dimagi will lead and manage the work on the strength of the following factors: </p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Similar programming experiences: Dimagi and partners have been working together for years to develop programs and technologies that improve health outcomes for mothers and their children. The benefits of Dimagi’s mobile solutions are 1) Case sharing enables users to send medical information directly to referral facilities and improve lines of communication between field and clinical work. 2) Digital forms improve protocol adherence for community health workers and help to identify symptoms in mothers and children requiring emergency care.3) Mobile apps can support online and offline data collection, facilitate record keeping, and generate easily shareable reports for community health workers.</p>
+	</li>
+</ol><ol start="2"><li dir="ltr">
+	<p dir="ltr">Dimagi team capabilities: Dimagi’s staff includes software engineers, health systems architects, and clinicians in a tight-knit team. This team is able to rapidly iterate and adapt mobile technologies to the local environment and enable appropriate, scalable solutions for organizations working to improve the lives of underserved communities. Our 150+ worldwide team of engineers, physicians, public health professionals, data analysts, project managers, and field staff are based around the world, many in the communities they serve. Please refer below for team capabilities and some high level summary experiences of staff. </p>
+	</li>
+</ol><ol start="3"><li dir="ltr">
+	<p dir="ltr">Living Goods experience: Since 2007, Living Goods has worked alongside governments and partners to support strengthening of health systems at the community level to save and improve millions of lives. Living Goods provides CHWs, a smartphone equipped with a powerful diagnostic mobile app, which acts as a job aide and enables improved performance management to drive health impact. The Living Goods model enables close supervision and monitoring of CHW performance and ensures that they are always stocked with essential medicines and health products. Importantly, CHWs focus on the impact areas where they can make the biggest difference, including pregnancy and newborn care, childhood illnesses, referring high-risk cases, nutrition, family planning, and immunization. Living Goods provides a wide range of technical assistance to community health digitalization programs in Kenya, Burkina Faso, Uganda and Ethiopia as well as new countries.</p>
+	</li>
+</ol><p><strong>Team Profiles</strong></p>
+
+<p dir="ltr">We present below some of the high-level career summaries of the Dimagi team in India  and Living Goods’ Team who we have identified to support the technical proposal. Their CVs have been added as Annexure-A</p>
+
+<table><tbody><tr><td colspan="2">
+			<p class="rtecenter" dir="ltr"><strong>Dimagi Team Member</strong></p>
+			</td>
+			<td colspan="2">
+			<p class="rtecenter" dir="ltr"><strong>Brief Profile</strong></p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Sumanthra Rao</p>
+
+			<p dir="ltr">Managing Director  and Country Representative, India</p>
+
+			<p dir="ltr"><img alt="" height="85" src="https://lh4.googleusercontent.com/E5paJH43Khf6VdtDnAIbdbZXNXBw2aJTZdsAKr-sbqaJBCWtVUqKSR3slNFRLw6xzU3jsnYb5_rNU77Oz3OHs6NvmAf1WiOuv8R7MwaNnMuV7PRZs2-f087obvx7nw" width="85" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Sumanthra Rao holds a Master degree in Physics and has over three decades of program management and IT consulting experience in international, cross-functional programs across multiple industry domains with demonstrable leadership skills in IT strategy and delivery management both in entrepreneurial and diversified business ecosystems with extensive experience in the government vertical. His program management skills include enterprise-class, cross-functional, multi-location, full life-cycle transformative initiatives ranging from concept development, design of business process, requirements management and solution architecting for diverse stakeholder needs especially involving business critical, end to end ICT driven operations. Additionally Sumanthra also possesses hands on project delivery experience in the areas of government, banking, retail, finance, aerospace engineering and ground support equipment maintenance and travel. He has in depth understanding of government policies, regulation and operational dimensions both at state and federal levels in India and has dealt with various levels of government machinery. Sumanthra specialises in technology management for turnkey solution components consisting of bespoke/COTS software, platforms and integration of managed services for IT/non IT operations and aspects related to facilitation of commercial and legal structuring for service level driven project models.</p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Nitish Dube</p>
+
+			<p dir="ltr">Associate Director-Program Delivery </p>
+
+			<p dir="ltr"><img alt="" height="69" src="https://lh3.googleusercontent.com/WJ0yEZL19buBwJlu1GHEec5mQzPuABmO5FTPTpVUx--s-rxqLTvgs9rUbWii4qqYZ5LOYAYVXMmwLDQfhuoQPZB6qfXKDm360wbjrtfOstgbfhD5RxtkTvGC0IDIBw" width="69" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Nitish Dube is Associate Director-Program Delivery  at Dimagi. He works with the technology team at Dimagi to ensure that CommCare continues meeting the needs of our diverse projects and partners. Prior to Dimagi, he had 8+ years of experience working as a technology consultant with expertise in Project Management and Change Management in Retail and Telecom domains. He holds a degree in Master of Engineering from Cornell University in the US and recently finished his studies for an MBA from EDHEC Business School in France. Nitish managed a team of 34 composed of Dimagi’s Global Services and Global Technology staff members in order to develop solutions and configure complex features. Led the transition team for one of the biggest mHealth intervention programs in the world and collaborated with senior government stakeholders to devise a strategy to minimize impact to the field level workers post transition. </p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Neelima Dhingra, Director-Program Delivery</p>
+
+			<p dir="ltr"><img alt="" height="101" src="https://lh4.googleusercontent.com/lMUFJIvbZdfBwyMsVOPeOhHJzupHiDSxIMzJAl7Ax4vDPrICvoGNsTwnUBAOTqBO97wiQyf0HwXNCnYtZAP96Vmi3XGdaVswT_HzeHUQZTpLN62GHw5jbX2ELI8CDQ" width="87" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Neelima Dhingra has 17+ years of rich experience in the domain of E-governance. Her expertise lies in Stakeholder management, design and implementation of complex government IT projects, managing project health and estimating cost and efforts for complex uncertain projects. She has closely worked with 12+ Government bodies on various projects aimed at solving complex social problems. Currently, she is Director at Dimagi. As part of her role at Dimagi, she had managed the implementation of world’s largest ever mHealth intervention under ICDS program. ICDS program has a national outreach to thousands of Anganwadi Workers across India, targeted at tackling nutrition related issues. </p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Moumita Biswas</p>
+
+			<p dir="ltr">Subject Matter Expert</p>
+
+			<p dir="ltr"><img alt="" height="81" src="https://lh3.googleusercontent.com/Imqz4ZpUnB5Gq508tpNB85v_wY0XsPKUtzHvQN2xiIGBVdIC-9qb8wXeBvOA5hqxl1tAYNjIE90QwSLX1dFXAoUA75iR7wYPn_RC6J46b3FE6z6Yy-elHirf1JfK-A" width="80" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Moumita Biswas holds dual Masters degrees in Public Health and in Anthropology and has over two decades of experience in public health, spanning project design and implementation, project management, capacity building, and monitoring and evaluation. She has successfully undertaken implementation and research projects in areas covering public health (which includes HIV/AIDS, sexual and reproductive health, child health, adolescent health and rights, tuberculosis), WASH, Education, and Nutrition with reputed organisations such as AIIMS (New Delhi), DFID, Mott MacDonald India and The Union. </p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Ashish Kumar Yogi</p>
+
+			<p dir="ltr">Project Technical Architect</p>
+
+			<p dir="ltr"><img alt="" height="69" src="https://lh4.googleusercontent.com/cdC5L1TYF0BZ9EkGcsKx1eIOaIBRuYiDOduNS3nxIKQt82vpYkz6A8FfV4pXSFrQS9CT2MMfygJG34RXQDvmi8Lf1Yu3JuNW-bGpFUzq9wD49NRpdb68J6MAAUA8nw" width="69" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">As Project Technical Architect at Dimagi, Ashish Kumar Yogi is responsible for the development of applications on the CommCare platform, designing the workflow and integration with third party databases. He holds a Bachelor in Computer Engineering and is an expert in the use of Rest API and Python technologies. His prior projects include UI development using ADF framework through using core Java, JSF, JDBC and Java Collection frameworks. Under the PDF generator, he developed a whole new module for new customers which generates PDF reports for data stored in the database, developed a new user interface to aid customers to enter data, by using Core JAVA, SQL and People Code technologies. Other projects included developing major legislative changes to customer products located in different countries such as India, New Zealand, Malaysia and China. Ashish has worked on several projects including projects for SEWA, the Delhi Govt. and RTI.</p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Sankalp Samal</p>
+
+			<p dir="ltr">Technical Project Manager</p>
+
+			<p dir="ltr"><img alt="" height="67" src="https://lh5.googleusercontent.com/Iy5yXFdMqjE2iPu7mgHwz7agbH78psd8x5CTVH1mZksKEQJFit2Eit3QJZde-EBbaaRF6WIYBJJcgpKp_mCTEFVt16d0dJBF2AMrzWoYVOM13sCawSvNIJaN4PaE1g" width="71" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">As Technical Project Manager, Sankalp Samal worked as the app development and delivery lead of one of the largest mHealth projects in the world. He also designed and deployed a COVID-19 response solution that digitised data collection for users. As a lead developer, Sankalp has been responsible for product design, delivery and leading technology teams to deliver m-health solutions across use cases like COVID-19 response, maternal and  child health, supportive supervision of healthcare worker activities etc.. He owned the design and development of data dashboards built using tools like Apache Superset, PowerBI and SQL, being used by government administrators to track the progress of key program metrics. </p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Khaja Zohaib Khusru</p>
+
+			<p dir="ltr">Senior Technical Project Analyst</p>
+
+			<p dir="ltr"><img alt="" height="68" src="https://lh3.googleusercontent.com/fTEnO-8dIIGd4I9rielR2uM0f5KttL7C6BMsPLZve9B5ficxOgMKyICxiJUAe-ndcmAyAvec9ybyF8pqIYrmT-IstjCD0ANHcO3o_qInNy3pgnnxFGAZ-tJJuuF4lQ" width="68" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">As a Senior Technical Project Analyst at Dimagi, Khaja Zohaib Khusru, wants to create direct societal impact at the grassroots level through the ease of reach of technology. At Dimagi, he has worked on various impactful mHealth projects stemming from the betterment of public health and the welfare of the community. Prior to this, he has worked as an Application Development Associate at Accenture in Bangalore. Zohaib also got the opportunity to work as a research engineer at India’s premier space agency ISRO (Indian Space Research Organisation) in Bangalore. Zohaib holds a Bachelor of Engineering degree in Mechanical Engineering. At Dimagi, Zohaib has worked extensively on the Dashboard and mobile apps. He was also the app lead for the mobile app and chatbot on the Jharkhand COVID project for TdH.</p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Sunaina Walia, Technical Project Manager</p>
+
+			<p dir="ltr"><img alt="" height="83" src="https://lh5.googleusercontent.com/Fkpwx9kzJzroXvOSSAD9h1wfHrVPsNWSug3VBwiXpcOborQrJcrn8PqbFKTGfnG0HYcWfqCIyldjycp7T2JhIka8eHxThCl1NQx4zRUFo8XW97Dft1pNq5mio8L21Q" width="84" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Sunaina Walia is working as a Technical Project Manager at Dimagi. As a part of the project delivery team, she manages projects, closely works with partners to gather requirements and lead design, development and delivery of digital solutions built on the CommCare platform in diverse sectors ranging from Nutrition, MNCH, COVID Response amongst others.</p>
+
+			<p dir="ltr">Prior to Dimagi, she has 6+ years of experience with expertise in Consulting, Quality Engineering, Scrum Management and Project Management. She holds a Bachelor’s of Technology degree and recently completed her MBA from the University of Strathclyde in Scotland, United Kingdom.</p>
+
+			<p dir="ltr">Sunaina has led multiple project teams at Dimagi managing 10+ staff members to ensure development and delivery of complex projects and functionalities. She led the training and upskilling of partners on one of the biggest mHealth intervention programs. She’s also a talent development enthusiast who avidly contributes to hiring, recruitment and onboarding of new talent within the organisation.</p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr"><strong>Living Goods Team Member</strong></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr"><strong>Brief Profile</strong></p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Kanishka Katara</p>
+
+			<p dir="ltr">Chief Digital Health Officer</p>
+			 
+
+			<p dir="ltr"><img alt="" height="107" src="https://lh5.googleusercontent.com/bNYDcXtzsiP2_Af1bZunuokGsRXGhHHnjiSdukZEYb1qGtpDbrnWVa01-HuKhtxgE4zDPmzo060UClZlB3mG8IQlOnMxMfsxBPR0N18Of6QzZ76w0j5rw2voK7drLg" width="107" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Kanishka is the Chief Digital Health Officer at Living Goods. He brings 16 years of experience in software development, government reforms advisory and social impact sector. Kanishka brings on-board a unique blend of digital expertise, human centric design focus and in-depth government functioning coupled with a strong solution oriented approach and decision making ability in a diverse and multi-stakeholder environment. </p>
+
+			<p dir="ltr">In his earlier role as Head of Digital Health for PATH (South Asia), Kanishka was instrumental in driving several breakthrough digital innovations and interventions across the public health domain including Pandemic Response and Surveillance, Neglected Tropical Diseases, TB, Oxygen Management, HIV, Mental Health, and Nutrition. As a part of global digital leadership team in PATH, Kanishka led strategic initiatives, both internal and external, focusing on the important subjects of data governance, knowledge management, eTraining and market dynamics (role of private sector in digital health and role of digital health in c19 antigen testing).</p>
+
+			<p dir="ltr">Prior to joining PATH, Kanishka was leading the world’s largest digital health intervention in India as Director of Government Programs and Partnerships for Dimagi. Kanishka was deeply involved with the design and implementation of the national nutrition mission in India which intends to make India malnutrition free through a holistic and convergent approach by focusing on effective service delivery and community engagement to cover the critical first 1000 day lifecycle.</p>
+
+			<p dir="ltr"> Before joining Dimagi, Kanishka was a Director in the Government &amp; Public Sector (G&amp;PS) practice of PwC and was responsible for several key government transformation and reform initiatives across multiple continents. During his stint in PwC, Kanishka managed leadership roles in the government transformation advisory practice and contributed to the establishment of new business lines and leading the growth of government advisory services across geographies (Africa, SE Asia, Eastern Europe and Caribbean).</p>
+
+			<p dir="ltr">Kanishka has a Bachelors of Technology (CSE) from Uttar Pradesh Technical University in India. </p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Dr Kezia</p>
+
+			<p dir="ltr">Health Director</p>
+			 
+
+			<p dir="ltr"><img alt="" height="125" src="https://lh5.googleusercontent.com/LfbewEMqqZwpPv7iLdIf-bZpNQSetzxc4vNSStVb3NPq4JHT5_11Vpox4dnq5lt6BgpMAQn3YxICx1vqPLeu5i3UH606oysmGuNQq1tQoKB-MaOHBl1d6wW4t-C6UQ" width="125" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Dr Kezia is a results-driven leader with over 21 years of experience as a medical practitioner and public health specialist. Kezia’s work within the non-profit sector has yielded immense success in the setting up of comprehensive public health programs, advocacy, health system strengthening, research, training and mentorship of health care professionals. She has managed partnerships with a variety of high-level stakeholders in government, academia and development circles to strengthen health service delivery. At Living Goods, Kezia steers the strategic direction of all health initiatives backed by a strong team to deliver high-scale public health impact, improve the health system and reduce maternal, neonatal and child mortality. Her goal is to improve the quality of health care services to reduce morbidity and mortality and improve the quality of life for individuals with preventable and chronic diseases. Dr Kezia has a medical degree from Russian Peoples’ Friendship University from Moscow, Russia, and an MPH from the University of London. </p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Mohini Bhavsar</p>
+
+			<p dir="ltr">Global Head of Digital Health Partnerships</p>
+			 
+
+			<p dir="ltr"><img alt="" height="112" src="https://lh5.googleusercontent.com/9ee_lBnXVZ6ZFIQgduKbJ3S3GrZpmmDlYs2HQLHlkLmFDKRf8Xd1nKYf65v2YHrBEZDMWLgnZIqGo4GThUpVFChhg5dsmNYNN-IUfxTHYYnNlVACPq9--qwnlIR5cQ" width="112" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Mohini has over 10 years of experience in the digital health industry in low and middle income countries, working with technology providers, NGOs, donors, private sector partners, foundations and governments. She brings expertise in implementation and project management, fundraising,  private public partnerships and stakeholder engagement for digital health products and services. In her partnership building capacity, Mohini works with technologists and healthcare teams to achieve common goals to improve quality of care to communities. She holds a B.Sc. in Biochemistry from McMaster University and is a 2023 Executive MBA candidate at the Rotman School of Management.</p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Kennedy Asiago Mokaya</p>
+
+			<p dir="ltr">IT Project Coordinator</p>
+			 
+
+			<p dir="ltr"><img alt="" height="125" src="https://lh4.googleusercontent.com/XhBpmcuRVvLy1q9LaHgiLkvViEr1dnqHQr5hRstCAVtMMBKlRZEU35Vf6Ai6_hKOop1CQ3RSQplJkkVjfdcGpg4ChPRz9ten6qJlF3MNIDQxTfIpT9VAxwakLVgUUg" width="125" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Kennedy Asiago Mokaya is an IT project manager at Living Goods. His responsibilities include design and requirements gathering for technology software and hardware projects, as well as managing project review meetings, and detailed project plans. Kennedy was a Regional Technical Field Support Officer at LG prior to this role for 3 years where he provided direct field support for upgrades, testing and piloting of digital health solutions and pre and post deployment support to CHWs and supervisors. Kennedy has a Bachelor of Commerce with a Finance Major from Multimedia University of Kenya and has completed certifications in Prince2 from the Project Management Institute. </p>
+			</td>
+		</tr><tr><td colspan="2">
+			<p dir="ltr">Faith Kinuthia</p>
+
+			<p dir="ltr">Senior Manager, Field Operations (Kenya)</p>
+			 
+
+			<p dir="ltr"><img alt="" height="133" src="https://lh4.googleusercontent.com/R9XPc1aXHboli07V2iJNZsKcrAPiHA8gvwCR0fn2xXIztAl5--WtLDpLC_HE3d2-Tjh1FnBDa8X4tecyVaITHTXIeO8-e1HJNpCehRZELVOcbMT3_eVq-5Qu6Zu2ug" width="133" /></p>
+			</td>
+			<td colspan="2">
+			<p dir="ltr">Faith brings over 12 years of working experience with social enterprises, for agent recruitment, training, performance management and team building at the field level. In her current role, she is responsible for improving operational efficiency by establishing and implementing proper operational and quality structures for Living Goods’ frontline health worker groups across branches. Specifically, she is responsible for designing innovations for testing with CHWs. She has launched new CHW branches in Kenya, co-developed new low, to no touch COVID-19 protocols, and designed CHW training programs for scale -up. Faith has a Bachelors of Business Administration from Kenya Methodist University an MSc. in Entrepreneurship &amp; Entrepreneurial Studies from Jomo Kenyatta University,</p>
+			</td>
+		</tr></tbody></table></div></div></div><div class="field field-name-field-f0-description field-type-text-long field-label-above"><div class="field-label">Project Description:&nbsp;</div><div class="field-items"><div class="field-item even"><h2 dir="ltr"><strong>Background or Problem Statement </strong></h2>
+
+<p dir="ltr">Despite notable progress, the world had fallen short of Maternal Mortality Rate (MMR) targets of 75% reduction in MMR till the year 2015. From 2000 to 2017, the global Maternal Mortality Rate declined by 38 per cent – from 342 deaths to 211 deaths per 100,000 live births.This translates into an average annual rate of reduction of 2.9 per cent. While substantive, this is still less than half the 6.4 per cent annual rate needed to achieve the Sustainable Development global goal of 70 maternal deaths per 100,000 live births.Two regions, sub-Saharan Africa and South Asia, account for 86 per cent of maternal deaths worldwide. Sub-Saharan Africans suffer from the highest maternal mortality ratio – 533 maternal deaths per 100,000 live births, or 200,000 maternal deaths a year.</p>
+
+<p dir="ltr">The reasons for maternal mortality continues to be hemorrhage, accounting for a quarter of the deaths reported.Similar proportion of maternal deaths were caused indirectly by pre-existing medical conditions aggravated by pregnancy. Other contributing reasons include lack of quality of care competencies, inconsistent quality of care and limited capacities of CHWs in early diagnosis of complications and high risk pregnancies. </p>
+
+<p dir="ltr">The World Health Organisation’s Global Strategy for Digital Health is to improve health for everyone, everywhere by accelerating the development and adoption of appropriate, accessible, affordable, scalable and sustainable person centric digital health solutions.</p>
+
+<p dir="ltr">Digital health should:</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Accessible and should support equitable and universal access to quality health services; </p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Enhance the efficiency and sustainability of health systems in delivering quality, affordable and equitable care</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Strengthen and scales up health promotion, disease prevention, diagnosis, management, rehabilitation and palliative care</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Be a system that respects the privacy and security of patient health information</p>
+	</li>
+</ol><p>Here the four guiding principles of digital health and how Dimagi’s experience in implementing at-scale projects caters to each of the guiding principles of Global Digital Health and catalyses the planned and systematic adoption of digital in countries affected by high maternal mortality rates:</p>
+
+<table><tbody><tr><td>
+			<p class="rtecenter" dir="ltr"><strong>Guiding principle</strong></p>
+			</td>
+			<td>
+			<p class="rtecenter" dir="ltr"><strong>Notes about Dimagi’s program</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Institutionalization of digital health in the national health system requires a decision and commitment by country</p>
+			</td>
+			<td>
+			<p dir="ltr">Reference implementation of WHO DAK recommendations  in CommCare will be modularised to ensure that the application can be primed to work in different country health systems and will suit the requirements of CHWs in different countries</p>
+
+			<p dir="ltr">We have observed a trend of more and more LMICs deploying electronic Community Health Systems built by engineers working in their government agencies. Inevitably, once the work starts there is urgency to move quickly and build such systems in a relatively short time. This reference implementation serves as an ideal building block for such scenarios and provides holistic, well researched, standards based solutions for quick adoption.</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Recognize that successful digital health initiatives require an integrated strategy and should fulfil wider health needs</p>
+			</td>
+			<td>
+			<p dir="ltr">CommCare, Dimagi’s product, is a powerful mobile service delivery and data collection platform that supports longitudinal tracking. Apps built on CommCare and aim to help frontline workers or caseworkers more accurately track and support the registration, follow-up, and completion of frontline services and behavior change communication activities in their communities. CommCare operates on mobile devices (smartphones, tablets, etc.), and is built on a decision and logic-processing platform that supports care delivery and provides critical data-quality checks at point-of-service. So CommCare fulfills a lot of health tracking needs as part of its integrated strategy</p>
+
+			<p dir="ltr">Additionally, CommCare can be used to track wider health needs of the community. Some of the wider health projects where CommCare applications have been used <a href="https://www.dimagi.com/blog/archive/latest-partners/">is here</a></p>
+
+			<p dir="ltr">As pointed out earlier, this reference implementation on WHO DAK is among a category of sector specific offerings that Dimagi is strategizing to widen its adoption, by developing internationally recognized health protocols. Its other project funded by Goldsmith Foundation and PATH Digital Square was a precision tasking application for CHWs to enable them to target and prioritise their services for people who needed them most</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Promote the appropriate use of digital technologies for health</p>
+			</td>
+			<td>
+			<p dir="ltr">Our global strategy promotes the appropriate use of CommCare as digital global good (please refer to the Executive Summary for more details) which are adaptable to different countries and contexts to help address key health system challenges</p>
+			Considering the prevalence of  vast “internet dark” areas in the low income countries we operate in, CommCare and the reference application will be offline enabled.
+
+			<ol><li dir="ltr">
+				<p dir="ltr">CommCare is <a href="https://confluence.dimagi.com/display/commcarepublic/The+CommCare+Ecosystem">integrated with a large number of tools</a> used by M&amp;E teams, mobile applications, Research teams, automation platforms, Developer tools and SMS Gateways.</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Dimagi has designed its software and infrastructure to ensure that we can fully maintain the confidentiality and security of our clients’ data. More details are available <a href="https://confluence.dimagi.com/display/commcarepublic/CommCare+Technical+Overview?preview=%2F12223445%2F56885462%2FData+Security+Overview.pdf">here</a></p>
+				</li>
+			</ol><p dir="ltr"> Thus CommCare’s designation as a Global Good and its use to promote appropriate use of digital technologies for health in underserved areas will help us widen the use of the reference application, test it out with resident populations and seek for better levels of standardisation of offerings.</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Recognize the urgent need to address the major impediments faced by least-developed countries implementing digital health technologies </p>
+			</td>
+			<td>
+			<p dir="ltr">Recognising the urgent and pressing need to overcome major impediments to digital health technologies in low income countries, CommCare:</p>
+			 
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Is hosted on managed cloud infrastructure to ensure complete privacy and security and to ensure that this is an affordable high quality solution</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Is accompanied with detailed and comprehensive training by Dimagi staff to government and other field functionaries including CHWs on how to manage and develop the application</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Dimagi always makes best efforts to affect transfer of information to local CHWs and project management staff through trainings</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">CHWs are trained through authoritative video and textual material with the app primed towards hosting this collateral</p>
+				</li>
+			</ul><p dir="ltr">As depicted above, the reference application on WHO DAK will address the major impediments faced by least developed countries in implementing digital technologies. </p>
+			</td>
+		</tr></tbody></table><p>Dimagi has deployed over 200 projects in MCH and nutrition globally. Many of its maternal and child health programs have graduated to <a href="https://docs.google.com/presentation/d/1L7wSzKA-FI38hCLIHmhXE8aM83YAJAXF8OVxf2NUYdQ/edit?usp=sharing">national programs </a>and have been taken over by incumbent governments. For example, Dimagi has successfully implemented the largest e-nutrition program in the world, under the POSHAN Abhiyaan. The program that was launched in India, helped tackle malnutrition by digitally equipping more than 650,000 frontline workers across the country with a mobile solution that improved service delivery and enabled effective monitoring, timely interventions, and enhanced decision support. In addition, the Integrated e-Diagnostic Approach (IeDA) project is a national-scale initiative led by Terre des Hommes, a Swiss NGO, to improve the quality of care that children under five receive in clinical consultations in Burkina Faso. IeDA includes the Registre Electronique de Consultations (REC), a mobile diagnostic support tool for nurses, digitizing the IMCI and built on the CommCare platform. By automating critical tasks, the diagnostic accuracy and speed was greatly improved. </p>
+
+<p dir="ltr">Dimagi and its experience of developing digital health tools according to evidence based recommendations is fully aligned and able to take up this assignment of Reference Implementation of the WHO digital application kit for ante-natal care. </p>
+
+<p dir="ltr">The development of the CommCare application will be done in India.The Dimagi team is in the process of development of a number of mobile applications and digital tools which use functionalities such as decision support, workflows, user scenarios and personas. These WHO DAK recommendations for its RMNCH related digital tools will complement the development of these digital tools and add to the functionality. Users of CommCare will get these functionalities at no additional charge in all their applications. This will ensure the following outcomes: </p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">CommCare application will adhere to WHO clinical, public health and data use guidelines and facilitate consistency in collection and use of data</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">The tracking system will progressively shift to a patient centred approach with digital tracking and decision support system</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Digital health team and application developers in Dimagi will have a shared and higher understanding of health content, including additional user scenarios and business workflows within the digital system and have a transparent mechanism to review the validity and accuracy of the health content, thus improving user experience at the field level. </p>
+	</li>
+</ol><p dir="ltr">This project complements the digital tool development process at Dimagi and is an ongoing project .</p>
+
+<p dir="ltr"> </p>
+
+<h2 dir="ltr"><strong>Digital Health Technologies </strong></h2>
+
+<p dir="ltr">This project will use Dimagi’s flagship technology platform, CommCare, which is an award-winning, open source mobile case management platform that supports frontline workers (FLWs) in tracking their clients through a continuum of service delivery. CommCare is used by close to one million frontline workers around the world, who are cumulatively tracking tens of millions of people and submitting more than 5 million forms a day via the system. By running as an application on a mobile phone, CommCare is built on a decision and logic-processing platform that can support partners in delivering a wide range of services. It also provides critical data-quality checks and calculations at each point of service. The tool aims to help partners track and support client registration and follow-up alongside CommCareHQ, the web platform that includes workforce performance monitoring dashboards designed to assist project managers in better supporting frontline workers as they deliver critical program interventions in the field. CommCare is a cloud-based, HIPPA-compliant, GDPR-compliant, open-source mobile platform and Global Good that supports data collection, decision-support, client tracking, SMS-interaction, and map-based visualizations.</p>
+
+<p>CommCare will consist of two components:</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">CommCare Mobile is the mobile-based portion of CommCare used for data collection and service delivery. CommCare Mobile can be used on a phone or tablet and, in rare instances, through a computer. Through CommCare Mobile, a community health worker (CHW) will be able to access a mobile application and collect and view relevant data. </p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">CommCare HQ is the website (<a href="http://www.commcarehq.org/?__hstc=240960668.6f1b377f489327698c5d40b6744857ea.1612955579626.1612955579626.1612955579626.1&amp;__hssc=240960668.14.1612955579626&amp;__hsfp=1557194150">www.commcarehq.org</a>) which will be used for application management and reporting. Through the CommCare HQ website, we can design applications, access data, and manage its CHWs.  CommCare HQ will receive the data submitted by CHWs using CommCare Mobile.</p>
+	</li>
+</ol><p dir="ltr">We will be able to use CommCare for a number of purposes including: </p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Data collection - CHWs can directly digitize information on their phones so that it can be accessed via a computer</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Decision support - will support complex logic that can guide the CHW in asking the right questions and providing appropriate advice</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Job aid - CommCare can help CHWs to prioritize tasks, remind users to make visits, and do complex calculations</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Better supervision - data on CHW activity can be used to inform supportive supervision</p>
+	</li>
+</ol><p dir="ltr"> </p>
+
+<p dir="ltr"> </p>
+
+<p dir="ltr"> <img alt="" height="296" src="https://lh5.googleusercontent.com/ssuT4_vG4VnJiqgsuB1N3xHgIxs1Jdmb7qgIAM2mxp0nzVtt0mVN7C0b2fAs_bYlOI1qC_-NWBRbdgTs3jycwerT5nxsxezmAtBxCns8aCD-zWDc7E6aF9R283nCTw" width="419" /></p>
+
+<p dir="ltr">This project will have its own project space on CommCare HQ with its own name. </p>
+
+<p dir="ltr">The project space (or project) will be a secure web portal in the CommCare system that will contain all data related to their CommCare applications, as well as tools that will help manage and deploy the application.</p>
+
+<p dir="ltr">Here are some of the key parts of the CommCare HQ Project Space for this project</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Reports - view and download worker activity, performance reports, and individual form submissions</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Data - download raw data exports</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Users - manage the web and mobile users for the project</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Applications - create, update, and deploy applications</p>
+	</li>
+</ul><p dir="ltr"><img alt="" height="51" src="https://lh5.googleusercontent.com/mlvJrPun7gbu_kSNqqTBpGPkbqz7S0CUXscPHiBszR7KrDCONWRqcLq7DaVn9SOHsmeopp_Oj1tNN-PVKu-Xv-pRxQH9Yy-23L373kRWSfZhBS9-MDtWN2DDKBGyTg" width="624" /></p>
+
+<p dir="ltr">We discuss below the building blocks of the proposed application:</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">The basic unit of work in CommCare is called a form. A basic form will usually contain a series of questions. We will build all the forms over the course of program delivery and then link them together in the application. Forms are fully customisable and will support all kinds of useful features such as skip logic and validation. A form can contain text, number, date or multiple choice questions.</p>
+	</li>
+</ol><p dir="ltr"><img alt="" height="369" src="https://lh5.googleusercontent.com/yFA8GkMBXCtkOj_ZfrKlxuAf73u3p2DZOMEQdrLvggisywsWfEnDT4vu6rwQ8P89DRNu8YNexzxeAvVjW2CDSP5lHigysebypiejDDZ0EhaQFu7MhIOXWF7k1tECSg" width="264" /></p>
+
+<ol start="2"><li dir="ltr">
+	<p dir="ltr">CommCare will also use menus, which are groups of forms that are all related to the same type of thing.  A menu can have one or many forms, and an application could have many menus; it is like a folder full of forms that are all about the same thing.There will be two basic types of menus:</p>
+	</li>
+</ol><ul><li dir="ltr">
+	<p dir="ltr">Surveys will allow us to set up forms that are used for one-time data collection. This can be used if we do not need to track data over time.</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Case Lists will allow us to set up forms that create, manage or close cases that we will  create for this project. </p>
+	</li>
+</ul><p dir="ltr"><img alt="" height="240" src="https://lh3.googleusercontent.com/6x7FmBtu1__G-4mp3j9_h2oLX7eVN2FDZ93ebaa73dBQbl6eRWbLSA0EkeJUa94Vn7Nv6oeVBmptrBxljp1OIkF_4Qn5826cmTxzajUVmbziDOf_PewO_XKXbZQ2Sw" width="416" /></p>
+
+<ol start="3"><li dir="ltr">
+	<p dir="ltr">In CommCare, a case is something that partners can track over time with the CommCare mobile application. Below are some examples of things that might be considered cases in CommCare. </p>
+	</li>
+</ol><ol start="4"><li dir="ltr">
+	<p dir="ltr">CommCare will let CHWs update a case which links all of the forms together - this process of creating case records and updating them over time is called case management in CommCare.Once a case is created, the CHW will be able to locate it on the mobile application by accessing the Case List. This will be configured while designing the application on CommCareHQ  to contain key information about the case. The Case List can be sorted or filtered in different ways for example, in alphabetical order.</p>
+	</li>
+</ol><p dir="ltr"> </p>
+
+<p dir="ltr"> <img alt="" height="258" src="https://lh4.googleusercontent.com/bwzwq4qku7qmWNpKTlfNmd6HdiNf5sW0aT6pZb-AA8iMPzRyEalyD-VB-vkbFjFax2FFtkIFCD5lyEzEDjora3edoD3gbrDLeUQEY1rFcTNyMZx4VXBHN0Y4UkLsww" width="145" /></p>
+
+<p dir="ltr"><strong>Data flow in CommCare</strong></p>
+
+<p dir="ltr">Data flow in CommCare is depicted below:</p>
+
+<p dir="ltr"><img alt="" height="234" src="https://lh3.googleusercontent.com/KV7Bm7pHVm472OcmfR8OJbNVi5pn5q4zjVsybI5tcbIvVhZ4_s7Dk9O65HpHaXEFXDwlQTFoWexz4NEhIaJ14coA5oCvbH_4FyQxSnPgnAqz-P9NR3LmcfVRdnJ7_g" width="236" /></p>
+
+<p dir="ltr">As you can see in the figure above, there are three main steps in the data flow process:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">First - Data is entered into forms via CommCare Mobile</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Second - Data is submitted via cellular phone networks or Wi-Fi networks to the CommCare HQ server</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Third - Data is accessible and downloadable via the CommCare HQ website</p>
+	</li>
+</ul><p dir="ltr">When there is no signal, data stays on the phone until there is signal! CommCare was designed to function in places where there is not always consistent access to the network.As soon as the mobile user is able to connect to a network, all the data on the phone is sent to the server and available on CommCare HQ.</p>
+
+<p dir="ltr"><strong>Types of Data Captured by CommCare</strong></p>
+
+<p dir="ltr"> In general, two types of data are captured by CommCare:</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Raw Data: this is data from the questions and answers contained in a form. Raw data can be analysed and will help CHWs to understand progress towards program indicators and program effectiveness.</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Worker Activity Data: this is data about how and when mobile workers submit forms. Worker activity data can help the organisation understand mobile worker performance and enable program managers to provide supportive supervision. Viewing worker activity data, the organisation can find out things such as </p>
+
+	<ol><li dir="ltr">
+		<p dir="ltr">Which CHW submitted the form</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">How long it took the CHW to complete the form</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">When the form was sent to the CommCareHQ server over the mobile data network or Wi-Fi network</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Whether the form is related to a case and, if so, which one </p>
+		</li>
+	</ol></li>
+</ol><p dir="ltr">Dimagi has developed a variety of reports using worker activity data. Collectively, we refer to them as "Worker Activity Reports," and have made them available on CommCare HQ. Across all projects, worker activity reports will be very useful in monitoring workers and providing supportive supervision. These reports can be generated and viewed within CommCare HQ, exported to Excel, or sent via email. Reports available to any organisation include, but are not limited to:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Case Activity - how frequently does a given mobile worker submit a form related to a given case</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Submissions by Form - which forms are being submitted by a given mobile worker over a time period</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Daily Form Activity - how many forms does a given mobile worker submit over a time period</p>
+	</li>
+</ul><p dir="ltr">We are attaching two supporting documents with this application that details the following: </p>
+
+<ol><li dir="ltr">
+	<p dir="ltr"><a href="https://commcare-hq.readthedocs.io/overview/architecture.html">CommCare architecture overview </a>(with sequence diagram)  which is available publicly in Github</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Technical Design Document of the Precision Tasking Application supported by Digital Square. This can also be accessed <a href="https://confluence.dimagi.com/display/commcarepublic/Precision+Tasking+CHW+Application%3A+Technical+Design">in this portal</a></p>
+	</li>
+</ol><p><br /><span style="font-size:16px"><span style="font-family:arial,helvetica,sans-serif"><strong>Use Cases and User Stories </strong></span></span></p>
+
+<p dir="ltr">Dimagi possesses good experience of creating and deploying shelf ready applications for public good. Dimagi used CommCare, to develop a suite of template applications for COVID-19 response efforts across several areas like port-of-entry screening, health worker training, and lab testing. Important lessons learned in creating a scalable model include templatizing everything, collaborating early with other Global Goods, and leveraging project investments from different markets. Dimagi’s also had a partnership with Medic Mobile for COVID-19 response.</p>
+
+<p>Here is a summary of some key use cases that can be addressed by this intervention. Please note that all user scenarios and use cases are imaginary and have been presented just to link the user stories to particular activities in the work packages (discussed below) to create a modularised and shelf ready reference application , that can be up and running with minimal configuration, can be used in different ANC scenarios and in different country contexts. The business processes and workflows will be validated with our partner Living Goods through utilising their digital health related experiences in Africa: </p>
+
+<table><tbody><tr><td>
+			<p dir="ltr"><strong>Use case 1</strong></p>
+			 
+
+			<p dir="ltr">Community Health Workers (CHWs) help improve maternal and child health by providing essential healthcare services and driving behavior change at the local level. Their role assumes even greater significance in low and middle-income countries that face an acute shortage of healthcare professionals and account for an overwhelming majority of these preventable deaths. These CHWs are burdened with paperwork, lack the knowledge of internationally recognised protocols of work, decision support for key tasks, target identification and tracking of tasks and thus are not able to improve service delivery capability. Thus a health system faces delay in data collection, obstructing decision making.</p>
+			 
+
+			<p dir="ltr"><strong>User story 1</strong></p>
+			 
+
+			<p dir="ltr">Mary, a health worker in a remote district in India attends to Alka Devi who is pregnant and has come to the primary health centre for the first time after feeling nauseous. The health centre has no record of her and the attendant takes her name, address, phone number and date of birth into a paper register.  Mary administers a test to confirm Alka Devi’s pregnancy. Upon confirming the positive pregnancy test, Mary proceeds to ask more detailed questions about occupation, behaviors, general health status, obstetric history and support systems. Mary is however not able to not able to conclude the exact gestational age but lets Alka know that she would be needing an ultrasound. While Mary conducts the other checks (blood pressure, height, age etc), she is not sure that she is providing appropriate counselling and action and is not able to inform Alka about all the other tests (diabetes etc). She feels that a digital system with appropriate prompts and reminders would be essential for her to provide prompt and complete service.</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Corresponding work package</strong></p>
+			 
+
+			<p dir="ltr">Work Package 1, Activity 1.2.1 (Create business process and workflow documentation, thereby finalizing how the requirements translate into technical specification)</p>
+
+			<p dir="ltr">Business processes: Registration, ANC Contact, Workflows, feedback</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Use case 2</strong></p>
+
+			<p dir="ltr">Adolescents make a substantial portion of the population. In Bangladesh, they make up 22% of the population and number around 36 million. Adolescent-friendly services is not yet a familiar concept.Because of the high rate of child marriage, adolescent girls in Bangladesh face risks from early pregnancies, violence and lack in nutrition.There is high fertility rate among adolescents. Bangladeshi adolescents often lack access to health facilities.Adolescents and their families also have very limited awareness of health needs. This includes information on reproductive health, nutrition and psycho-social counselling. These conditions contribute to high mortality rates of newborns in Bangladesh, besides neonatal and maternal morbidities.</p>
+
+			<p dir="ltr"><strong>User story 2</strong></p>
+			 
+
+			<p dir="ltr">Adolescent Fatima comes to the health centre with her mother in law. The registration centre takes note of her date of birth and demographic details through a digital system and sends her to the treatment room where nurse Amira is waiting for her. Amira receives a reminder on her system reminding that Fatima is an adolescent client and the HEADS questions (home, education/activities, employment, drugs) questions need to be asked. After asking a series of non- threatening questions, she asks routine clinical questions, performs a physical examination with consent and checks height, weight, blood pressure and pulse rate. Amira asks her to go through an ultrasound scan as soon as possible and provides tetanus toxoid and iron folic acid tablets. She also asks her to have good food and nutrition and visit the health centre every month for counselling</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Corresponding work package</strong></p>
+
+			<p dir="ltr">Work package 2, Activity 2.2.3 (Create version of the solution, incorporating all the feedback received as from the Living Goods team and other relevant stakeholders)</p>
+
+			<p dir="ltr">Business process: Final version of the solution incorporating all workflows and gone through a feedback process is primed to country scenarios (in the above case, Bangladesh)</p>
+			</td>
+		</tr></tbody></table><p> </p>
+
+<p dir="ltr">Here are some scenarios the investment towards shelf readiness of this application will facilitate:</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">The Reference will be primed towards solving CHW problems in service delivery in low income countries</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">CHWs are exposed to internationally accepted business workflows in the digital system that guides them to provide quality health services and counselling to underserved populations  in community and health facility settings.</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Digital prompts and reminders in the CHW focussed digital system will guide their next steps which will be according to internationally accepted protocols.</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Expansion of use of this reference application in different countries through a shelf ready application, its modular structure fitting the health needs of different countries thus making the solution replicable, scalable and affordable to run and maintain.</p>
+	</li>
+</ol><h2 dir="ltr"><strong>Objectives and Activities</strong></h2>
+
+<h3 dir="ltr">This application has been broken down into the following work packages: </h3>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Work package 1, Development of a MVP mobile application that aligns with the guidelines prescribed by WHO Digital Adaptation Kit:  Dimagi will implement a subset of workflows highlighted in the WHO Digital Adaptation Kit to create a MVP of the mobile application and solicit design and usability feedback from relevant partners and continue to iteratively improve the MVP through consultations with stakeholders and users. </p>
+	</li>
+</ol><ol start="2"><li dir="ltr">
+	<p dir="ltr">Work package 2, Finalization of mobile application that aligns with the WHO DAK guidelines: The reference mobile application will consist of health worker facing workflows and performance graphs. This will follow standardised protocols for pregnancy tracking and additional functionalities for digital tracking and include components such as workflows, decision support, scheduling logic, reporting indicators, that can be used by CHWs, enabling key health metrics and outcomes.</p>
+	</li>
+</ol><ol start="3"><li dir="ltr">
+	<p dir="ltr">Work package 3: Product information and documentation: Package the tool with comprehensive documentation to ensure that health program leads, app developers and software engineers are able to access complete information thus engaging in knowledge transfer to CHWs and supervisors working in the field. </p>
+	</li>
+</ol><p dir="ltr">Each work package has been defined with the help of Objectives and Activities</p>
+
+<p dir="ltr"><strong><em>Work package 1: Development of MVP </em></strong></p>
+
+<p dir="ltr"><em>Objective 1.1: Define and document the key requirements for the solution</em></p>
+
+<p dir="ltr">Activity 1.1.1: Conduct an exhaustive literature review of WHO Digital Adaptation Kit and create documentation listing recommendations, personas, user scenarios and reporting indicators. The documentation will be shared with Living Goods for feedback and finalization of the requirements of the solution.</p>
+
+<p dir="ltr"><em>Objective 1.2: Define and document system design for the solution </em></p>
+
+<p dir="ltr">Activity 1.2.1: Create business process and workflow documentation, thereby finalizing how the requirements translate into technical specifications. The documentation will be shared with Living Goods for feedback and finalization of the system design of the solution.</p>
+
+<p dir="ltr"><em>Objective 1.3: Development of the digital tool leveraging an iterative approach towards development</em></p>
+
+<p dir="ltr">Activity 1.3.1: Build an MVP of the solution </p>
+
+<p dir="ltr">Activity 1.3.2: Run a demo with the Living Goods team to receive feedback over the solution in the context of CHW programs in Kenya, Uganda and Burkina Faso.  </p>
+
+<p><em><strong>Work package 2: Development of the final version of the application</strong></em></p>
+
+<p dir="ltr"><em>Objective 2.1: Documentation and execution of testing strategy, test cases to validate quality of the solution</em></p>
+
+<p dir="ltr">Activity 2.1.1: Document the testing strategy and test cases, and run an end-to-end testing of the solution, ensuring that the solution is deployment ready.</p>
+
+<p dir="ltr">Activity 2.1.2: Conduct a User Acceptance Testing of the solution with 10-15 CHWs over a period of 1-2 months in either Kenya or Burkina Faso or both, ensuring the CHW modules of the solution have input from active health workers, incorporating their feedback.</p>
+
+<p dir="ltr"><em>Objective 2.2: Development of the digital tool leveraging an iterative approach towards development</em></p>
+
+<p dir="ltr">Activity 2.2.1: Prepare V0 of the application ready for demonstration to related stakeholders (thereby including more functionalities on the DAK) based on regular feedback shared by users and field support staff.</p>
+
+<p dir="ltr">Activity 2.2.3: Demonstrate V0 of the application and solicit feedback for the community as well as select key stakeholders.</p>
+
+<p dir="ltr">Activity 2.2.3: Create version of the solution, incorporating all the feedback received as from the Living Goods team and other relevant stakeholders.</p>
+
+<p><strong>Work package 3: Product Information and documentation</strong></p>
+
+<p dir="ltr"><em>Objective 3.1: Package the digital tool along with product documentation that is comprehensive and inclusive of all aspects to support an effective and safe implementation and ongoing operations of the tool in the field.</em></p>
+
+<p dir="ltr">Activity 3.1.1: Create a product information document (this document will outline in a summary form, the key functions and value proposition of the tool and serve as a quick access document for decision makers)</p>
+
+<p dir="ltr">Activity 3.1.2: Create user guide, operation manuals , implementation documentation and administrator guides. (User guides will  outline the functionality of the system. Implementer documentation will include installation guides, architectural implementation patterns for scale, implementation validation checks and administrator guides will include configuration options and description of all features)</p>
+
+<p dir="ltr">Activity 3.1.3: Deliver technical documentation (provides information about software design, data model and technical information about various components of the solution and how they interact with each other)</p>
+
+<h2 dir="ltr"><strong>Community Feedback</strong></h2>
+
+<p dir="ltr">Dimagi solicits feedback on a regular basis for its work and engages with digital development communities, and organisations to meet to follow the following principles of digital development: </p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Design with the user: One of Dimagi’s core philosophies which it will follow for this project  is “design under the mango tree,” otherwise known as directly collaborating with and learning from local teams. The tactics we use to achieve user centered design are detailed <a href="https://www.dimagi.com/blog/five-design-principles-for-digital-products-in-developing-regions/">here</a> and  include designing locally, going beyond words, building for offline use and testing everything. Living Goods shares this philosophy and uses the same principle in designing its digital tools</p>
+	</li>
+</ol><ol start="2"><li dir="ltr">
+	<p dir="ltr">Understand the existing ecosystem: Data is only as valuable as an organization’s ability to leverage it for progress, thus Dimagi provides and will continue to provide consulting support for the whole digital ecosystem from digital architecture to data collection tools, and analytics to integration. Dimagi has long recognized that no one digital tool sits alone, and we work with technology firms and programmatic stakeholders to define and execute the desired interoperability and integration of digital tools. Dimagi has designed strategies for many of the leading global goods and worked with other technology firms to implement those strategies including OpenLMIS, OpenMRS, DHIS2, iHRIS, and OpenHIE/OpenHIM. We also have worked with tools that include, and are not limited to, Tableau, Power BI, Simprints, Frontline SMS, Telerivet, and Twilio. More information on CommCare’s integrations can be found <a href="https://www.dimagi.com/commcare/integrations/">here</a>.</p>
+	</li>
+</ol><ol start="3"><li dir="ltr">
+	<p dir="ltr">Design for scale: Dimagi has designed CommCare for scale. CommCare is used by close to one million frontline workers around the world, who are cumulatively tracking tens of millions of people and submitting more than 5 million forms a day via the system.CommCare is being used in National Scale Digital projects all over the world. Details can be found <a href="https://docs.google.com/presentation/d/1L7wSzKA-FI38hCLIHmhXE8aM83YAJAXF8OVxf2NUYdQ/edit?usp=sharing">here</a>.</p>
+	</li>
+</ol><p dir="ltr"> </p>
+
+<ol start="4"><li dir="ltr">
+	<p dir="ltr">Build for sustainability: We are committed to supporting our implementing partners to ensure that projects are able to sustain themselves beyond the donor funding cycle. Dimagi ensures project sustainability in several key ways. First, as an open source software solution, CommCare does not bind users to a single service provider. Rather, as projects scale, local governments and partners may transfer the application to their own servers, manage the code independently of Dimagi, or add or update features using their own staff or locally contracted service providers. Secondly, in an effort to ensure partner capacity, Dimagi strives to train stakeholders at all levels not only in using CommCare applications, but also in designing, building, maintaining, and troubleshooting them. Drawing on Dimagi's collective experience in what knowledge and skills are required for a project to be sustainable, we create a set of guidelines and educational resources on how to develop CommCare applications, train mobile users, provide technical support, and interpret reports and data for monitoring. </p>
+	</li>
+</ol><ol start="5"><li dir="ltr">
+	<p dir="ltr">Use Open standards, open source and open innovation: CommCare is an open source software. Dimagi releases its software under the most permissive of Open Source Initiative software licenses (BSD and Apache v 2.0). These licenses grant organizations complete freedom to re-use, redistribute, and reproduce Dimagi's software without consulting Dimagi.Using open source code is especially beneficial if a project is going to scale or if there is a need to transfer the digital health technology to a government. With open source code, governments can directly copy and customize pre-existing code and set-up their own servers without having to pay for licensing fees, use, or distribution of the software. This ensures that local software developers in a country can take ownership of a code base, and can be important for the long-term sustainability of a large-scale mHealth project.</p>
+	</li>
+</ol><ol start="6"><li dir="ltr">
+	<p dir="ltr">Address Privacy and Security: Dimagi has designed its software and infrastructure to ensure that we can fully maintain the confidentiality and security of our clients’ data. Data collected by Dimagi’s mobile solutions is often sensitive, including protected health information. To best protect this data, Dimagi employs many layers of data security and prioritizes the integrity and safety of data hosted on our system. This is exemplified by our recent SOC-2 certification. </p>
+	</li>
+</ol><ol start="7"><li dir="ltr">
+	<p dir="ltr">Be Collaborative: Dimagi has recently teamed up with other digital global goods providers, including Medic Mobile and Ona, to develop a shared and open data model for COVID-19 vaccine delivery. By agreeing on a standard data schema now, we can harmonize efforts across platforms, allowing for easier interoperability and collaboration. During our work on the Precision Tasking Application which was supported by Digital Square, we coordinated and solicited feedback from ONA and Medic.</p>
+	</li>
+</ol><p>Here is a table which describes the community feedback that Dimagi and Living Goods will solicit from different stakeholders:</p>
+
+<table><tbody><tr><td>
+			<p dir="ltr"><strong>Community </strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>Frequency of soliciting feedback </strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>Notes</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Participant communities in the field</p>
+			</td>
+			<td>
+			<p dir="ltr">As and when Dimagi program delivery team comes in contact with user communities for specific projects and use cases. This would also be done through our collaboration partner</p>
+			</td>
+			<td>
+			<p dir="ltr">Dimagi expects positive augmentation of functionalities as a result of following WHO DAK recommendations. These positive instances of the applications will be used in different projects in relevant use cases. Thus relevant feedback will be collected on the use of these functionalities which resulted from the WHO DAK recommendations.</p>
+			 
+
+			<p dir="ltr">Dimagi is also a member of many external working groups (such as the Digital Health and Interoperability working group, Community Health Impact Coalition, Innovations in HealthCare Network) where it will  seek feedback.</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Country stakeholders</p>
+			</td>
+			<td>
+			<p dir="ltr">During webinars, project discussions when app functionalities are discussed and feedback solicited </p>
+			</td>
+			<td>
+			<p dir="ltr">Dimagi sends detailed design documents and inception reports to commence projects with its clients. These design documents can highlight app functionalities as a result of the WHO DAK recommendations and will ask for specific feedback. We can also ask for feedback on specific app workflows that will be designed as a result of following the DAK recommendations.</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Community Health Impact Coalition (CHIC)</p>
+			</td>
+			<td>
+			<p dir="ltr">Bi weekly, for a period of 3 months</p>
+			</td>
+			<td>
+			<p dir="ltr">Living Goods is a member of CHIC which is a coalition of community health NGOs. LG will seek input/feedback on the CHW components of the ANC DAK for work products 1, 2, and 3. </p>
+			</td>
+		</tr></tbody></table><p> </p>
+
+<h2 dir="ltr"><strong>Schedule </strong></h2>
+
+<p dir="ltr">The following is a high-level work plan.</p>
+
+<table><tbody><tr><td rowspan="3" style="width:595px">
+			<p class="rtecenter" dir="ltr"><strong>Activity</strong></p>
+			</td>
+			<td rowspan="3" style="width:174px">
+			<p class="rtecenter" dir="ltr"><strong>Team</strong></p>
+
+			<p class="rtecenter" dir="ltr"><strong>Location</strong></p>
+
+			<p class="rtecenter" dir="ltr"><strong>Month/<br />
+			Quarter</strong></p>
+			</td>
+			<td colspan="8" style="width:323px">
+			<p class="rtecenter" dir="ltr"><strong>[Month/Quarter</strong></p>
+			</td>
+		</tr><tr><td style="width:51px">
+			<p class="rtecenter" dir="ltr"><strong>[M]</strong></p>
+			</td>
+			<td style="width:43px">
+			<p class="rtecenter" dir="ltr"><strong>[M]</strong></p>
+			</td>
+			<td style="width:42px">
+			<p class="rtecenter" dir="ltr"><strong>[M]</strong></p>
+			</td>
+			<td style="width:40px">
+			<p class="rtecenter" dir="ltr"><strong>[M]</strong></p>
+			</td>
+			<td style="width:25px">
+			<p class="rtecenter" dir="ltr"><strong>[M]</strong></p>
+			</td>
+			<td style="width:24px">
+			<p class="rtecenter" dir="ltr"><strong>[M]</strong></p>
+			</td>
+			<td style="width:38px">
+			<p class="rtecenter" dir="ltr"><strong>[M]</strong></p>
+			</td>
+			<td>
+			<p class="rtecenter" dir="ltr"><strong>[M</strong>]</p>
+			</td>
+		</tr><tr><td style="width:51px">
+			<p dir="ltr">1</p>
+			</td>
+			<td style="width:43px">
+			<p dir="ltr">2</p>
+			</td>
+			<td style="width:42px">
+			<p dir="ltr">3</p>
+			</td>
+			<td style="width:40px">
+			<p dir="ltr">4</p>
+			</td>
+			<td style="width:25px">
+			<p dir="ltr">5</p>
+			</td>
+			<td style="width:24px">
+			<p dir="ltr">6</p>
+			</td>
+			<td style="width:38px">
+			<p dir="ltr">7</p>
+			</td>
+			<td>
+			<p dir="ltr">8</p>
+			</td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Work package 1</p>
+			</td>
+			<td style="width:174px">
+			<p dir="ltr">India</p>
+			</td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Objective 1.1: Define and document the key requirements for the solution</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 1.1.1: Conduct an exhaustive literature review of WHO Digital Adaptation Kit </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Objective 1.2: Define and document system design for the solution </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 1.2.1: Create business process and workflow documentation</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:43px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Objective 1.3: Development of the digital tool leveraging an iterative approach towards development</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 1.3.1: Build an MVP of the solution</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:40px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 1.3.2: Run a demo with the Living Goods team </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Work Package 2</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Objective 2.1: Documentation and execution of testing strategy, test cases to validate quality of the solution</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 2.1.1: Document the testing strategy and test cases, and run an end-to-end testing </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:40px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 2.1.2: Conduct a User Acceptance testing of the solution</p>
+			</td>
+			<td style="width:174px">
+			<p dir="ltr">Kenya or Burkina or both</p>
+			</td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:25px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Objective 2.2: Development of the digital tool leveraging an iterative approach towards development</p>
+			<br />
+			 </td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 2.2.1: Prepare V0 of the application ready for demonstration t, </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 2.2.3: Demonstrate V0 of the application and solicit feedback </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 2.2.3: Create version of the solution, incorporating all the feedback received</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:24px">
+			<p dir="ltr">x</p>
+			</td>
+			<td style="width:38px">
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Work Package 3</p>
+			</td>
+			<td style="width:174px">
+			<p dir="ltr">India</p>
+			</td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Objective 3.1: Package the digital tool along with product documentation </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px"> </td>
+			<td> </td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 3.1.1:Create a product information document </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px">
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 3.1.2 Create user guides and operational manuals</p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px">
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td style="width:595px">
+			<p dir="ltr">Activity 3.1.3: deliver technical documentation that provides information about software design, data model and technical information </p>
+			</td>
+			<td style="width:174px"> </td>
+			<td style="width:51px"> </td>
+			<td style="width:43px"> </td>
+			<td style="width:42px"> </td>
+			<td style="width:40px"> </td>
+			<td style="width:25px"> </td>
+			<td style="width:24px"> </td>
+			<td style="width:38px">
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr></tbody></table><p><strong>Deliverables</strong></p>
+
+<p dir="ltr">The deliverables are as follows: </p>
+
+<table><tbody><tr><td>
+			<p class="rtecenter" dir="ltr"><strong>Deliverable </strong></p>
+			</td>
+			<td>
+			<p class="rtecenter" dir="ltr"><strong>Month/Quarter Due</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 1, Objective 1.2, Activity 1.2.1: Documentation of business process and workflows, system design</p>
+			</td>
+			<td>
+			<p dir="ltr">      Month 2</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 1, Objective 1.3, Activity 1.3.1: Build a Minimum Viable<br />
+			Product (this is for a limited set of functionalities and not the entire DAK)</p>
+			</td>
+			<td>
+			<p dir="ltr">Month 4</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 2, Objective 2.1, Activity 2.1.1: Documentation of testing strategy and test cases</p>
+			</td>
+			<td>
+			<p dir="ltr">Month 5</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 2, Objective 2.1, Activity 2.1.2: User Acceptance testing report</p>
+			</td>
+			<td>
+			<p dir="ltr">Month 7</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 2, Objective 2.2 Activity 2.2.3: Create a version of the final application </p>
+			</td>
+			<td>
+			<p dir="ltr">Month 7</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 3, Objective 3.1, Activity 3.1.1: Product Information document (outlining functions and value proposition)</p>
+			</td>
+			<td>
+			<p dir="ltr">Month 8</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 3, Objective 3.1, Activity 3.1.2: User guides and operation manuals (outlining system functionality)</p>
+			</td>
+			<td>
+			<p dir="ltr">Month 8</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Work package 3, Objective 3.1, Activity 3.1.2: Detailed technical documentation (information about software design, data model and tech information about various components)</p>
+			</td>
+			<td>
+			<p dir="ltr">Month 8</p>
+			</td>
+		</tr></tbody></table><p>All these deliverables except the V0 and V1 final version of the application will be in the form of a Microsoft word document or a shareable google document.</p>
+
+<h2 dir="ltr"><strong>Global Good Maturity Model Assessment</strong></h2>
+
+<p dir="ltr">Please go through <a href="https://docs.google.com/spreadsheets/d/1WCeJYYS0LmRMV7C0olL4NR-925R5JebLAejyGdfKS_Q/edit?usp=sharing">this link</a> which is a filled in self assessment form for CommCare maturity model assessment. Please note that dimagi ranks “high” in all the parameters depicted in the Global Goods Maturity Model Assessment </p>
+
+<p><br /><br /><br />
+ </p>
+</div></div></div><div class="field field-name-field-f0-application-status field-type-list-text field-label-inline clearfix"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Not Approved</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+        </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../../user/login/index-42.html?destination=node/349%23comment-form">Log in</a> or <a href="../../user/register/index-22.html?destination=node/349%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">4</span></span></li>
+</ul>    </span>
+            </nav>
+
+<div id="comments" class="comment-wrapper">
+          <h2 class="title">Comments</h2>
+      
+  <a id="comment-312"></a>
+<div class="comment comment-by-node-author odd" about="/comment/312#comment-312" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="../312/index.html#comment-312" class="permalink" rel="bookmark">Dear Digital Square team,</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/prateep-chakraborty" typeof="sioc:UserAccount" property="foaf:name" datatype="">Prateep Chakraborty</span></span> - <span property="dc:date dc:created" content="2022-01-12T05:20:58-07:00" datatype="xsd:dateTime">Wed, 01/12/2022 - 05:20</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Dear Digital Square team,</p>
+
+<p>Please find our filled in Technical Application with all documents.</p>
+
+<p>Please feel free to get back if you have any questions.</p>
+
+<p>Warmly</p>
+
+<p>Prateep Chakraborty</p>
+
+<p>Dimagi </p>
+
+<p><a href="mailto:pchakraborty@dimagi.com">pchakraborty@dimagi.com</a></p>
+
+<p> </p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-42.html?destination=node/349%23comment-form">Log in</a> or <a href="../../user/register/index-22.html?destination=node/349%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+<a id="comment-323"></a>
+<div class="comment even" about="/comment/323#comment-323" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="../323/index.html#comment-323" class="permalink" rel="bookmark">Thank you for a very detailed</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/vikas-dwivedi" typeof="sioc:UserAccount" property="foaf:name" datatype="">Vikas Dwivedi</span></span> - <span property="dc:date dc:created" content="2022-02-06T08:11:58-07:00" datatype="xsd:dateTime">Sun, 02/06/2022 - 08:11</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Thank you for a very detailed application. Please elaborate on the following:</p>
+
+<p>1. How will the applications align to the principles of shelf-readiness, as proposed in the concept note</p>
+
+<p>2. Please expand on how and what standards for data exchange will be used and adopted</p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-42.html?destination=node/349%23comment-form">Log in</a> or <a href="../../user/register/index-22.html?destination=node/349%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+
+<div class="indented"><a id="comment-338"></a>
+<div class="comment comment-by-node-author odd" about="/comment/338#comment-338" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="index.html#comment-338" class="permalink" rel="bookmark">Answers to your questions in the Open Application Platform</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/prateep-chakraborty" typeof="sioc:UserAccount" property="foaf:name" datatype="">Prateep Chakraborty</span></span> - <span property="dc:date dc:created" content="2022-02-09T05:27:24-07:00" datatype="xsd:dateTime">Wed, 02/09/2022 - 05:27</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/323#comment-323" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h1 dir="ltr"><span style="font-size:14px">Dear Digital Square team,</span></h1>
+
+<p dir="ltr"><span style="font-size:14px">Please find the answers to the questions you have posed.</span></p>
+
+<p dir="ltr">Warmly</p>
+
+<p dir="ltr">Prateep Chakraborty </p>
+
+<p dir="ltr"> </p>
+
+<h1 dir="ltr"><span style="font-size:14px"><strong>1. How will the applications align to the principles of shelf-readiness, as proposed in the concept note</strong></span></h1>
+
+<p class="rtejustify" dir="ltr">Through this proposal, Dimagi will build “template applications” that can be used as fully-functioning applications within a desktop or mobile browser and as standalone, offline-capable Android applications. These applications can be customized, but no customization is needed to start using them immediately. Because Dimagi maintains a secure cloud server, organizations do not have to precure servers or any other infrastructure to use them immediately. </p>
+
+<p class="rtejustify" dir="ltr">As an example, Dimagi built and offered free hosting for a variety of template applications for COVID-19 (<a href="https://www.dimagi.com/blog/covid-19-response-template-apps/">https://www.dimagi.com/blog/covid-19-response-template-apps/</a>) to help organizations  carry out disease surveillance and educational activities based on leading clinical protocols from the World Health Organization, CDC, and others. These web and mobile based applications can be used immediately.  The template applications included ones for:  </p>
+
+<ul><li dir="ltr">
+	<p class="rtejustify" dir="ltr">Contact Tracing: WHO First Few X (FFX) Cases</p>
+	</li>
+	<li dir="ltr">
+	<p class="rtejustify" dir="ltr">Facility readiness and stock tracking</p>
+	</li>
+	<li dir="ltr">
+	<p class="rtejustify" dir="ltr">Health care provider training and monitoring</p>
+	</li>
+	<li dir="ltr">
+	<p class="rtejustify" dir="ltr">Port of entry surveillance</p>
+	</li>
+	<li dir="ltr">
+	<p class="rtejustify" dir="ltr">Home based care</p>
+	</li>
+	<li dir="ltr">
+	<p class="rtejustify" dir="ltr">Covid-19 RDT collection</p>
+	</li>
+</ul><p dir="ltr">These template applications were downloaded thousands of times. </p>
+
+<p class="rtejustify">Having stated the above , CommCare does allow organizations to quickly build custom solutions without compromising the unique needs of a field team. Additionally, CommCare provides a turn-key system that enables non-developers to quickly build mobile applications and SMS interactions and workflows. This enables CommCare to meet aggressive timelines and provides the benefit of allowing very fast iteration on the user experience.</p>
+
+<h1 class="rtejustify" dir="ltr"><span style="font-size:14px"><strong>2. Please expand on how and what standards for data exchange will be used and adopted</strong></span></h1>
+
+<p class="rtejustify" dir="ltr">Health information systems often need to be able to communicate with one another and share data back and forth in a secure, reliable way.  Having an Electronic Health Record (EHR) system can be critical for effective healthcare delivery. And streamlining such systems to efficiently communicate and compile information across multiple platforms can take the efficacy and quality of that healthcare delivery to a new level.</p>
+
+<p class="rtejustify" dir="ltr">Fast Healthcare Interoperability Resources (FHIR) is a popular way to standardize the format in which data is shared by outlining consistent data elements and providing an API for sharing electronic health records.</p>
+
+<p class="rtejustify" dir="ltr">Because workflows in CommCare frequently involve the collection of healthcare data and often require integration with other governmental or private sector systems, Dimagi is committed to building turnkey integrations compliant to FHIR standards. To that end, Dimagi has recently collaborated with PATH and Digital Square to ensure that CommCare is FHIR interoperable and can integrate either directly with FHIR or through an OpenHIE mediator.</p>
+
+<p class="rtejustify" dir="ltr">Being FHIR compliant, allows CommCareHQ to be interoperable with all FHIR compliant systems and facilitate quick and easy integrations.Currently CommCareHQ supports the v4.0.1 or R4 FHIR specification. Please refer to more details <a href="https://readthedocs.org/projects/commcare-hq/downloads/pdf/latest/">here</a> (<a href="https://readthedocs.org/projects/commcare-hq/downloads/pdf/latest/">CommCareHQ Documentation (readthedocs.org)</a></p>
+
+<p class="rtejustify" dir="ltr">The supported FHIR Resource Types:</p>
+
+<ol><li dir="ltr">
+	<p class="rtejustify" dir="ltr">Patient</p>
+	</li>
+	<li dir="ltr">
+	<p class="rtejustify" dir="ltr">Observation</p>
+	</li>
+	<li dir="ltr">
+	<p class="rtejustify" dir="ltr">DiagnosticReport</p>
+	</li>
+</ol><p class="rtejustify" dir="ltr"><strong>CommCare and FHIR standards</strong></p>
+
+<p class="rtejustify" dir="ltr">CommCare’s turnkey integration with FHIR standards, including an OpenHIE mediator, significantly reduces the level of effort required to support data interoperability with other systems. This means more programs will benefit from access to job aid and data collection programs based on CommCare, and administrators will be able to spend more time actually reviewing the data they collect, rather than cleaning and merging manually.</p>
+
+<p class="rtejustify" dir="ltr">CommCare simply displays a UI in which variables outlined in CommCare HQ are mapped to FHIR resource properties, allowing the FHIR API to accurately forward and pull data. Once those variables are properly mapped, any update to data in CommCare triggers an update to be sent to the FHIR server, already configured to map directly to those standardized variables.</p>
+
+<h1 dir="ltr"><span style="font-size:14px"><strong>Additional Data exchange capabilities for CommCare</strong></span></h1>
+
+<p class="rtejustify" dir="ltr">Beyond these standard based communications, CommCare is used by 2000+ international development projects across 300+ partners in 80+ countries to transform their last-mile data collection and service delivery practices. These organizations not only get value from CommCare’s powerful native capabilities, but also from our entire ecosystem of integrations with their favorite products and services. Here is what the CommCare integration and exchange of data looks like: </p>
+
+<ul><li dir="ltr">
+	<p dir="ltr"><em>Integrations with tools for M&amp;E Teams and Business Intelligence Use Cases </em></p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">DHIS2 </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">OpenMRS </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">PowerBi</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Tableau </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Excel Dashboards </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Google Sheets (In development)</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Superset</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">MS Excel Exports, which allows you to import data to several systems. </p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr"><em>Integrations with other mobile apps for improved service delivery </em></p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Breath Counter </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Area Mapper </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Simprints</p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr"><em>Integrations with tools for Research Teams </em></p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">OpenClinica </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">STATA (Coming soon)</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">R (Coming soon)</p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr"><em>Integrations with automation platforms</em></p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Zapier </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">OpenFn</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr"><a href="https://github.com/dimagi/commcare-hq/tree/master/corehq/motech">MOTECH</a></p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr"><em>Developer Tools for ICT/Digital Software Teams </em></p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">APIs </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">FHIR: CommCare can receive and output data in HL7 FHIR V4 format, and applications can be built to exchange data via OpenHIM or other FHIR-compatible data receivers and producers.</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">CommCare Data Export Tool to automatically push your data to a SQL DB</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Data Forwarding Webhooks </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Framework for integrating custom Android apps with CommCare apps.  </p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr"><em>Integrations with SMS gateways to enable <a href="https://confluence.dimagi.com/display/commcarepublic/Conditional+Alert+Use+Cases">SMS based workflows</a> and Messaging Use Cases</em></p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr"><a href="https://www.twilio.com/">Tw</a>i<a href="https://www.twilio.com/">lio </a></p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Unicel </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Yo!</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Syniverse</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Grapevine </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Telerivet</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Infobip </p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">WhatsApp</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Telegram (under R&amp;D)</p>
+		</li>
+	</ul></li>
+</ul><p dir="ltr"><strong> </strong></p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-42.html?destination=node/349%23comment-form">Log in</a> or <a href="../../user/register/index-22.html?destination=node/349%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+</div><a id="comment-334"></a>
+<div class="comment comment-by-node-author even" about="/comment/334#comment-334" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="../334/index.html#comment-334" class="permalink" rel="bookmark">Thanks, Vikas for these</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/prateep-chakraborty" typeof="sioc:UserAccount" property="foaf:name" datatype="">Prateep Chakraborty</span></span> - <span property="dc:date dc:created" content="2022-02-07T00:27:37-07:00" datatype="xsd:dateTime">Mon, 02/07/2022 - 00:27</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Thanks, Vikas for these questions. We will answer these in the comments section itself</p>
+
+<p>Warmly</p>
+
+<p>Prateep Chakraborty </p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-42.html?destination=node/349%23comment-form">Log in</a> or <a href="../../user/register/index-22.html?destination=node/349%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+
+  </div> <!-- /#comments -->
+</div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+
+    </section>
+    <!-- /#main -->
+  </div>
+
+        <aside id="sidebar-first" role="complementary" class="sidebar five columns">
+      <div class="region region-sidebar-first">
+    <div id="block-views-opg-core-fields-navblock-block" class="block block-views">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="view view-opg-core-fields view-id-opg_core_fields view-display-id-navblock_block view-dom-id-af72ff8eada1e825771241fc214360bf">
+            <div class="view-header">
+      <h2>This Forum</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="contextual-links-region">
+      
+          <div>Add Your APPLICATION
+<div><a href="../../user/login/index-8.html">Login</a> is required.</div>
+</div>
+    
+          <ul><li><a href="../../notice-f0/details/index.html">Read before applying</a></li>
+	<!--<li class="pointer improvement-closed">Open Submission and Improvement phases are closed. Applications are in review.</li>-->
+	<li>Comment on applications
+	<div>
+	<p>Use comments to state your interest in joining a team</p>
+	</div>
+	</li>
+	<li><a href="mailto:digitalsquare@path.org?Subject=Open%20Proposals%20Question"><strong>Questions?</strong> Contact Digital Square</a> or call </li>
+	<li><a class="clicktext">Follow this Forum</a><span class="clicktextlong" style="display:none;"><a href="../../user/login/index-253.html">Login</a> to follow this forum</span></li>
+	<!-- <li><a href="https://applications.digitalsquare.io/notice-f0/active" id="most_commented">Most Commented Applications</a></li> -->
+	<li><a href="../../notice-f0/popular/index.html" id="most_popular">Most Liked Applications</a></li>
+	<li><a href="../../notice-f0/summary/index.html">Summary of Applications</a></li>
+	<li><a href="../../notice-f0/announcements/index.html">Announcements</a></li>
+	<!-- <li class="pointer"><a href='/notice-f0/awards'>Awards</a></li> -->
+</ul>    
+              </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</div>
+<section id="block-views-opg-core-my-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>My Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-my_block view-dom-id-ecb82dc840dfe50612cf3e0955a4e110">
+        
+  
+  
+      <div class="view-empty">
+      <!--?php if (!$GLOBALS['user']->uid): ?>
+<p><a href="https://applications.digitalsquare.io/goto/login/drupal">Login</a> to see links for accessing your applications</p>
+<?php else : ?-->
+<ul class="icon submission-open">
+<li class="pointer"><a href="../../notice-f0/create/index.html">Add your application</a></li>
+</ul>
+<!--ul class="submission-closed"><li>Application submission is closed.</li></ul-->
+<?php endif; ?>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+<section id="block-views-opg-core-recent-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>Recent Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-recent_block view-dom-id-9c43e8d34d3465fc40dff04d64055db0">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/reference-implementation-who-antenatal-care-digital-adaptation-kit-through-commcare-0/index.html" class="active">Reference Implementation of WHO Antenatal care Digital Adaptation Kit through CommCare</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/supporting-fhir-native-reference-implementation-anc-smart-guidelines/index.html">Supporting a FHIR Native Reference Implementation of the ANC Smart Guidelines</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/dak-based-openmrs-3x-anc-package/index.html">DAK-Based OpenMRS 3.x ANC Package</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/nganisha-health-systems-reference-implementation-who-antenatal-care-digital-adaptation-kit/index.html">NGANISHA HEALTH SYSTEMS: Reference Implementation of the WHO Antenatal Care Digital Adaptation Kit </a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/make-ieda-maternity-reference-implementation-who-dak-anc/index.html">Make IeDA Maternity a reference implementation of the WHO DAK ANC </a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/bornfyne-prenatal-management-system/index.html">BornFyne-Prenatal Management System</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/supporting-digital-cascade-care-antenatal-care/index.html">Supporting Digital Cascade of Care for Antenatal Care</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/tamanu-antenatal-care/index.html">Tamanu for Antenatal Care</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/strengthening-antenatal-care-components-and-improving-shelf-readiness/index.html">Strengthening Antenatal Care Components and Improving Shelf-Readiness</a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/reference-implementation-world-health-organization-antenatal-care-digital-adaption-kit/index.html">Reference implementation of the World Health Organization Antenatal Care Digital Adaption Kit </a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+  </div>
+    </aside><!-- /#sidebar-first -->
+
+</div>
+
+<div id="acknowledgement-wrapper" class="container">
+
+  
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-boxes-ucsf-copyright" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_copyright' class='boxes-box'><div class="boxes-box-content"><!--p style="margin-bottom: 0;">The University of California Copyright ©2015 The Regents of the University of California. <span class="nowrap">All Rights Reserved.</span></p>
+<p>Services on this website are for the use of UCSF researchers, CTSI affiliates, industry and community members who wish to establish explicit ties to UCSF.</p-->
+<div style="background:#fff; color:#000">
+<p><em>Digital Square is a PATH-led initiative funded and designed by the United States Agency for International Development,<br />
+the Bill &amp; Melinda Gates Foundation, and a consortium of other donors.</em></p>
+
+<p><img alt="Funders Logos" src="../../sites/default/files/logo-lockup/index.png" /></p>
+
+<p><em>This platform is made possible by the generous support of the American people through the<br />
+United States Agency for International Development (USAID). The contents of this platform are the sole<br />
+responsibility the respective course developers as noted within the platform, and do not necessarily<br />
+reflect the views of PATH, USAID, the United States Government, or PATH’s funders.</em></p>
+
+<p> </p>
+</div>
+<p>Digital Square Copyright ©2018 All Rights Reserved.</p>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+<script type="text/javascript">
+//CrazyEgg click tracking
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0010/2559.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+</footer>
+</body>
+</html>

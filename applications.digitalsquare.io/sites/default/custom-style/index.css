@@ -1,0 +1,13 @@
+table.notice-page {
+  border: none;
+}
+
+table.notice-page tr:hover td,
+table.notice-page tr.even:hover td.active,
+table.notice-page tr.odd:hover td.active {
+  background: none;
+}
+
+tbody tr:hover a.white, tbody tr td a.white:hover {
+color: #fff !important; 
+}

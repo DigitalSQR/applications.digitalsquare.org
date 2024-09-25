@@ -1,0 +1,1568 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="index.html" />
+<link rel="shortlink" href="index.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.55, user-scalable=yes" />
+<link rel="shortcut icon" href="../../sites/default/files/dsq_1/index.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Integrate OpenMRS Dictionary Manager and Open Concept Lab TermBrowser and Improve Shelf-Readiness for content managers in the field | Digital Square Open Application Platform</title>
+  <style type="text/css" media="all">
+@import url("../../modules/system/system.base/index.css?rsi2se");
+@import url("../../modules/system/system.menus/index.css?rsi2se");
+@import url("../../modules/system/system.messages/index.css?rsi2se");
+@import url("../../modules/system/system.theme/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../modules/comment/comment/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/date/date_api/date/index.css?rsi2se");
+@import url("../../modules/field/theme/field/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/logintoboggan/logintoboggan/index.css?rsi2se");
+@import url("../../sites/all/modules/message/message_example/css/message_example/index.css?rsi2se");
+@import url("../../modules/node/node/index.css?rsi2se");
+@import url("../../modules/poll/poll/index.css?rsi2se");
+@import url("../../modules/search/search/index.css?rsi2se");
+@import url("../../modules/user/user/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/views/css/views/index.css?rsi2se");
+@import url("../../sites/all/modules/ckeditor/css/ckeditor/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../sites/all/modules/contrib/ctools/css/ctools/index.css?rsi2se");
+@import url("../../sites/all/modules/panels/css/panels/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/rate/rate/index.css?rsi2se");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/menu/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/normalize/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/style/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/design/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/responsive/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/entypo/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/vh/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/easy-responsive-tabs/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/opbamboo/css/op/index.css?rsi2se");
+</style>
+<style type="text/css" media="print">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/print/index.css?rsi2se");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie8-fixes.css?rsi2se" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie9-fixes.css?rsi2se" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("../../sites/default/files/css_injector/css_injector_1/index.css?rsi2se");
+@import url("../../sites/default/custom-style/index.css?rsi2se");
+</style>
+  <script type="text/javascript" src="../../sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-extend-3.4.0/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-html-prefilter-3.5.0-backport/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery.once/index.js?v=1.2"></script>
+<script type="text/javascript" src="../../misc/drupal/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/profiletip/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/jquery.bt.min/index.js?v=0.9.5-rc1"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/beautytips.min/index.js?v=7.x-2.x"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/admin_menu/admin_devel/admin_devel/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/google_analytics/googleanalytics/index.js?rsi2se"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-ZY4QKF6M6B"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-ZY4QKF6M6B", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/vh/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/easyResponsiveTabs/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/op/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/open-proposals/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/themes/contrib/bamboo/js/scripts/index.js?rsi2se"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"opbamboo","theme_token":"kvhPE_YGFoEz7-UVY7_ftoQ8451ihav4V94hRuUzAiE","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/profiletip.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/jquery.bt.min.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/beautytips.min.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-ZY4QKF6M6B":1,"0":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/vh.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/easyResponsiveTabs.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/op.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/open-proposals.js":1,"sites\/all\/themes\/contrib\/bamboo\/js\/scripts.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/message\/message_example\/css\/message_example.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/menu.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/normalize.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/style.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/design.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/responsive.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/opcolors.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/entypo.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/vh.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/easy-responsive-tabs.css":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/css\/op.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/print.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie8-fixes.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie9-fixes.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"sites\/default\/custom-style.css":1}},"beautytipStyles":{"default":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0026quot;Lucida Grande\u0026quot;,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":"1","shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4},"plain":[],"netflix":{"positions":["right","left"],"fill":"#FFF","padding":5,"shadow":true,"shadowBlur":12,"strokeStyle":"#B9090B","spikeLength":50,"spikeGirth":60,"cornerRadius":10,"centerPointY":0.1,"overlap":-8,"cssStyles":{"fontSize":"12px","fontFamily":"arial,helvetica,sans-serif"}},"facebook":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"11px"}},"transparent":{"fill":"rgba(0, 0, 0, .8)","padding":20,"strokeStyle":"#CC0","strokeWidth":3,"spikeLength":40,"spikeGirth":40,"cornerRadius":40,"cssStyles":{"color":"#FFF","fontWeight":"bold"}},"big-green":{"fill":"#00FF4E","padding":20,"strokeWidth":0,"spikeLength":40,"spikeGirth":40,"cornerRadius":15,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"14px"}},"google-maps":{"positions":["top","bottom"],"fill":"#FFF","padding":15,"strokeStyle":"#ABABAB","strokeWidth":1,"spikeLength":65,"spikeGirth":40,"cornerRadius":25,"centerPointX":0.9,"cssStyles":[]},"hulu":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0022Lucida Grande\u0022,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":true,"shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4}},"beautytips":{"op_global_clickme":{"cssSelect":".clickme","style":"hulu","trigger":"click","shrinkToFit":true,"ajaxDisableLink":true,"contentSelector":"$(this).next(\u0022.clicktalk\u0022).html()","list":["trigger","shrinkToFit","contentSelector"]}},"better_exposed_filters":{"views":{"opg_core_fields":{"displays":{"navblock_block":{"filters":[]}}},"opg_core":{"displays":{"my_block":{"filters":[]},"recent_block":{"filters":[]}}}}},"googleanalytics":{"account":["G-ZY4QKF6M6B"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"base_host":"applications.digitalsquare.io","opg":{"group_type":"node","gid":"304","path":"\/notice-f2","group_content_type":"opg_group","label":"Notice F2: Shelf readiness with a focus on building local capacity and new teams.","post_type":"notice_f2_application","node_type":"notice_f2_application","post_type_name":"Notice F2 Application","login_type":"drupal","groupword":"Forum","ucgroupword":"FORUM","lcgroupword":"forum","groupword_article":"A","lcgroupword_article":"a","ucgroupword_article":"A","groupwords":"Forums","ucgroupwords":"FORUMS","lcgroupwords":"forums","noun":"Application","ucnoun":"APPLICATION","lcnoun":"application","noun_article":"An","lcnoun_article":"an","ucnoun_article":"AN","nouns":"Applications","ucnouns":"APPLICATIONS","lcnouns":"applications","postwords":"Submit","create_text":"\u003Ch3\u003E\u003Ca href=\u0022\/goto\/login\/drupal\u0022\u003ELogin\u003C\/a\u003E is required to create Applications\u003C\/h3\u003E"},"siteName":"UCSF Open Proposals","ogContext":{"groupType":"node","gid":"304"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-335 node-type-notice-f2-application opg_core-section og-context og-context-node og-context-node-304 site-name-hidden bg-gray-gradient color-palette-dark-rust header-font-sans-serif body-font-sans-serif sidebar-right section-content is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+
+    <div id="ucsf-links">
+                <div class="region region-ucsf-links">
+    <div id="block-boxes-ucsf-top-banner" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_top_banner' class='boxes-box'><div class="boxes-box-content"><div class="container ucsf">
+<div class="sixteen columns">
+<ul class="ucsfnav"><li>
+<a title="Home" href="..//index.html" id="ucsf">Home</a>
+</li>
+<li>
+<a title="Search" href="../../search/node/index.html" id="search">Search</a>
+</li>
+<li>
+<a title="Contact" href="../../contact/index.html" id="contact">Contact</a>
+</li>
+
+</ul><ul class="ucsfnav ucsfnav-right no-phone no-phone-ls"><li>
+<a title="Digital Square wiki" href="https://wiki.digitalsquare.io/index.php/Main_Page" id="ucsf">Digital Square wiki</a>
+</li>
+<li>
+<a title="Digital Square blog" href="http://digitalsquare.org/">Digital Square website</a>
+</li>
+</ul></div>
+</div></div></div>    </div>
+</div>
+</div>
+<div id="block-block-4" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div><a href="..//index.html" target="_blank"><img alt="" height="152" src="../../sites/default/files/dsq/index.png" width="152" /></a><img alt="" height="156" src="../../sites/default/files/townsquare/index.jpg" style="float:right" width="963" /></div>
+
+<div> </div>
+    </div>
+</div>
+</div>
+  </div>
+          </div>
+
+  <hgroup class="sixteen columns alpha omega">
+
+    <div id="brand">
+          </div>
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="..//index.html" title="Home">
+               </a>
+      </h1>
+          </div>
+
+    <div id="top-links">
+          </div>
+
+  </hgroup>
+
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+                <!-- region to place search form inside navbar -->
+              </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="eleven columns">
+        <section id="post-content" role="main" class="page" >
+
+      
+      <h2 class="title"><a href="../../notice-f2/index.html">Notice F2: Shelf readiness with a focus on building local capacity and new teams.</a></h2>
+            
+            <h1 class="page-title">Integrate OpenMRS Dictionary Manager and Open Concept Lab TermBrowser and Improve Shelf-Readiness for content managers in the field</h1>
+            
+      
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-335" class="node node-notice-f2-application node-promoted node-full clearfix proposal"
+   about="/content/integrate-openmrs-dictionary-manager-and-open-concept-lab-termbrowser-and-improve-shelf" typeof="sioc:Item foaf:Document" role="article">
+  
+      <span property="dc:title" content="Integrate OpenMRS Dictionary Manager and Open Concept Lab TermBrowser and Improve Shelf-Readiness for content managers in the field" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="2" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-12-01T12:08:41-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/jonathan-payne" typeof="sioc:UserAccount" property="foaf:name" datatype="">Jonathan Payne</span></span> (Regenstrief Institute; Open Concept Lab) on <span property="dc:date dc:created" content="2021-12-01T12:08:41-07:00" datatype="xsd:dateTime">Wed, 12/01/2021 - 12:08</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Digital Square</span> on Fri, 04/01/2022 - 01:41.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f2-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p dir="ltr">The goal is to integrate the OpenMRS Dictionary Manager and OCL TermBrowser web applications, improving shelf-readiness for local teams and enhancing capabilities available to both the OpenMRS and OCL communities of users. Fellows from community and implementer groups and coordinated by the OpenMRS Fellowship program will be embedded in the project team to build local capacity in UX design and development.</p>
+</div></div></div><div class="field field-name-field-f2-summary field-type-text-long field-label-above"><div class="field-label">Executive Summary:&nbsp;</div><div class="field-items"><div class="field-item even"><p>Several years ago, the OpenMRS community formed the OCL for OpenMRS Squad and launched the OpenMRS Dictionary Manager, which is a specialized web application to manage concept dictionaries built on top of the Open Concept Lab. The Dictionary Manager is a key platform in the nascent OpenMRS HIV Reference Implementation initiative, and is expecting significant growth in traffic and content in 2022 and beyond.</p>
+
+<p dir="ltr">These tools address local capacity needs by making the essential HIS task of content management accessible to folks in the field. These tasks have previously typically required experienced developers or centralized NGO teams.</p>
+
+<p>This investment would integrate the OpenMRS Dictionary Manager into the OCL TermBrowser, creating a more robust, sustainable, shelf-ready tool that directly empowers hands-on national, regional, and site-level management of terminology. A Nov-2021 comparison of features between the TermBrowser and Dictionary Manager found that approximately 70% of user interface features in the Dictionary Manager were at least partially supported in the TermBrowser, creating a high maintenance burden to keep these features aligned. By integrating these products, we eliminate overlapping functionality and duplication of effort, and make valuable features, workflows, and infrastructure available to all OCL/OpenMRS users. This investment would revise and expand documentation for the integrated product targeting users, implementers and decision makers and would determine an approach for a bundled OCL and OpenMRS v3 in alignment with Instant OpenHIE.</p>
+
+<p>Through interviews conducted by prior OCL for OpenMRS fellowships, we identified key capacity gaps among community and implementation technologists: a) advanced front-end development, b) UX design, c) terminology/content product management, and d) collaborative, open source development processes. This investment will address these capacity gaps by onboarding and embedding fellows from the OpenMRS implementer community into the OCL for OpenMRS Squad, where they will actively contribute to achieving this project’s goals and, in doing so, build expertise among the implementer community while achieving their own professional development goals.</p>
+</div></div></div><div class="field field-name-field-f2-team field-type-text-long field-label-above"><div class="field-label">Consortium team:&nbsp;</div><div class="field-items"><div class="field-item even"><p><strong>Global Connect:</strong> Global Connect provides professional services specializing in global health informatics and health terminology, with a focus on supporting the development and implementation of the Open Concept Lab open-source suite of tools. Global Connect would serve as prime for this award and will direct and manage the project in addition to leading software architecture and development activities. Global Connect facilitates several regular OCL community meetings that will be key touch points for capacity building and training of fellows within this project. These meetings are in addition to the weekly OCL for OpenMRS Squad facilitated by the OpenMRS community.</p>
+
+<p><strong>Open Concept Lab:</strong> The Open Concept Lab (OCL) is an open-source community whose mission is to provide a platform and encode best practices that support the deployment and implementation of health terminology, especially among low-and-middle income countries (LMICs). The OCL community develops and supports a suite of open-source tools that is free to download and use, including the FHIR-enabled OCL Terminology Server, the OCL TermBrowser, and the OpenMRS Dictionary Manager. OCL also supports OCL Online, which is a shared, cloud-based instance of all OCL tools hosted at openconceptlab.org.</p>
+
+<p><strong>OpenMRS, Inc:</strong> In addition to being an open-source EMR, OpenMRS is an open source community that functions as a consortium, with many organizations working in LMICs supporting the work of individual OpenMRS contributors. As such, the community seeks to engage and motivate both volunteers and supporting organizations to actively contribute to all aspects of the software development and implementation process. The OpenMRS Community currently provides community and product management support to the OCL for OpenMRS Squad, through which OCL representatives, OpenMRS fellows, and OpenMRS implementers convene and collaboratively work on solutions to improve OpenMRS concept management. In this role, the OpenMRS community will manage and administer the OpenMRS Fellowship Program as well as facilitate collaboration between the OCL for OpenMRS Squad, the OpenMRS Quality Assurance Support Team, and the broader OpenMRS community.</p>
+
+<p><strong>Regenstrief Institute:</strong> Regenstrief Institute, Inc. is an internationally recognized informatics and healthcare research organization. It is a dynamic, people-centered research organization driven by a mission to connect and innovate for better health. Faculty and staff drive these efforts by upholding the Institute’s core values of discovery, impact, people, and community. Established by philanthropist Sam Regenstrief on the Indiana University - Purdue University Indianapolis campus in 1969, the institute is an Indiana-based 501(c)(3) or specifically a 509(a)(3) Type I organization. It is closely affiliated with the Indiana University School of Medicine and other Indiana University and Purdue University schools as well as the Health and Hospital Corporation of Marion County, IU Health, Eskenazi Hospital, and the Richard L. Roudebush VA Medical Center. Regenstrief has world-class scientists supported by personnel and resources who design, manage, and conduct studies in clinical and translational research; manage and analyze sensitive health information or collected study data; develop or re-engineer systems to support clinical and operational approaches. By design, our Global Health Informatics Program is comprised of individuals from various backgrounds, cultures, and experiences. By working with colleagues around the world, we support the development and implementation of an increasingly well-defined set of principles, approaches, and open technologies designed for use in resource-limited settings.</p>
+</div></div></div><div class="field field-name-field-f2-description field-type-text-long field-label-above"><div class="field-label">Project Description:&nbsp;</div><div class="field-items"><div class="field-item even"><p dir="ltr"><strong>Background</strong></p>
+
+<p dir="ltr">Several years ago, the OpenMRS community started a project to create a cloud-based web application built on top of the Open Concept Lab (OCL) that specialized in concept dictionary management for the OpenMRS community. The “OCL for OpenMRS Squad” was formed (see <a href="https://wiki.openmrs.org/pages/viewpage.action?pageId=224527062">https://wiki.openmrs.org/pages/viewpage.action?pageId=224527062</a>) and volunteers defined requirements and began ReactJS development. With a 2021 investment from Digital Square, the minimum viable product for the OpenMRS Dictionary Manager was brought to launch and notably used by MSF to manage and subscribe to a concept dictionary for a Bahmni implementation in Bangladesh. The squad remains active and the Dictionary Manager is now a key platform in the nascent OpenMRS HIV Reference Implementation initiative, as part of the CDC’s Technical Assistance Platform, with significant growth in traffic and content expected in 2022 and beyond. A surge of interest from national teams is expected through this mechanism - in fact, the first implementing teams are already using the Dictionary Manager to set up content packages for field teams to apply and adapt (stored in OCL here: <a href="https://app.openconceptlab.org/#/orgs/OHRITechGroup/collections/">https://app.openconceptlab.org/#/orgs/OHRITechGroup/collections/</a>). </p>
+
+<p dir="ltr">In the meantime, OCL’s two open-source tools, the TermBrowser and the Terminology Server, were completely overhauled with a host of new features and are now in a place where they can begin to support the specialized functionality and workflows of the Dictionary Manager in a more robust, sustainable, enterprise-ready manner. A <a href="https://docs.google.com/spreadsheets/d/17r6ku5jkR5gVwoHsc0iTsAE7qSUsunTXcxALu90TKeI/edit?usp=sharing">Nov-2021 comparison of features</a> between the TermBrowser and Dictionary Manager found that approximately 70% of user interface features in the Dictionary Manager were at least partially supported in the TermBrowser, creating a high maintenance burden to keep these features aligned. Furthermore, new capabilities needed by users of the Dictionary Manager, such as the ability for a user to make non-breaking changes to a curated concept, require new workflows and user experience designs that would need to be done for both the Dictionary Manager and the TermBrowser.</p>
+
+<p dir="ltr">By integrating these products, we eliminate overlapping functionality and duplication of effort, thus simplifying life for field staff, so that there is one central, trusted tool. The table below summarizes the unique OpenMRS components that would be ported over to the OCL TermBrowser and identifies some of the duplicative components that would likely be eliminated.</p>
+
+<table><tbody><tr><td>
+			<p dir="ltr"><strong>Examples of components that would be ported over from the OpenMRS Dictionary Manager to the OCL TermBrowser</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>Examples of duplicative components in the Dictionary Manager that would be eliminated (e.g. replaced by equivalents in the OCL TermBrowser)</strong></p>
+			</td>
+		</tr><tr><td>
+			<ul><li dir="ltr">
+				<p dir="ltr">Dictionary Management Module</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">User in-app progress notifications</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">OpenMRS Class-based Concept Schemas</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Selenium UI testing framework</p>
+				</li>
+			</ul></td>
+			<td>
+			<ul><li dir="ltr">
+				<p dir="ltr">User Profile, including listing of user repositories</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Organization Search</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Organization Details, including listing of organization repositories</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Search and Listing of public repositories</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Apps Menu</p>
+				</li>
+			</ul></td>
+		</tr></tbody></table><p>Integrating these products also reduces long-term maintenance and the amount of time it takes for new core OCL capabilities to be introduced to the OpenMRS community, making valuable features and workflows created for OpenMRS requirements available to all OCL users. This change will allow the volunteer-based OCL for OpenMRS Squad to focus on supporting the unique needs of the OpenMRS community, rather than having its limited capacity split by also maintaining a full web application with considerable overlap in functionality with the OCL TermBrowser. </p>
+
+<p dir="ltr">In addition to specific “shelf-ready artifacts”, including documentation and automated tests, this work contributes to a more shelf-ready product in several key ways:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">The OCL TermBrowser is currently under more active development and has higher test coverage</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">OCL and OpenMRS development resources can be more efficiently allocated and responsive to user needs with the elimination of duplicative components that need to be maintained and focusing on new feature development on a single platform rather than in two platforms</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">OCL maintains a growing set of resources and documentation with a weekly Community call that is focused on curating artifacts and adapting them for public use. Bringing these products closer together will help us to develop more useful public documentation more quickly.</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Core OCL infrastructure is improving rapidly, in part due to preparation for FISMA and WHO cybersecurity certification. One example is automated error tracking and notification, that the core OCL team actively monitors to address issues and troubleshoot with users. An integrated Dictionary Manager / TermBrowser can more readily benefit from these improvements.</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Other important software features (like a bulk import user interface) that already exist in the OCL TermBrowser will immediately be available to Dictionary Manager users upon integration.</p>
+	</li>
+</ul><p>Through prior OCL for OpenMRS fellowships and <a href="https://openmrs.org/2021/11/24/driven-by-real-needs-the-openmrs-dictionary-manager-web-app/">interviews with OpenMRS implementers</a>, the OpenMRS Community and OCL for OpenMRS Squad identified key capacity gaps among community and implementation technologists in several areas: a) advanced front-end development, b) UX design, c) terminology/content product management, and d) collaborative, open source development processes. This investment will address these capacity gaps by onboarding and embedding fellows from the OpenMRS implementer community into the OCL for OpenMRS Squad, where they will actively contribute to achieving this project’s goals and, in doing so, build expertise among the implementer community while achieving their own professional development goals.</p>
+
+<h2 dir="ltr"><strong>Digital Health Technologies</strong></h2>
+
+<p dir="ltr">Open Concept Lab The Open Concept Lab (OCL) is a suite of open-source tools to help manage and use health terminologies. The OCL Terminology Service is RESTful API with support for FHIR based on the Sharing Valuesets and Concept Maps (SVCM) IHE Profile. It is designed to be used in a shared, cloud-based environment or as an architectural component within an organization’s data exchange architecture. The OCL TermBrowser is the primary tool for browsing, searching and managing content on an OCL Terminology Server, and it can also browse terminology on other SVCM compatible servers, such as HAPI FHIR. The Terminology Service is written in Python/Dango with Postgres as primary data store and Elastic Search as the search index. OCL’s current FHIR service is built on the HAPI FHIR Application Layer. The TermBrowser is a ReactJS web application.</p>
+
+<p dir="ltr">OpenMRS The OpenMRS platform is a generic platform for developing electronic medical record (EMR) system implementations. It is designed to collect and manage patient-centric longitudinal medical data. The platform consists of a database, an abstraction layer between code and the database (i.e., Hibernate, a tool to map between Java objects and a database), a Java-based service layer, and a web services (a bespoke REST interface and a standard FHIR interface). The data model is heavily influenced by the HL7 Reference Information Model and uses a central concept dictionary to define the data it contains. As a result, the system is very flexible – not focused on a specific vertical use case – and can be adapted for any patient-centric health solution. The platform is designed to be modular, making it extremely extensible by allowing customizations to be added or removed to meet local needs.</p>
+
+<p>Multiple APIs are available, supporting interoperability with external systems. Proven interoperability already exists between multiple systems, leveraging various parts of the OpenHIE architecture. For example, OpenMRS has leveraged the OpenHIE architecture to support case-based reporting, patient identity management and other services.  We also use Open Concept Lab for terminology support, and actively collaborate with the Open Concept Lab team for our terminology needs. We have been working closely with OpenHIE, building and evaluating the ability of OpenMRS to share data through the defined OpenHIE architectural stack. More information is available at<a href="https://wiki.openmrs.org/display/docs/Technical+Overview"> https://wiki.openmrs.org/display/docs/Technical+Overview</a>. OpenMRS is available in several different versions, including containerised versions which can be plugged into the broader Instant OpenHIE architecture.</p>
+
+<h2 dir="ltr"><strong>Use Cases and User Stories</strong></h2>
+
+<p dir="ltr">Implementer Interviews in 2021 followed one of three patterns. <strong>Each of these teams wished it was easier for their local non-technical colleagues to take on the burden of content work.</strong></p>
+
+<p dir="ltr"><strong>This will unlock the capacity of more local-level team members in each of these examples:</strong></p>
+
+<ul><li dir="ltr">
+	<p dir="ltr"><strong>Limited Resources set-up (The One Man Army model): </strong>The most commonly found setup. Only one person to look after concepts; often, the person is a developer who already has to manage complex technologies. They must now also find time for all the steps from content creation, to expert review, to form creation, to reporting. Overwhelmed with tasks, responsibilities, and stakeholders, these folks often feel like a one-man army. <strong>They wish their PM/BA team members could share this responsibility. </strong></p>
+	</li>
+</ul><ul><li dir="ltr">
+	<p dir="ltr"><strong>Some Content Team Resources (The Content Manager model): </strong>Typically<strong> limited to ~1 person </strong>at an implementation whose job focuses almost entirely on creating and managing forms and medical codes needed in the field. But they still have to turn to their developer colleagues if the software gets too complicated for them to use themselves. <strong>They wish they had tools to make their work faster, so they can focus on addressing incoming needs from clinical staff. </strong></p>
+	</li>
+</ul><ul><li dir="ltr">
+	<p dir="ltr"><strong>The Centralized Content Team model: </strong>This is more common among large organizations (teams managing many sites at a multi-national scale, such as international NGOs). These centralized Management level personas often have many other oversight responsibilities, and<strong> they wish staff closer to the field could take on more ownership of content management.</strong></p>
+	</li>
+</ul><h2 dir="ltr"><strong>Objectives and Activities</strong></h2>
+
+<p dir="ltr">This investment will be used to (a) integrate the OpenMRS Dictionary Manager and OCL TermBrowser web applications and improve shelf-readiness for local capacity; and (b) embed fellows from community and implementer groups into the OCL for OpenMRS Squad to build local capacity in UX design and development.</p>
+
+<p dir="ltr">These objectives will be achieved by leveraging and strengthening the current OpenMRS fellowship program. In addition to receiving mentorship from senior technologists, fellows will be expected to participate in an OpenHIE Terminology Academy “boot camp”, complete a capstone project, serve as active members for the integration of these web applications, and engage with implementing organizations interested in applying the integrated web application.</p>
+
+<h3 dir="ltr"><strong>Work Package 1: Integrate the OpenMRS Dictionary Manager and OCL TermBrowser web applications and improve shelf-readiness for content managers in the field</strong></h3>
+
+<p dir="ltr">We anticipate adoption of the OpenMRS Dictionary Manager to be a major driver of growth for OCL in the coming months and years. The objectives and activities below (along with related activities in other awards) are critical to ensure that OCL and OpenMRS are prepared to handle this growth in a sustainable way and that new users have the necessary guidance and support.</p>
+
+<h4 dir="ltr"><strong>Objective 1.1: Integrate OpenMRS Dictionary Manager components into the OCL TermBrowser to improve product sustainability and shelf-readiness for content managers in the field</strong></h4>
+
+<p dir="ltr">This objective will bring workflows, functionality, and design paradigms from the OpenMRS Dictionary Manager directly into the OCL TermBrowser, providing a single platform and a unified experience for people managing OpenMRS concept dictionaries and other types of terminology content. This will be accomplished by porting existing ReactJS components from the Dictionary Manager over to the TermBrowser and eliminating certain duplicative components. Both products are written in ReactJS and leverage the same OCL Terminology Server REST API.</p>
+
+<p dir="ltr">Note that this objective is just one of the key steps identified in a 2022 OpenMRS Dictionary Manager Plan that was developed as part of another Digital Square funded award. The plan was developed through a series of calls with OpenMRS and OCL community members with frequent input from the OCL for OpenMRS squad and the OCL Architecture call. The plan lays out a technical roadmap for unified design, integration and future feature requirements. Specifically, it includes new user experience designs, new user workflows in the TermBrowser, and the development of key back-end functionality into the OCL Terminology Server to support dictionary management (e.g. concept modifications) – all of these are beyond the scope of what is laid out here in this objective. Some of these items will take place simultaneously through resources that have already been committed, while others are awaiting community contributions or new resourcing. Most importantly, the 2022 OpenMRS Dictionary Plan represents a shared vision about how to meet the needs of two dynamic open source communities in a sustainable way.</p>
+
+<p dir="ltr">Activities:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Activity 1.1.1: Integration Plan - Joint planning for porting OpenMRS Dictionary Components over to the OCL TermBrowser</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">A high-level plan for integration of the Dictionary Manager into the OCL TermBrowser was already developed as part of OCL’s 2022 with the OpenMRS community. The plan includes porting of components in addition to new workflows and feature development. This activity focuses on creating a detailed work plan only for porting of components. New feature development is out of scope for this award.</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 1.1.a: Joint plan for porting OpenMRS Dictionary Components over to the OCL TermBrowser</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 1.1.2: Integrate Dictionary Manager and TermBrowser - Port selected components from the OpenMRS Dictionary Manager into the TermBrowser</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Components identified in Output 1.1.a</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 1.1.b: Port components identified in Output 1.1.a from the OpenMRS Dictionary Manager into the OCL TermBrowser</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 1.1.3: Expand automated testing - Improve software productization by expanding automated tests for the OCL TermBrowser</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">OpenMRS Dictionary Manager has already implemented Cypress UI tests, and the OCL TermBrowser already implements some automated unit tests.</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">The OCL TermBrowser will adopt the Dictionary Manager’s UI testing framework and OpenMRS subscription testing (e.g. using the OCL Subscription Module), and automate within the software release process</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Many of the individual OpenMRS Dictionary Manager tests will be ported over to the OCL TermBrowser and automated</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Additional UI tests will be defined and implemented in the TermBrowser based on community priorities</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 1.1.c: Draft plan for automation of user interface and subscription tests</p>
+			</li>
+			<li dir="ltr">
+			<p dir="ltr">Output 1.1.d: Implement automated testing framework as mapped out in Output 1.1.c</p>
+			</li>
+			<li dir="ltr">
+			<p dir="ltr">Output 1.1.e: Implement and automate actual UI tests as mapped out in Output 1.1.c</p>
+			</li>
+		</ul></li>
+	</ul></li>
+</ul><p> </p>
+
+<h4 dir="ltr"><strong>Objective 1.2: Revise and Expand field-staff-friendly documentation for the integrated Dictionary Manager and TermBrowser product</strong></h4>
+
+<p dir="ltr">During OCL’s annual planning, we decided that 2022 is the “year of the user” for OCL. The timing is right to expand and revise documentation and related artifacts for users, implementers, and decision makers. Both the OCL TermBrowser and the OpenMRS Dictionary Manager have limited product information and user documentation available, with most of OCL’s current documentation being technical in nature and targeting developers (e.g. swagger and API references). OCL's main documentation site is at <a href="https://docs.openconceptlab.org/">docs.openconceptlab.org</a>.</p>
+
+<p dir="ltr">With the Dictionary Manager integrated into the OCL TermBrowser, existing documentation will also need to be revised. Recent user experience work by OpenMRS fellow Suruchi Dhungana, Joe Amlung with Regenstrief, and Paul Adams with Sonder have produced materials such as user personas, use cases, and workflows that, with some adaptation for public use, would be invaluable for users and potential implementers.</p>
+
+<p dir="ltr">Activities:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Activity 1.2.1: Documentation Plan - Develop joint documentation plan for product information and user, implementer and technical documentation</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">The documentation plan will be developed collaboratively by the OCL and OpenMRS communities with input from other stakeholders</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">The documentation plan will include priorities as presented in this proposal and documentation outputs outside of the scope of this award, laying out a plan that extends beyond 2022 and that other community members may contribute to</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">The documentation plan include at minimum outputs related to product information, user documentation and technical documentation</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr"> will be informed and prioritized by:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Shelf-readiness and maturity guidance provided by Digital Square, which includes (but is not restricted to):</p>
+
+			<ul><li dir="ltr">
+				<p dir="ltr">Developer documentation (software design, patterns)</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Implementer documentation (installation guides, architectural implementation patterns for scale, implementation validation checks</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">Administrator guides (configuration options and descriptions of features/options)</p>
+				</li>
+				<li dir="ltr">
+				<p dir="ltr">User guides and operation manuals (outlining the functionality of the system and how it operates)</p>
+				</li>
+			</ul></li>
+			<li dir="ltr">
+			<p dir="ltr">Existing materials that can be adapted to public documentation with a small amount of work:</p>
+			</li>
+			<li dir="ltr">
+			<p dir="ltr">Immediate documentation needs from community members</p>
+			</li>
+		</ul></li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 1.2.a: Documentation plan</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 1.2.2: Product Information - Develop product information documentation</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Product information consists of materials that outline key functions, value proposition, and quick access documents for decision makers.</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Some relevant artifacts already exist that with a small amount of effort could be adapted as public documentation. Existing artifacts include:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Series of Shiriki webinar presentations on concept dictionary management</p>
+			</li>
+			<li dir="ltr">
+			<p dir="ltr">Planning documentation for the OpenMRS Dictionary Manager</p>
+			</li>
+			<li dir="ltr">
+			<p dir="ltr">Draft marketing materials for OCL TermBrowser that need to be expanded for the integration with the Dictionary Manager</p>
+			</li>
+		</ul></li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 1.2.b: New “Production information” section published to OCL Docs (docs.openconceptlab.org) according to the plan from Output 1.2.a</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 1.2.3: User Documentation - Create public user documentation, including user personas and workflows</p>
+	</li>
+</ul><ul><li dir="ltr">
+	<p dir="ltr">Create user documentation covering the key OpenMRS dictionary management use cases, defined workflows, user personas and user stories</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Some relevant artifacts already exist that could be adapted as public documentation:</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Project-specific (OpenMRS, WHO SMART Guidelines, PEPFAR Metadata Sharing Platform) user experience materials, including user personas, use cases, workflows, and user stories</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Generic user experience materials that are currently being developed for OCL that would be relevant across projects</p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Outputs:</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Output 1.2.c: New “User Documentation” section published to OCL Docs (docs.openconcetlab.org) according to the plan from Output 1.2.a</p>
+		</li>
+	</ul></li>
+</ul><ul><li dir="ltr">
+	<p dir="ltr">Activity 1.2.4: Technical Documentation - Create public Technical Documentation covering a few priority gaps, including the generic Connector framework, Validation schemas, and functional requirements</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Based on operational needs</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">OCL Terminology Service Functional Requirements</p>
+			</li>
+			<li dir="ltr">
+			<p dir="ltr">OCL Generic Connector framework documentation</p>
+			</li>
+			<li dir="ltr">
+			<p dir="ltr">OCL Validation Schema documentation, based on the existing OpenMRS validation schema</p>
+			</li>
+		</ul></li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 1.2.d: Add new pages for “Functional Requirements”, “OCL Connector Framework”, and “Validation Schema” to the existing “Technical Documentation” section on OCL Docs (docs.openconceptlab.org) according to the plan from Output 1.2.a</p>
+			</li>
+		</ul></li>
+	</ul></li>
+</ul><p> </p>
+
+<h4 dir="ltr"><strong>Objective 1.3: Align Installation and Deployment of a bundled OpenMRS and OCL implementation with Instant OpenHIE</strong></h4>
+
+<p dir="ltr">Implementers and developers may wish to fire up Instant OpenHIE preconfigured with OpenMRS and OCL, in order to take advantage of the integrated OpenMRS Dictionary Manager / OCL TermBrowser product and workflows.</p>
+
+<p dir="ltr">The OpenMRS v3 distribution (<a href="https://github.com/openmrs/openmrs-distro-referenceapplication/tree/3.x">https://github.com/openmrs/openmrs-distro-referenceapplication/tree/3.x</a>) is  already containerized and is bundled with the OCL Subscription Module, which allows an OpenMRS instance to subscribe to a concept dictionary published and managed on an instance of the OCL Terminology Server. </p>
+
+<p dir="ltr">All OCL services and products are containerized and are generally compatible with Instant OpenHIE’s approach.</p>
+
+<p dir="ltr">We anticipate multiple configurations to be of interest to the community, supporting various development environments and implementation scenarios. Configuration scenarios may include:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Instant OpenHIE bundled with OpenMRS v3 and configured to interface with OCL Online for both the OCL Terminology Service and OCL TermBrowser (i.e. with no local OCL instances)</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Instant OpenHIE bundled with OpenMRS v3 and the OCL TermBrowser, both of which are configured to point to the OCL Terminology Service hosted at OCL Online</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Instant OpenHIE bundled with OpenMRS v3 and with OCL TermBrowser and OCL Terminology Server (i.e. no interaction with OCL Online)</p>
+	</li>
+</ul><p dir="ltr">Activities:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Activity 1.3.1: Instant OpenHIE Documentation - Develop implementation and technical documentation on the Instant OpenHIE configuration scenarios bundled with OpenMRS v3 based on inputs from OCL and OpenMRS communities and Instant OpenHIE subject matter experts</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">The first step is to develop documentation to define the specific Instant OpenHIE configuration scenarios of interest to guide further specification and development</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Note that we expect actual specification and development of the documented Instant OpenHIE configuration scenarios to take place within the timeline of this award; however, we cannot commit to this due to dependencies on inputs and technical contributions from other organizations.</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 1.3.a: Implementation and technical documentation of Instant OpenHIE configuration scenarios bundled with OpenMRS v3 and OCL to guide further specification and development</p>
+			</li>
+		</ul></li>
+	</ul></li>
+</ul><p> </p>
+
+<h3 dir="ltr"><strong>Work Package 2: Embed fellows from community and implementer groups into the OCL for OpenMRS Squad to build local capacity in UX design and development</strong></h3>
+
+<p dir="ltr">Historically, the OpenMRS Dictionary Management Web App and Subscription Module have been built by US-based developers in partnership with interns from Andela, a software talent company originally based in Nigeria. Few OpenMRS implementations have shared requirements or development resources with the OCL for OpenMRS Squad.</p>
+
+<p dir="ltr">As a result of limited local capacity in terminology, product management, UX design, and development, OpenMRS implementations rely on contributions from developers and PMs who are not familiar with the local context. By supporting the targeted implementation of the OpenMRS Fellowship Program, this investment will be used to increase local talents’ capacity to design and develop OCL, improving the likelihood of local adoption, contributions from implementers, and the long term sustainability of two Global Goods. </p>
+
+<h4 dir="ltr"><strong>Objective 2.1: Strengthen engagement of community and implementer groups into the OCL for OpenMRS Squad by building sustainable local capacity in UX design and development.</strong></h4>
+
+<p dir="ltr">With this objective, we aim to strengthen the connection between country implementations and the OCL for OpenMRS Squad by strategically recruiting and engaging fellows from 2-3 OpenMRS implementations and matching them with established technical mentors. This work builds on <a href="https://talk.openmrs.org/t/making-our-fellowship-program-better/34533">recent improvements to</a> and expands the scale of the <a href="https://wiki.openmrs.org/display/RES/OpenMRS+Fellowship+Program">current OpenMRS Fellowship Program</a> by strengthening fellow and mentor selection as well as increasing implementation participation.</p>
+
+<p dir="ltr">We envision that this investment will support up to three of the following types of fellowships:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Level 3/4 Development, focused on ReactJS development</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Level 4/5 Development, focused on ReactJS and possibly Python development</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Project Management/Business Analysis, focused on eliciting and communicating user needs  as well s supporting UX design</p>
+	</li>
+</ul><p dir="ltr">An initial set of candidates for Mentors and Backup Mentors have already been identified (note that this list of mentors is not be confirmed at this stage):</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Sunny Aggarwal, Sr. Engineer, OCL</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Joe Amlung, Regenstrief – Mentor for PM fellow</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Michael Bontyes, MSF – Mentor for BA/Documentation fellow?</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Grace Potma, OpenMRS – Backup mentor for PM fellow</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Jonathan Payne, OCL – Backup mentor for Development fellows</p>
+	</li>
+</ul><p dir="ltr">This objective will be achieved through the following activities:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Activity 2.1.1: Conduct outreach to implementations </p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.1.a: Documentation of outreach activities</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 2.1.2: Recruit, select, and match fellows with project mentors</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.1.b: Documentation of recruitment process and selection outcome</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 2.1.3: Conduct orientation webinars for fellows and mentors</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.1.c: Presentation materials and notes from orientation webinars for fellows and mentors</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 2.1.4: Assist fellows to create a fellowship plan, outlining specific activities and target skills/knowledge.</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.1.d: Fellowship plans outlining specific fellow activities and target skills/knowledge for up to 3 fellow/mentor pairs</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 2.1.5: Support fellows to design a capstone project, including an optional rotation with an OpenMRS implementation</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.1.e: Links to final write-ups of fellow capstone projects</p>
+			</li>
+		</ul></li>
+	</ul></li>
+</ul><p> </p>
+
+<h4 dir="ltr"><strong>Objective 2.2: Build local capacity in UX design and development by embedding fellows into the OCL for OpenMRS Squad.</strong></h4>
+
+<p dir="ltr">This objective aims to build expertise with the OCL and OpenMRS platforms by implementing fellowship plans and associated country-level rotations.</p>
+
+<p dir="ltr">As part of the OpenMRS Fellowship Program, fellows will receive approximately 9 months of mentorship and real-world experience as active members of the project team. In addition to gaining valuable technical skills, fellows will become skilled at using open source community processes and tools to collaborate together on priority feature. Fellows will demonstrate their learning via a capstone project. This capstone project may be combined with a rotation with an implementation as part of a “mentorship cascade.”</p>
+
+<p dir="ltr">This objective will be achieved through the following activities:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Activity 2.2.1: Support fellows to complete a Terminology Boot Camp (see “Terminology Academy” at <a href="https://academy.ohie.org/">academy.ohie.org</a>)</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">The OpenHIE Terminology Academy online course was developed in 2021Q4 and will provide foundational knowledge for fellows to contribute productively to work packages outlined in this award and, more generally, to be active contributors to the OCL for OpenMRS squad</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.2.a: Notes from Terminology Boot Camp meetings and facilitator reflections on the experience</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 2.2.2: Provide ongoing support to mentors via “Mentorship for Mentors” sessions</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.2.b: Links to presentation materials and notes from Mentorship for Mentors sessions</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 2.2.3: Mentor fellows to complete technical tasks and a capstone project/implementation rotation based on their specialization</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.2.c: Quarterly documentation of fellow progress on assigned technical tasks and capstone project</p>
+			</li>
+		</ul></li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Activity 2.2.4: Monitor fellows’ progress using their fellowship plan, periodic blog posts, progress reports, and a final evaluation</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Outputs:</p>
+
+		<ul><li dir="ltr">
+			<p dir="ltr">Output 2.2.d: Documentation of final evaluation</p>
+			</li>
+		</ul></li>
+	</ul></li>
+</ul><p> </p>
+
+<h2 dir="ltr"><strong>Community Feedback</strong></h2>
+
+<p dir="ltr">The normal way of doing work for both the OpenMRS and OCL communities is through open, community-focused forums. Our established processes create opportunities for feedback from all relevant personas, from terminology SMEs to field end-users. These forums include:</p>
+
+<ul><li dir="ltr">
+	<p dir="ltr">Weekly OCL for OpenMRS Squad call (forum will serve as a primary and operational meeting for this award)</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Weekly OCL Architecture call</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Weekly OCL Developer call</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Weekly CIEL Office Hours call (forum to hear many practical use cases and challenges faced by concept managers in the field)</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Bi-weekly CIEL &amp; OCL User Requirements PM/BA call</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Monthly OpenHIE Terminology Services Subcommunity call</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Monthly OCL &amp; OpenMRS Product Leadership call</p>
+	</li>
+</ul><p> </p>
+
+<h2 dir="ltr"><strong>Schedule</strong></h2>
+
+<table><tbody><tr><td rowspan="3">
+			<p dir="ltr"><strong>Activity</strong></p>
+			</td>
+			<td rowspan="3">
+			<p dir="ltr"><strong>Team</strong></p>
+
+			<p dir="ltr"><strong>Location</strong></p>
+
+			<p dir="ltr"><strong>Month/</strong></p>
+
+			<p dir="ltr"><strong>Quarter</strong></p>
+			</td>
+			<td colspan="4">
+			<p dir="ltr"><strong>Quarter</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>2022Q2</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>2022Q3</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>2022Q4</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>2023Q1</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>1</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>2</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>3</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>4</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Work Package 1: Integrate OpenMRS Dictionary Manager with OCL TermBrowser and improve shelf-readiness </strong></p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 1.1: Integrate OpenMRS Dictionary Manager components into the OCL TermBrowser to improve product sustainability and shelf-readiness for content managers in the field</strong></p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>x</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.1.1: Integration Plan</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr"> </p>
+			</td>
+			<td>
+			<p dir="ltr"> </p>
+			</td>
+			<td>
+			<p dir="ltr"> </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.1.2: Integrate Dictionary Manager and TermBrowser</p>
+			</td>
+			<td>
+			<p dir="ltr"> </p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x </p>
+			</td>
+			<td>
+			<p dir="ltr"> </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.1.3: Expand automated testing</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.1.4: User Testing and Detailed Feedback from Field Staff Representatives</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 1.2: Revise and Expand field-staff-friendly documentation for the integrated Dictionary Manager and TermBrowser product</strong></p>
+			</td>
+			<td> </td>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.2.1: Documentation Plan</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.2.2: Product Information</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.2.3: User Documentation</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.2.4: Technical Documentation</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 1.3: Align Installation and Deployment of a bundled OpenMRS and OCL implementation with Instant OpenHIE</strong></p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 1.3.1: Instant OpenHIE Documentation</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Work Package 2: Embed fellows from community and implementer groups into the OCL for OpenMRS Squad to build local capacity in UX design and development</strong></p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 2.1: Strengthen engagement of community and implementer groups into the OCL for OpenMRS Squad by building sustainable local capacity in UX design and development.</strong></p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.1.1: Conduct outreach to implementations </p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.1.2: Recruit, select, and match fellows with project mentors</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.1.3: Conduct orientation webinars for fellows and mentors</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.1.4: Assist fellows to create a fellowship plan, outlining specific activities and target skills/knowledge.</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.1.5: Support fellows to design a capstone project, including an optional rotation with an OpenMRS implementation</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 2.2: Build local capacity in UX design and development by embedding fellows into the OCL for OpenMRS Squad</strong></p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.2.1: Support fellows to complete a Terminology Boot Camp (see “Terminology Academy” at academy.ohie.org)</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.2.2: Provide ongoing support to mentors via “Mentorship for Mentors” sessions</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.2.3: Mentor fellows to complete technical tasks and a capstone project/implementation rotation based on their specialization</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Activity 2.2.4: Monitor fellows’ progress using their fellowship plan, periodic blog posts, progress reports, and a final evaluation</p>
+			</td>
+			<td> </td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+			<td>
+			<p dir="ltr">x</p>
+			</td>
+		</tr></tbody></table><p dir="ltr"> </p>
+
+<h2 dir="ltr"><strong>Deliverables</strong></h2>
+
+<table><tbody><tr><td>
+			<p dir="ltr"><strong>Deliverable</strong></p>
+			</td>
+			<td>
+			<p dir="ltr"><strong>Month/Quarter Due</strong></p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Work Package 1: Integrate the OpenMRS Dictionary Manager and OCL TermBrowser web applications and improve shelf-readiness</strong></p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 1.1: Integrate OpenMRS Dictionary Manager components into the OCL TermBrowser to improve product sustainability and shelf-readiness</strong></p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.a: Joint plan for porting OpenMRS Dictionary Components over to the OCL TermBrowser</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q2</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.b: Port components identified in Output 1.1.a from the OpenMRS Dictionary Manager into the OCL TermBrowser</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q4</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.c: Draft plan for automation of user interface and subscription tests</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q2</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.d: Implement automated testing framework as mapped out in Output 1.1.c</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q3</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.e: Implement and automate actual UI tests as mapped out in Output 1.1.c</p>
+			</td>
+			<td>
+			<p dir="ltr">2023Q1</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.f: User Testing Protocol</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q3</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.g: User Testing Findings, Iteration 1: UX and Workflow Feedback</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q4</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.1.g: User Testing Findings, Iteration 2: UX and Workflow Feedback</p>
+			</td>
+			<td>
+			<p dir="ltr">2023Q1</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 1.2: Revise and Expand documentation for the integrated Dictionary Manager and TermBrowser product</strong></p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.2.a: Documentation plan</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q2</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.2.b: New “Production information” section published to OCL Docs (docs.openconceptlab.org) according to the plan from Output 1.2.a</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q3 </p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.2.c: New “User Documentation” section published to OCL Docs (docs.openconcetlab.org) according to the plan from Output 1.2.a</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q4</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.2.d: Add new pages for “Functional Requirements”, “OCL Connector Framework”, and “Validation Schema” to the existing “Technical Documentation” section on OCL Docs (docs.openconceptlab.org) according to the plan from Output 1.2.a</p>
+			</td>
+			<td>
+			<p dir="ltr">2023Q1</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 1.3: Align Installation and Deployment of a bundled OpenMRS and OCL implementation with Instant OpenHIE</strong></p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Output 1.3.a: Implementation and technical documentation of Instant OpenHIE configuration scenarios bundled with OpenMRS v3 and OCL to guide further specification and development</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q4</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Work Package 2: Embed fellows from community and implementer groups into the OCL for OpenMRS Squad to build local capacity in UX design and development</strong></p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 2.1: Strengthen engagement of community and implementer groups into the OCL for OpenMRS Squad by building sustainable local capacity in UX design and development.</strong></p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.1.a: Documentation of outreach activities</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q2</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.1.b: Documentation of recruitment process and selection outcome</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q2</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.1.c: Presentation materials and notes from orientation webinars for fellows and</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q3</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.1.d: Fellowship plans outlining specific fellow activities and target skills/knowledge for up to 3 fellow/mentor pairs</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q3</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.1.e: Links to final write-ups of fellow capstone projects</p>
+			</td>
+			<td>
+			<p dir="ltr">2023Q1</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr"><strong>Objective 2.2: Build local capacity in UX design and development by embedding fellows into the OCL for OpenMRS Squad.</strong></p>
+			</td>
+			<td> </td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.2.a: Notes from Terminology Boot Camp meetings and facilitator reflections on the experience</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q2</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.2.b: Links to presentation materials and notes from Mentorship for Mentors sessions</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q3, 2022Q4, 2023Q1</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.2.c: Quarterly documentation of fellow progress on assigned technical tasks and capstone project</p>
+			</td>
+			<td>
+			<p dir="ltr">2022Q3, 2022Q4, 2023Q1</p>
+			</td>
+		</tr><tr><td>
+			<p dir="ltr">Output 2.2.d: Documentation of final evaluation for each fellow</p>
+			</td>
+			<td>
+			<p dir="ltr">2023Q1</p>
+			</td>
+		</tr></tbody></table><p> </p>
+
+<h2 dir="ltr"><strong>Risk Mitigation</strong></h2>
+
+<ul><li dir="ltr">
+	<p dir="ltr">The OpenMRS is highly volunteer driven, meaning that the momentum that the OCL for OpenMRS Squad has experienced over the last 2 years is not guaranteed to continue, which would put the ongoing development of the OpenMRS-specific components at risk.</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">The Fellowship program proposed here is directly targeting this potential risk, attempting to increase capacity for this project and institutionalize the knowledge in field-friendly documentation.</p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">The applicant pool for the fellowship program may not have the required background or skill level, which could limit progress on certain technical outputs and increase the burden on mentors.</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">Based on lessons learned from the OpenMRS fellowship program in 2021, we will also assign “backup mentors” to each fellow to help spread the mentorship burden. We are also connecting some core engineering expertise from the OCL team to ensure that oversight is available.</p>
+		</li>
+	</ul></li>
+	<li dir="ltr">
+	<p dir="ltr">Availability of Instant OpenHIE subject matter expertise is critical for designing the right implementation scenario configurations and making Instant OpenHIE bundled with OpenMRS+OCL a reality.</p>
+
+	<ul><li dir="ltr">
+		<p dir="ltr">The OCL team already participates in a number of forums with Instant OpenHIE subject matter experts and we anticipate that as long we start early in the project, we will be able to move this work forward throughout the project timeline.</p>
+		</li>
+	</ul></li>
+</ul></div></div></div><div class="field field-name-field-f2-application-status field-type-list-text field-label-above"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Approved – Contingent on Funding</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+        </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../../user/login/index-82.html?destination=node/335%23comment-form">Log in</a> or <a href="../../user/register/index-43.html?destination=node/335%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">2</span></span></li>
+</ul>    </span>
+            </nav>
+
+<div id="comments" class="comment-wrapper">
+          <h2 class="title">Comments</h2>
+      
+  <a id="comment-287"></a>
+<div class="comment odd" about="/comment/287#comment-287" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="../../comment/287/index.html#comment-287" class="permalink" rel="bookmark">Digital Square comments</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/jenny-thompson-digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Jenny Thompson (Digital Square)</span></span> - <span property="dc:date dc:created" content="2021-12-15T22:11:20-07:00" datatype="xsd:dateTime">Wed, 12/15/2021 - 22:11</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/integrate-openmrs-dictionary-manager-and-open-concept-lab-termbrowser-and-improve-shelf" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Thank you for the application. For the full technical application, in addition to general recommendations per the email, please:</p>
+
+<p>-Ensure text clearly maps back to "shelf-readiness" aspects of the work, modeled around the shelf-readiness framework.</p>
+
+<p>-Are there opportunities/activities to include that would help to further scale and/or sustain the mentorship program?</p>
+
+<p>-Helpful to reference current state of this work and some of the inputs that already exist that can be built on, e.g., personas and designing with users.</p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-82.html?destination=node/335%23comment-form">Log in</a> or <a href="../../user/register/index-43.html?destination=node/335%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+
+<div class="indented"><a id="comment-310"></a>
+<div class="comment comment-by-node-author even" about="/comment/310#comment-310" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="../../comment/310/index.html#comment-310" class="permalink" rel="bookmark">Thanks Jenny! We are taking a</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/jonathan-payne" typeof="sioc:UserAccount" property="foaf:name" datatype="">Jonathan Payne</span></span> - <span property="dc:date dc:created" content="2022-01-05T11:09:06-07:00" datatype="xsd:dateTime">Wed, 01/05/2022 - 11:09</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/integrate-openmrs-dictionary-manager-and-open-concept-lab-termbrowser-and-improve-shelf" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/287#comment-287" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Thanks Jenny! We are taking a dive into your comments and will reply accordingly.</p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-82.html?destination=node/335%23comment-form">Log in</a> or <a href="../../user/register/index-43.html?destination=node/335%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+</div>
+  </div> <!-- /#comments -->
+</div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+
+    </section>
+    <!-- /#main -->
+  </div>
+
+        <aside id="sidebar-first" role="complementary" class="sidebar five columns">
+      <div class="region region-sidebar-first">
+    <div id="block-views-opg-core-fields-navblock-block" class="block block-views">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="view view-opg-core-fields view-id-opg_core_fields view-display-id-navblock_block view-dom-id-cab51603a3fcbb52a2822da3d961674d">
+            <div class="view-header">
+      <h2>This Forum</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="contextual-links-region">
+      
+          <div>Add Your APPLICATION
+<div><a href="../../user/login/index-24.html">Login</a> is required.</div>
+</div>
+    
+          <ul><li><a href="../../notice-f2/details/index.html">Read before applying</a></li>
+	<!--<li class="pointer improvement-closed">Open Submission and Improvement phases are closed. Applications are in review.</li>-->
+	<li>Comment on applications
+	<div>
+	<p>Use comments to state your interest in joining a team</p>
+	</div>
+	</li>
+	<li><a href="mailto:digitalsquare@path.org?Subject=Open%20Proposals%20Question"><strong>Questions?</strong> Contact Digital Square</a> or call </li>
+	<li><a class="clicktext">Follow this Forum</a><span class="clicktextlong" style="display:none;"><a href="../../user/login/index-112.html">Login</a> to follow this forum</span></li>
+	<!-- <li><a href="https://applications.digitalsquare.io/notice-f2/active" id="most_commented">Most Commented Applications</a></li> -->
+	<li><a href="../../notice-f2/popular/index.html" id="most_popular">Most Liked Applications</a></li>
+	<li><a href="../../notice-f2/summary/index.html">Summary of Applications</a></li>
+	<li><a href="../../notice-f2/announcements/index.html">Announcements</a></li>
+	<!-- <li class="pointer"><a href='/notice-f2/awards'>Awards</a></li> -->
+</ul>    
+              </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</div>
+<section id="block-views-opg-core-my-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>My Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-my_block view-dom-id-6324ebf8847e1574a3a460d5f6b22d3a">
+        
+  
+  
+      <div class="view-empty">
+      <!--?php if (!$GLOBALS['user']->uid): ?>
+<p><a href="https://applications.digitalsquare.io/goto/login/drupal">Login</a> to see links for accessing your applications</p>
+<?php else : ?-->
+<ul class="icon submission-open">
+<li class="pointer"><a href="../../notice-f2/create/index.html">Add your application</a></li>
+</ul>
+<!--ul class="submission-closed"><li>Application submission is closed.</li></ul-->
+<?php endif; ?>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+<section id="block-views-opg-core-recent-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>Recent Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-recent_block view-dom-id-5dee93e13892236a66b285fa636fba94">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../notice-f2-fhir-shelf-readiness-opensrp/index.html">Notice F2: FHIR Shelf Readiness of OpenSRP</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../atna-compliant-audit-console-openfn-integration-toolkit/index.html">An ATNA Compliant Audit Console for the OpenFn Integration Toolkit</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../shelf-readiness-openelis-through-country-based-capacity-strengthening/index.html">Shelf Readiness of OpenELIS through Country-based Capacity Strengthening</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../closing-loop-digital-health-content-fhir-native-apps-deploying-smart-guidelines-content/index.html">Closing the loop in digital health content with FHIR native apps for deploying SMART Guidelines content</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../shelf-readiness-openmrs-through-capacity-building-quality-assurance/index.html">Shelf Readiness of OpenMRS through Capacity Building for Quality Assurance</a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../upgrading-ieda-containerized-and-interoperable-public-goods-solution/index.html">Upgrading IeDA to a containerized and interoperable public goods solution</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../enhancing-contribution-perioperative-shared-health-record-fragmented-healthcare-systems/index.html">Enhancing the contribution of the Perioperative Shared Health Record in fragmented healthcare systems</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../enhancing-shelf-readiness-scale-reveal-platform/index.html">Enhancing the shelf-readiness &amp; scale of the Reveal platform</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../open-source-learning-management-systems-promote-resilience-and-social-skill-building-teens/index.html">Open Source Learning Management Systems to Promote Resilience And social skill Building in Teens (Project RABT, A One Stop Health Solution to Improve QoL)</a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="index.html" class="active">Integrate OpenMRS Dictionary Manager and Open Concept Lab TermBrowser and Improve Shelf-Readiness for content managers in the field</a></span>  </div></li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../strengthening-local-capacities-through-shelf-ready-case-management-biometric-identification/index.html">Strengthening local capacities through shelf-ready case management with biometric identification</a></span>  </div></li>
+          <li class="views-row views-row-12 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../shelf-ready-interoperability-reconciling-common-geographies-hierarchies-and-gis-between/index.html">Shelf-ready interoperability by reconciling common geographies, hierarchies, and GIS between Instant OpenHIE components and external systems using FHIR</a></span>  </div></li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../campaign-support-healthsitesio/index.html">Campaign support for healthsites.io</a></span>  </div></li>
+          <li class="views-row views-row-14 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../openimisopenmrsdhis2-integration/index.html">openIMIS/openMRS/DHIS2 integration</a></span>  </div></li>
+          <li class="views-row views-row-15 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../fully-open-source-safe-and-interoperable-openimis-policies-and-claims-applications-mobile/index.html">Fully open source, safe and interoperable openIMIS Policies and Claims applications for mobile devices</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+  </div>
+    </aside><!-- /#sidebar-first -->
+
+</div>
+
+<div id="acknowledgement-wrapper" class="container">
+
+  
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-boxes-ucsf-copyright" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_copyright' class='boxes-box'><div class="boxes-box-content"><!--p style="margin-bottom: 0;">The University of California Copyright ©2015 The Regents of the University of California. <span class="nowrap">All Rights Reserved.</span></p>
+<p>Services on this website are for the use of UCSF researchers, CTSI affiliates, industry and community members who wish to establish explicit ties to UCSF.</p-->
+<div style="background:#fff; color:#000">
+<p><em>Digital Square is a PATH-led initiative funded and designed by the United States Agency for International Development,<br />
+the Bill &amp; Melinda Gates Foundation, and a consortium of other donors.</em></p>
+
+<p><img alt="Funders Logos" src="../../sites/default/files/logo-lockup/index.png" /></p>
+
+<p><em>This platform is made possible by the generous support of the American people through the<br />
+United States Agency for International Development (USAID). The contents of this platform are the sole<br />
+responsibility the respective course developers as noted within the platform, and do not necessarily<br />
+reflect the views of PATH, USAID, the United States Government, or PATH’s funders.</em></p>
+
+<p> </p>
+</div>
+<p>Digital Square Copyright ©2018 All Rights Reserved.</p>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+<script type="text/javascript">
+//CrazyEgg click tracking
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0010/2559.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+</footer>
+</body>
+</html>

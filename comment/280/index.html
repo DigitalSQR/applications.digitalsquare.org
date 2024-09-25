@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../../content/improving-commcare-installation-process-using-containers/index.html" />
+<link rel="shortlink" href="../../content/improving-commcare-installation-process-using-containers/index.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.55, user-scalable=yes" />
+<link rel="shortcut icon" href="../../sites/default/files/dsq_1/index.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Improving the CommCare Installation Process using Containers | Digital Square Open Application Platform</title>
+  <style type="text/css" media="all">
+@import url("../../modules/system/system.base/index.css?rsi2se");
+@import url("../../modules/system/system.menus/index.css?rsi2se");
+@import url("../../modules/system/system.messages/index.css?rsi2se");
+@import url("../../modules/system/system.theme/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../modules/comment/comment/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/date/date_api/date/index.css?rsi2se");
+@import url("../../modules/field/theme/field/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/logintoboggan/logintoboggan/index.css?rsi2se");
+@import url("../../sites/all/modules/message/message_example/css/message_example/index.css?rsi2se");
+@import url("../../modules/node/node/index.css?rsi2se");
+@import url("../../modules/poll/poll/index.css?rsi2se");
+@import url("../../modules/search/search/index.css?rsi2se");
+@import url("../../modules/user/user/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/views/css/views/index.css?rsi2se");
+@import url("../../sites/all/modules/ckeditor/css/ckeditor/index.css?rsi2se");
+</style>
+<style type="text/css" media="all">
+@import url("../../sites/all/modules/contrib/ctools/css/ctools/index.css?rsi2se");
+@import url("../../sites/all/modules/panels/css/panels/index.css?rsi2se");
+@import url("../../sites/all/modules/contrib/rate/rate/index.css?rsi2se");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/menu/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/normalize/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/style/index.css?rsi2se");
+@import url("../../sites/all/themes/contrib/bamboo/css/design/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/responsive/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/entypo/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/vh/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/easy-responsive-tabs/index.css?rsi2se");
+@import url("../../profiles/opdistro/themes/custom/opbamboo/css/op/index.css?rsi2se");
+</style>
+<style type="text/css" media="print">
+@import url("../../profiles/opdistro/themes/custom/ctsibamboo/css/print/index.css?rsi2se");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie8-fixes.css?rsi2se" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://applications.digitalsquare.io/sites/all/themes/contrib/bamboo/css/ie9-fixes.css?rsi2se" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("../../sites/default/files/css_injector/css_injector_1/index.css?rsi2se");
+@import url("../../sites/default/custom-style/index.css?rsi2se");
+</style>
+  <script type="text/javascript" src="../../sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-extend-3.4.0/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery-html-prefilter-3.5.0-backport/index.js?v=1.7.2"></script>
+<script type="text/javascript" src="../../misc/jquery.once/index.js?v=1.2"></script>
+<script type="text/javascript" src="../../misc/drupal/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/profiletip/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/jquery.bt.min/index.js?v=0.9.5-rc1"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/beautytips/js/beautytips.min/index.js?v=7.x-2.x"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/admin_menu/admin_devel/admin_devel/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/modules/contrib/google_analytics/googleanalytics/index.js?rsi2se"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-ZY4QKF6M6B"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-ZY4QKF6M6B", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/vh/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/ctsibamboo/js/easyResponsiveTabs/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/op/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../profiles/opdistro/themes/custom/opbamboo/js/open-proposals/index.js?rsi2se"></script>
+<script type="text/javascript" src="../../sites/all/themes/contrib/bamboo/js/scripts/index.js?rsi2se"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"opbamboo","theme_token":"65YbbK31l35Kxq_LEsqqNMCw_-iuD-jNhmLxCoJuU-4","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/profiletip.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/jquery.bt.min.js":1,"sites\/all\/modules\/contrib\/beautytips\/js\/beautytips.min.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-ZY4QKF6M6B":1,"0":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/vh.js":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/js\/easyResponsiveTabs.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/op.js":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/js\/open-proposals.js":1,"sites\/all\/themes\/contrib\/bamboo\/js\/scripts.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/message\/message_example\/css\/message_example.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/menu.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/normalize.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/style.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/design.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/responsive.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/opcolors.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/entypo.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/vh.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/easy-responsive-tabs.css":1,"profiles\/opdistro\/themes\/custom\/opbamboo\/css\/op.css":1,"profiles\/opdistro\/themes\/custom\/ctsibamboo\/css\/print.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie8-fixes.css":1,"sites\/all\/themes\/contrib\/bamboo\/css\/ie9-fixes.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"sites\/default\/custom-style.css":1}},"beautytipStyles":{"default":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0026quot;Lucida Grande\u0026quot;,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":"1","shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4},"plain":[],"netflix":{"positions":["right","left"],"fill":"#FFF","padding":5,"shadow":true,"shadowBlur":12,"strokeStyle":"#B9090B","spikeLength":50,"spikeGirth":60,"cornerRadius":10,"centerPointY":0.1,"overlap":-8,"cssStyles":{"fontSize":"12px","fontFamily":"arial,helvetica,sans-serif"}},"facebook":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"11px"}},"transparent":{"fill":"rgba(0, 0, 0, .8)","padding":20,"strokeStyle":"#CC0","strokeWidth":3,"spikeLength":40,"spikeGirth":40,"cornerRadius":40,"cssStyles":{"color":"#FFF","fontWeight":"bold"}},"big-green":{"fill":"#00FF4E","padding":20,"strokeWidth":0,"spikeLength":40,"spikeGirth":40,"cornerRadius":15,"cssStyles":{"fontFamily":"\u0022lucida grande\u0022,tahoma,verdana,arial,sans-serif","fontSize":"14px"}},"google-maps":{"positions":["top","bottom"],"fill":"#FFF","padding":15,"strokeStyle":"#ABABAB","strokeWidth":1,"spikeLength":65,"spikeGirth":40,"cornerRadius":25,"centerPointX":0.9,"cssStyles":[]},"hulu":{"fill":"#F4F4F4","strokeStyle":"#666666","spikeLength":20,"spikeGirth":10,"width":350,"overlap":0,"centerPointY":1,"cornerRadius":0,"cssStyles":{"fontFamily":"\u0022Lucida Grande\u0022,Helvetica,Arial,Verdana,sans-serif","fontSize":"12px","padding":"10px 14px"},"shadow":true,"shadowColor":"rgba(0,0,0,.5)","shadowBlur":8,"shadowOffsetX":4,"shadowOffsetY":4}},"beautytips":{"op_global_clickme":{"cssSelect":".clickme","style":"hulu","trigger":"click","shrinkToFit":true,"ajaxDisableLink":true,"contentSelector":"$(this).next(\u0022.clicktalk\u0022).html()","list":["trigger","shrinkToFit","contentSelector"]}},"better_exposed_filters":{"views":{"opg_core_fields":{"displays":{"navblock_block":{"filters":[]}}},"opg_core":{"displays":{"my_block":{"filters":[]},"recent_block":{"filters":[]}}}}},"googleanalytics":{"account":["G-ZY4QKF6M6B"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"base_host":"applications.digitalsquare.io","opg":{"group_type":"node","gid":"304","path":"\/notice-f2","group_content_type":"opg_group","label":"Notice F2: Shelf readiness with a focus on building local capacity and new teams.","post_type":"notice_f2_application","node_type":"notice_f2_application","post_type_name":"Notice F2 Application","login_type":"drupal","groupword":"Forum","ucgroupword":"FORUM","lcgroupword":"forum","groupword_article":"A","lcgroupword_article":"a","ucgroupword_article":"A","groupwords":"Forums","ucgroupwords":"FORUMS","lcgroupwords":"forums","noun":"Application","ucnoun":"APPLICATION","lcnoun":"application","noun_article":"An","lcnoun_article":"an","ucnoun_article":"AN","nouns":"Applications","ucnouns":"APPLICATIONS","lcnouns":"applications","postwords":"Submit","create_text":"\u003Ch3\u003E\u003Ca href=\u0022\/goto\/login\/drupal\u0022\u003ELogin\u003C\/a\u003E is required to create Applications\u003C\/h3\u003E"},"siteName":"UCSF Open Proposals","ogContext":{"groupType":"node","gid":"304"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-312 node-type-notice-f2-application opg_core-section og-context og-context-node og-context-node-304 site-name-hidden bg-gray-gradient color-palette-dark-rust header-font-sans-serif body-font-sans-serif sidebar-right section-content is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+
+    <div id="ucsf-links">
+                <div class="region region-ucsf-links">
+    <div id="block-boxes-ucsf-top-banner" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_top_banner' class='boxes-box'><div class="boxes-box-content"><div class="container ucsf">
+<div class="sixteen columns">
+<ul class="ucsfnav"><li>
+<a title="Home" href="..//index.html" id="ucsf">Home</a>
+</li>
+<li>
+<a title="Search" href="../../search/node/index.html" id="search">Search</a>
+</li>
+<li>
+<a title="Contact" href="../../contact/index.html" id="contact">Contact</a>
+</li>
+
+</ul><ul class="ucsfnav ucsfnav-right no-phone no-phone-ls"><li>
+<a title="Digital Square wiki" href="https://wiki.digitalsquare.io/index.php/Main_Page" id="ucsf">Digital Square wiki</a>
+</li>
+<li>
+<a title="Digital Square blog" href="http://digitalsquare.org/">Digital Square website</a>
+</li>
+</ul></div>
+</div></div></div>    </div>
+</div>
+</div>
+<div id="block-block-4" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div><a href="..//index.html" target="_blank"><img alt="" height="152" src="../../sites/default/files/dsq/index.png" width="152" /></a><img alt="" height="156" src="../../sites/default/files/townsquare/index.jpg" style="float:right" width="963" /></div>
+
+<div> </div>
+    </div>
+</div>
+</div>
+  </div>
+          </div>
+
+  <hgroup class="sixteen columns alpha omega">
+
+    <div id="brand">
+          </div>
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="..//index.html" title="Home">
+               </a>
+      </h1>
+          </div>
+
+    <div id="top-links">
+          </div>
+
+  </hgroup>
+
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+                <!-- region to place search form inside navbar -->
+              </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="eleven columns">
+        <section id="post-content" role="main" class="page" >
+
+      
+      <h2 class="title"><a href="../../notice-f2/index.html">Notice F2: Shelf readiness with a focus on building local capacity and new teams.</a></h2>
+            
+            <h1 class="page-title">Improving the CommCare Installation Process using Containers</h1>
+            
+      
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-312" class="node node-notice-f2-application node-promoted node-full clearfix proposal"
+   about="/content/improving-commcare-installation-process-using-containers" typeof="sioc:Item foaf:Document" role="article">
+  
+      <span property="dc:title" content="Improving the CommCare Installation Process using Containers" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="1" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="proposal-content">
+  <div id="submit-wrapper">
+
+    <!-- Overidden in template.php to show just username. -->
+    <span class="submitted"><span property="dc:date dc:created" content="2021-11-30T13:27:02-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/account/molly-canty" typeof="sioc:UserAccount" property="foaf:name" datatype="">Molly Canty</span></span> (Dimagi, Inc.) on <span property="dc:date dc:created" content="2021-11-30T13:27:02-07:00" datatype="xsd:dateTime">Tue, 11/30/2021 - 13:27</span></span>
+           <span class="submitted">Last revised by <span class="username" xml:lang="" about="/account/digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Digital Square</span> on Fri, 04/08/2022 - 03:14.</span>
+      </div><!--//submit-wrapper-->
+
+  
+<div class="field field-name-field-f2-two-sentence field-type-text-long field-label-above"><div class="field-label">Two-sentence Overview:&nbsp;</div><div class="field-items"><div class="field-item even"><p>The goal of this project is to decrease the complexity of installing CommCare on a single server (“monolithic deployment”) so that independent teams are able to quickly and easily get started with a deployment of CommCare and begin collecting point-of-care data, which will be achieved by containerizing a full deployment of CommCare. Dimagi’s experience deploying and maintaining CommCare on varying infrastructure platforms, including both cloud-hosted and bare metal machines, uniquely position the organization to make this deployment process more accessible for teams using a wide array of infrastructure modalities.</p>
+</div></div></div><div class="field field-name-field-f2-summary field-type-text-long field-label-above"><div class="field-label">Executive Summary:&nbsp;</div><div class="field-items"><div class="field-item even"><p>At the end of this project, we aim to have a fully deployable application of CommCare which may be installed on a small (32GB memory, 2TB drive) server. In addition, this process will be documented on an externally-available technical documentation site so that independent teams may download, install and upgrade this container as new versions are released. Finally, we will institutionalize a process for maintaining this container alongside rolling CommCare releases so that teams will consistently have access to the most current version of application code.</p>
+
+<p>The investment from Digital Square will go towards: (1) software development time to select an appropriate open-source containerization tool, implement the monolithic container, test the application deployment process and document using the container for independent teams, and (2) project management time to oversee this work plan.</p>
+
+<p>Dimagi will build on its expertise in DevOps and the implementation of sustainable tools in order to execute this work. CommCare deployments normally use the US-based CommCare Cloud hosted instance of CommCareHQ; however, Dimagi supports organizations and governments to transfer the CommCareHQ instance to an in-country hosted server. Dimagi has helped to set up and maintain servers in Nigeria, Uganda, Kenya, India, Bangladesh, Burkina Faso, Senegal, Ethiopia, and Zambia. The process of deploying CommCare and migrating between instances involves multiple touchpoints including local hardware procurement, software installation, data migration between instances and ongoing maintenance of hardware and software. These server deployments have been both locally and remotely supported and involve close collaboration with locally-based engineers and technical experts to ensure that capacity is adequately built to support ongoing, local sustainability. Further investment in the process of deploying and maintaining a containerized version of CommCare ensures that these instances are designed to be sustained within an evolving data ecosystem. </p>
+</div></div></div><div class="field field-name-field-f2-team field-type-text-long field-label-above"><div class="field-label">Consortium team:&nbsp;</div><div class="field-items"><div class="field-item even"><p dir="ltr">Founded in 2002, Dimagi has been operating as a leader in digital solutions for 20 years. Dimagi is a B-corp certified, award-winning, socially-conscious technology company that supports partners to use technology to strengthen their programs, services and outcomes for vulnerable populations. Dimagi operates an inhouse non-programmer configurable platform CommCare on which we design mobile technologies to perform case management, decision support, data collection and monitoring and evaluation. We take a product platform approach to our ICT projects ensuring longevity and support models that are sustainable over the long-term.</p>
+
+<p dir="ltr">As a small but growing business with a blend of expertise in ICT, Dimagi is able to rapidly iterate and adapt mobile technologies and reporting to the local environment, enabling appropriate, scalable solutions for organizations working to improve the lives of underserved communities through better data collection and dissemination. The majority of our partners opt to use Dimagi’s cloud servers; however organizations and governments increasingly express interest in or are required to locally host their digital solutions. When the need for locally hosted applications is identified, the Delivery and Technology Teams work in concert to design a program plan for local capacity building and the implementation of locally hosted servers and applications environments. We have found this three-phased approach to be the most successful:</p>
+
+<p dir="ltr">● Phase 1: Infrastructure Procurement &amp; Resourcing </p>
+
+<p dir="ltr">● Phase 2: Installation and Set-up </p>
+
+<p dir="ltr">● Phase 3: Hosting Support and Capacity Building</p>
+
+<p dir="ltr">This work will be conducted in collaboration with Terre des Hommes (TdH). TdH was founded in 1966 and since its inception 56 years ago, it has supported and run hundreds of development and humanitarian aid projects to improve the living conditions of the most underprivileged children, their families and communities in 69 countries in Africa, Asia, Europe, Latin America and the Middle East. TdH and Dimagi have a long history of collaborating on programs together, with Dimagi’s expertise in technology complementing TdH’s expertise in sustainable service delivery for child health. As part of their Integrated eDiagnostic Approach (IeDA) in Burkina Faso, TdH partnered with Dimagi to create a tablet-based application known as the Electronic Register of Consultations (REC). Built on Dimagi’s CommCare platform, the REC aims to increase nurses’ adherence to IMCI protocols and improve their quality of care by providing enhanced decision support and case management capacity. TdH has already worked with Dimagi to transition to local hosting of CommCare in Burkina Faso, which is key experience we will build on together as we refine local hosting as a shelf-ready offering for all of our partners. </p>
+
+<p dir="ltr">The vast majority of the work will be led by the Dimagi team with the full TdH team based in Burkina Faso providing feedback on the local installment. Dimagi’s team will be comprised of a project manager, a senior engineer, and a senior advisor. </p>
+
+<p class="rteindent1" dir="ltr">Senior Engineer: Norman Hooper brings more than 20 years of software engineering experience to the team. He has been an engineer at Dimagi since 2014, where his focus is on interoperability, including FHIR and OpenHIE standards. </p>
+
+<p class="rteindent1" dir="ltr">Project Manager: Michael O’Donnell is the director of Solutions Delivery at Dimagi. He provides technical program management expertise on our most strategic projects and </p>
+
+<p class="rteindent1" dir="ltr">Technical Advisor: Mary Rocheleau is the Associate Director of Technology Solutions at Dimagi. She is an experienced product and engineering manager who specializes in working with users to translate user requirements into organizational vision and actionable product specifications ready for development</p>
+
+<p class="rteindent1" dir="ltr">Senior Technical Advisor: Ismaila Diene is based in Senegal and has been key to our continued relationship with our proposed partner, Terres des Hommes. Ismaila will provide overall guidance in the execution of the project, and will also be key to how it is further leveraged as a more broadly available offering.</p>
+
+<p dir="ltr">There are, of course, circumstances in which project teams may change. Reasons may include shifts in timeline that do not align with a team member’s availability or even a change in required skills based on what we find during requirements gathering. In the case where Dimagi needs to replace a team member, Digital Square will be informed immediately. We will share the CV and qualifications of the new team member for your review. </p>
+</div></div></div><div class="field field-name-field-f2-description field-type-text-long field-label-above"><div class="field-label">Project Description:&nbsp;</div><div class="field-items"><div class="field-item even"><p>As data ownership and local sustainability becomes increasingly important in our ever connected world, many of the partners and governments with which Dimagi works need locally hosted solutions; however, local hosting requires significant on-the-ground technical capacity and is presently a very cumbersome technical solution. With funding from Digital Square, Dimagi will leverage the work done in Burkina Faso with TdH to make local hosting of CommCare instances globally applicable and more accessible, regardless of the size or complexity of the deployment. </p>
+
+<p>An application container is a package of software, the operating system libraries, and all necessary dependencies required to run the software, entirely agnostic of the hardware on which it is deployed. This separation of hardware and software ensures that a given container may run in an identical way on either bare metal, cloud or virtual machines. This dramatically improves the process of installing and maintaining CommCare by ensuring that each deployment is consistent, regardless of installation hardware. Application administrators may monitor, upgrade and test containers independently from application software releases, further distinguishing the devops activities associated with maintaining a large software platform from any potential bugs in the application code itself. Furthermore, the process of troubleshooting and updating releases is less complex, thus ensuring that hardware management is entirely independent of software considerations. </p>
+
+<p>Dimagi seeks to implement a container of CommCare suitable for a monolithic (single-server) deployment so that teams installing CommCare locally experience less friction during initial setup, are more easily able to maintain their instances, and are able to quickly and easily deploy updates to the software package. In addition, this container may be installed either as part of an Instant OpenHIE deployment, or independently as part of a complex data collection ecosystem on the same, or different, hardware infrastructure as is running other data components. </p>
+
+<p>To design a fully containerized instance of CommCare Dimagi will divide this work into several phases with checkpoints and deliverables during each phase. The team relies on agile methodologies to accomplish activities over the course of a project; in order to achieve the goals the team will create a project roadmap and backlog of items to prioritize during sprint planning meetings. </p>
+
+<p>First, Dimagi will evaluate possible open-source containerization tools along several axes including maintainability, ease of use and availability of support and open-source documentation. After this assessment, Dimagi will fully implement a monolithic container of CommCare, including documentation, installation instructions, and maintenance planning. Key considerations during this phase of development include managing software versioning and releases within the container, the process for optimizing build time by leveraging the containerized cache, and baseline hardware specifications for running the container. In addition, Dimagi will implement and test the process for releasing a new software version, tagging a new container, deploying this upgraded container and installing the new release on an existing containerized deployment. </p>
+
+<p>Finally, Dimagi will collaborate with the TdH technical implementation team to install CommCare using the developed monolithic container. This process will include logging all feedback, prioritizing suggested product enhancements and identified bugs, incorporating high priority changes, and re-releasing an updated version of the containerized deployment. This ensures that the application is usable and well-documented for access by an independent team. </p>
+
+<p><em>Deliverable timeline</em></p>
+
+<table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td>
+			<p><strong>Phase</strong></p>
+			</td>
+			<td>
+			<p><strong>Deliverable</strong></p>
+			</td>
+			<td>
+			<p><strong>Timeline</strong></p>
+			</td>
+		</tr><tr><td>
+			<p>Identification of containerization tool</p>
+			</td>
+			<td>
+			<p>Go / no-go assessment on possible containerization tools. Documentation of known technical risks associated with the selected tool and mitigation strategies for each risk.</p>
+			</td>
+			<td>
+			<p>Weeks 1-3</p>
+			</td>
+		</tr><tr><td>
+			<p>Implementation of monolithic containerization</p>
+			</td>
+			<td>
+			<p>Container with a single version of CommCare is available for download. Full documentation for installing the container is included with the installation. </p>
+			</td>
+			<td>
+			<p>Weeks 4-7</p>
+			</td>
+		</tr><tr><td>
+			<p>Implement and test upgrade process with new software version</p>
+			</td>
+			<td>
+			<p>Release a second version of CommCare, upgrade the existing containerized version and install the release. Full documentation for upgrading to a new point version of a containerized deployment is available.</p>
+			</td>
+			<td>
+			<p>Weeks 8-9</p>
+			</td>
+		</tr><tr><td>
+			<p>Independent test of containerized CommCare</p>
+			</td>
+			<td>
+			<p>Independent team performs full installation of monolithic CommCare containerized instance. Feedback, bugs and enhancement requests are documented and prioritized for continued development.</p>
+			</td>
+			<td>
+			<p>Weeks 10-12</p>
+			</td>
+		</tr></tbody></table><p> </p>
+</div></div></div><div class="field field-name-field-f2-application-status field-type-list-text field-label-above"><div class="field-label">Application Status:&nbsp;</div><div class="field-items"><div class="field-item even"> Approved - partially funded</div></div></div>
+
+</div><!--end proposal-content-->
+
+<div class="clearfix">
+    <nav class="links node-links clearfix">
+                                <span class="nowrap">
+        </span>
+              <span class="nowrap">
+    <ul class="links inline"><li class="comment_forbidden first"><span><a href="../../user/login/index-81.html?destination=node/312%23comment-form">Log in</a> or <a href="../../user/register/index-42.html?destination=node/312%23comment-form">register</a> to post comments</span></li>
+<li class="count-comments last"><span><span class="count-comments">1</span></span></li>
+</ul>    </span>
+            </nav>
+
+<div id="comments" class="comment-wrapper">
+          <h2 class="title">Comments</h2>
+      
+  <a id="comment-280"></a>
+<div class="comment odd" about="/comment/280#comment-280" typeof="sioc:Post sioct:Comment">
+
+  <header>
+    
+        <h3 class="comment-title"><a href="index.html#comment-280" class="permalink" rel="bookmark">Digital Square comments</a></h3>
+    
+    <div class="submitted"><span rel="sioc:has_creator"><span class="username" xml:lang="" about="/account/digital-square" typeof="sioc:UserAccount" property="foaf:name" datatype="">Digital Square</span></span> - <span property="dc:date dc:created" content="2021-12-15T08:06:05-07:00" datatype="xsd:dateTime">Wed, 12/15/2021 - 08:06</span></div>
+
+      </header><!-- /.header -->
+
+  <div class="content">
+    <span rel="sioc:reply_of" resource="/content/improving-commcare-installation-process-using-containers" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>- The full proposal needs to clearly show how CommCare is going to be aligned with Instant OpenHIE</p>
+</div></div></div>      </div>
+
+    <footer>
+    <ul class="links inline"><li class="comment_forbidden first last"><span><a href="../../user/login/index-81.html?destination=node/312%23comment-form">Log in</a> or <a href="../../user/register/index-42.html?destination=node/312%23comment-form">register</a> to post comments</span></li>
+</ul>  </footer>
+  </div> <!-- /.comment -->
+
+  </div> <!-- /#comments -->
+</div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+
+    </section>
+    <!-- /#main -->
+  </div>
+
+        <aside id="sidebar-first" role="complementary" class="sidebar five columns">
+      <div class="region region-sidebar-first">
+    <div id="block-views-opg-core-fields-navblock-block" class="block block-views">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="view view-opg-core-fields view-id-opg_core_fields view-display-id-navblock_block view-dom-id-5a2d77e58460c5d7e74fa580d2958b53">
+            <div class="view-header">
+      <h2>This Forum</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="contextual-links-region">
+      
+          <div>Add Your APPLICATION
+<div><a href="../../user/login/index-24.html">Login</a> is required.</div>
+</div>
+    
+          <ul><li><a href="../../notice-f2/details/index.html">Read before applying</a></li>
+	<!--<li class="pointer improvement-closed">Open Submission and Improvement phases are closed. Applications are in review.</li>-->
+	<li>Comment on applications
+	<div>
+	<p>Use comments to state your interest in joining a team</p>
+	</div>
+	</li>
+	<li><a href="mailto:digitalsquare@path.org?Subject=Open%20Proposals%20Question"><strong>Questions?</strong> Contact Digital Square</a> or call </li>
+	<li><a class="clicktext">Follow this Forum</a><span class="clicktextlong" style="display:none;"><a href="../../user/login/index-460.html">Login</a> to follow this forum</span></li>
+	<!-- <li><a href="https://applications.digitalsquare.io/notice-f2/active" id="most_commented">Most Commented Applications</a></li> -->
+	<li><a href="../../notice-f2/popular/index.html" id="most_popular">Most Liked Applications</a></li>
+	<li><a href="../../notice-f2/summary/index.html">Summary of Applications</a></li>
+	<li><a href="../../notice-f2/announcements/index.html">Announcements</a></li>
+	<!-- <li class="pointer"><a href='/notice-f2/awards'>Awards</a></li> -->
+</ul>    
+              </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</div>
+<section id="block-views-opg-core-my-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>My Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-my_block view-dom-id-3da4e1071571db3758531371bb12fcb3">
+        
+  
+  
+      <div class="view-empty">
+      <!--?php if (!$GLOBALS['user']->uid): ?>
+<p><a href="https://applications.digitalsquare.io/goto/login/drupal">Login</a> to see links for accessing your applications</p>
+<?php else : ?-->
+<ul class="icon submission-open">
+<li class="pointer"><a href="../../notice-f2/create/index.html">Add your application</a></li>
+</ul>
+<!--ul class="submission-closed"><li>Application submission is closed.</li></ul-->
+<?php endif; ?>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+<section id="block-views-opg-core-recent-block" class="block block-views">
+<div class="block-inner clearfix">
+        <h2>Recent Applications</h2>
+        <div class="block-content" >
+      <div class="view view-opg-core view-id-opg_core view-display-id-recent_block view-dom-id-b52a6ad913d3c3d7d07565808bc80185">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/notice-f2-fhir-shelf-readiness-opensrp/index.html">Notice F2: FHIR Shelf Readiness of OpenSRP</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/atna-compliant-audit-console-openfn-integration-toolkit/index.html">An ATNA Compliant Audit Console for the OpenFn Integration Toolkit</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/shelf-readiness-openelis-through-country-based-capacity-strengthening/index.html">Shelf Readiness of OpenELIS through Country-based Capacity Strengthening</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/closing-loop-digital-health-content-fhir-native-apps-deploying-smart-guidelines-content/index.html">Closing the loop in digital health content with FHIR native apps for deploying SMART Guidelines content</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/shelf-readiness-openmrs-through-capacity-building-quality-assurance/index.html">Shelf Readiness of OpenMRS through Capacity Building for Quality Assurance</a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/upgrading-ieda-containerized-and-interoperable-public-goods-solution/index.html">Upgrading IeDA to a containerized and interoperable public goods solution</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/enhancing-contribution-perioperative-shared-health-record-fragmented-healthcare-systems/index.html">Enhancing the contribution of the Perioperative Shared Health Record in fragmented healthcare systems</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/enhancing-shelf-readiness-scale-reveal-platform/index.html">Enhancing the shelf-readiness &amp; scale of the Reveal platform</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/open-source-learning-management-systems-promote-resilience-and-social-skill-building-teens/index.html">Open Source Learning Management Systems to Promote Resilience And social skill Building in Teens (Project RABT, A One Stop Health Solution to Improve QoL)</a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/integrate-openmrs-dictionary-manager-and-open-concept-lab-termbrowser-and-improve-shelf/index.html">Integrate OpenMRS Dictionary Manager and Open Concept Lab TermBrowser and Improve Shelf-Readiness for content managers in the field</a></span>  </div></li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/strengthening-local-capacities-through-shelf-ready-case-management-biometric-identification/index.html">Strengthening local capacities through shelf-ready case management with biometric identification</a></span>  </div></li>
+          <li class="views-row views-row-12 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/shelf-ready-interoperability-reconciling-common-geographies-hierarchies-and-gis-between/index.html">Shelf-ready interoperability by reconciling common geographies, hierarchies, and GIS between Instant OpenHIE components and external systems using FHIR</a></span>  </div></li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/campaign-support-healthsitesio/index.html">Campaign support for healthsites.io</a></span>  </div></li>
+          <li class="views-row views-row-14 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/openimisopenmrsdhis2-integration/index.html">openIMIS/openMRS/DHIS2 integration</a></span>  </div></li>
+          <li class="views-row views-row-15 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../../content/fully-open-source-safe-and-interoperable-openimis-policies-and-claims-applications-mobile/index.html">Fully open source, safe and interoperable openIMIS Policies and Claims applications for mobile devices</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+</div>
+</section>
+  </div>
+    </aside><!-- /#sidebar-first -->
+
+</div>
+
+<div id="acknowledgement-wrapper" class="container">
+
+  
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-boxes-ucsf-copyright" class="block block-boxes block-boxes-simple">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div id='boxes-box-ucsf_copyright' class='boxes-box'><div class="boxes-box-content"><!--p style="margin-bottom: 0;">The University of California Copyright ©2015 The Regents of the University of California. <span class="nowrap">All Rights Reserved.</span></p>
+<p>Services on this website are for the use of UCSF researchers, CTSI affiliates, industry and community members who wish to establish explicit ties to UCSF.</p-->
+<div style="background:#fff; color:#000">
+<p><em>Digital Square is a PATH-led initiative funded and designed by the United States Agency for International Development,<br />
+the Bill &amp; Melinda Gates Foundation, and a consortium of other donors.</em></p>
+
+<p><img alt="Funders Logos" src="../../sites/default/files/logo-lockup/index.png" /></p>
+
+<p><em>This platform is made possible by the generous support of the American people through the<br />
+United States Agency for International Development (USAID). The contents of this platform are the sole<br />
+responsibility the respective course developers as noted within the platform, and do not necessarily<br />
+reflect the views of PATH, USAID, the United States Government, or PATH’s funders.</em></p>
+
+<p> </p>
+</div>
+<p>Digital Square Copyright ©2018 All Rights Reserved.</p>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+<script type="text/javascript">
+//CrazyEgg click tracking
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0010/2559.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+</footer>
+</body>
+</html>
